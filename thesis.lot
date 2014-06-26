@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Comparison of visual inference with traditional hypothesis testing.}}{9}{table.16}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of visual inference with traditional hypothesis testing. Starting with the same hypothesis, the test statistic in a conventional setting is a real number while in visual inference it is a plot of the observed data. In conventional testing the value of the test statistic is compared with all possible values of the sampling distribution. $H_o$ is rejected if it is extreme. In visual inference, the plot of the data is compared with a finite number of samples drawn from the null distribution. If the actual data plot is identifiable, then the null hypothesis is rejected. }}{vi}{table.23}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Results of the Turk study on the wasps data. Detection rate for each lineup is shown, with the number of subjects, and $p$-value associated. The detection rate is highest for one of the purely noise lineups, which occurred because the plot with the most difference between groups happened to be the one that is randomly generated as the ``real'' data. Averaging the $p$-values for each set of lineups, for the wasps is 1.0, and for the pure noise, is 0.67 suggesting that the apparent separation in the wasp data (\cite {toth:2010}) is consistent with pure noise induced by the high dimensions.}}{xii}{table.33}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Levels of the factors used for the simulation experiment.}}{xiv}{table.42}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Table summarizing results of experiment. Columns correspond to the estimate, the standard error and the $p$-value of the parameters used in logistic regression model. As dimension ($p$) increases, detection of separation decreases. Subjects can detect the separation if it exists even when $p = 100$. Subjects were equally good in 1D or 2D projections.}}{xxi}{table.54}
+\contentsline {table}{\numberline {2.5}{\ignorespaces Numerical summaries of dimension $p$ for each value of $\delta $. As the common region $\delta $ increases, the median dimension required to obtain the region increases.}}{xxx}{table.73}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Preferable number of bins for different types of observed data to calculate the binned distance.}}{xviii}{table.101}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Preferable number of bins for different types of observed data to calculate the binned distance.}}{xix}{table.102}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

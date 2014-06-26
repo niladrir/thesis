@@ -1,0 +1,54 @@
+\def \@chapapp {}
+\contentsline {chapter}{LIST OF TABLES}{v}{section*.3}
+\contentsline {chapter}{LIST OF FIGURES}{vii}{section*.5}
+\def \@chapapp {CHAPTER\ }
+\def \@chapapp {}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{xiii}{section*.7}
+\def \@chapapp {CHAPTER\ }
+\def \@chapapp {}
+\contentsline {chapter}{ABSTRACT}{xiv}{section*.8}
+\def \@chapapp {CHAPTER\ }
+\contentsline {chapter}{\numberline {1.}Introduction}{1}{chapter.9}
+\contentsline {section}{\numberline {1.1}Background}{1}{section.10}
+\contentsline {section}{\numberline {1.2}Review of Hypothesis Testing}{2}{section.11}
+\contentsline {section}{\numberline {1.3}Introduction to Visual Inference}{5}{section.13}
+\contentsline {subsection}{\numberline {1.3.1}Protocols of Visual Inference}{5}{subsection.14}
+\contentsline {section}{\numberline {1.4}Scope of my Research}{10}{section.18}
+\contentsline {chapter}{\numberline {2.}Using Visual Statistical Inference to Better Understand Random Class Separations in High Dimension, Low Sample Size Data}{i}{chapter.19}
+\contentsline {section}{\numberline {2.1}Introduction}{ii}{section.20}
+\contentsline {section}{\numberline {2.2}Visual inference methods}{iv}{section.22}
+\contentsline {section}{\numberline {2.3}Dimension reduction}{vii}{section.25}
+\contentsline {section}{\numberline {2.4}Amazon Turk experiments}{x}{section.30}
+\contentsline {section}{\numberline {2.5}Wasps application}{x}{section.31}
+\contentsline {section}{\numberline {2.6}Follow-up simulation experiment}{xiii}{section.40}
+\contentsline {subsection}{\numberline {2.6.1}Experimental design}{xiii}{subsection.41}
+\contentsline {subsection}{\numberline {2.6.2}Simulation process}{xiv}{subsection.43}
+\contentsline {subsection}{\numberline {2.6.3}Producing lineups}{xv}{subsection.44}
+\contentsline {subsection}{\numberline {2.6.4}Data collection}{xvi}{subsection.50}
+\contentsline {section}{\numberline {2.7}Results}{xix}{section.51}
+\contentsline {subsection}{\numberline {2.7.1}Effect of experimental factors on detection rate}{xix}{subsection.52}
+\contentsline {subsection}{\numberline {2.7.2}Time taken to respond under different treatments}{xxi}{subsection.55}
+\contentsline {subsection}{\numberline {2.7.3}What affects decisions?}{xxii}{subsection.57}
+\contentsline {subsection}{\numberline {2.7.4}How do the null plots affect choices?}{xxiii}{subsection.61}
+\contentsline {section}{\numberline {2.8}Conclusions}{xxiv}{section.67}
+\contentsline {chapter}{\numberline {3.}Utilizing Distance Metrics on Lineups to Examine What People Read From Data Plots}{i}{chapter.74}
+\contentsline {section}{\numberline {3.1}Introduction}{ii}{section.75}
+\contentsline {section}{\numberline {3.2}Null Generating Mechanism}{v}{section.79}
+\contentsline {section}{\numberline {3.3}Distance Measures}{vi}{section.80}
+\contentsline {section}{\numberline {3.4}Distance Metric Distribution}{xii}{section.85}
+\contentsline {section}{\numberline {3.5}Effect of Plot Type and Question of Interest }{xiii}{section.92}
+\contentsline {section}{\numberline {3.6}Metric Evaluation}{xv}{section.96}
+\contentsline {section}{\numberline {3.7}Selection of the Number of Bins}{xvi}{section.100}
+\contentsline {section}{\numberline {3.8}Results}{xx}{section.103}
+\contentsline {subsection}{\numberline {3.8.1}Turk Experiment -- Side by Side Boxplots}{xx}{subsection.104}
+\contentsline {subsection}{\numberline {3.8.2}Turk Experiment -- Scatterplots with an Overlaid Regression Line}{xxiv}{subsection.115}
+\contentsline {subsection}{\numberline {3.8.3}Turk Experiment -- Large $p$, Small $n$ Data}{xxviii}{subsection.129}
+\contentsline {section}{\numberline {3.9}Conclusion}{xxxiii}{section.140}
+\contentsline {paragraph}{Acknowledgement:}{xxxvi}{section*.141}
+\contentsline {chapter}{\numberline {4.}Conclusion}{xxxvii}{chapter.142}
+\contentsline {section}{\numberline {4.1}Contribution to Research and Literature}{xxxvii}{section.143}
+\def \@chapapp {APPENDIX\ }
+\contentsline {chapter}{\numberline {A.}ADDITIONAL MATERIAL}{xxxviii}{appendix.144}
+\contentsline {chapter}{\numberline {B.}STATISTICAL RESULTS}{xxxix}{appendix.146}
+\def \@chapapp {}
+\contentsline {chapter}{BIBLIOGRAPHY}{xl}{section*.148}

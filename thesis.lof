@@ -1,0 +1,83 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Decision regions for classical inference for $H_0: \mu =\mu _0$ vs $H_a:\mu >\mu _0$.}}{4}{figure.12}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A typical lineup plot ($m = 20$) for testing $H_0: \mu _1 = \mu _2$. When the alternative hypothesis is true the observed plot should have the largest vertical difference between the centers. Can you identify the observed plot?}}{8}{figure.15}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Sampling distribution of the test statistic with the observed value and the values for the null plots corresponding to the lineup in Figure \ref {lineup}.}}{9}{figure.17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces LD1 versus LD2 from an LDA on a randomly selected subset of 40 significantly different oligos : F, Foundress; G, gyne; Q, queen and W, worker. It can be noticed that the groups F and G are separated. This plot is generated to match Figure 2 in \cite {toth:2010}. }}{iii}{figure.21}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A typical lineup ($m = 20$) for testing $H_o: \mu _1 = \mu _2$. When the alternative hypothesis is true, the observed data plot should have the largest vertical difference between the centers. Can you identify the observed data plot? The solution to the lineup is provided in the Appendix.}}{viii}{figure.24}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Lineup of the wasps data. One plot shows the observed data and the remaining 19 show null data where the wasp type labels were randomly assigned. Each plot was produced by conducting LDA on the 40D data to produce the 2D projection with best separation. Which plot shows the most separation between the 4 groups? The solution is provided in the Appendix.}}{xi}{figure.32}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Plots showing example 1D projections for $p=2, 8, 15, 22, 28$ and $n = 30$ for purely noise data. The probability of obtaining a projection where groups are separated is calculated and displayed below the plots. Of course, once a projection is computed the groups are either separated or not - the event occurred or didn't - and we can see that the last two plots display separated groups. The difference between the groups increases as $p$ increases, and the likelihood of obtaining a projection with separation increases.}}{xiii}{figure.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {P(sep$|n,2$) = 0.00}}}{xiii}{figure.39}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {P(sep$|n,8$) = 0.01}}}{xiii}{figure.39}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {P(sep$|n,15$) = 0.64}}}{xiii}{figure.39}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {P(sep$|n,22$) = 0.99}}}{xiii}{figure.39}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {P(sep$|n,28$) = 1.00}}}{xiii}{figure.39}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The visual test statistics $V_1({\unhbox \voidb@x \hbox {\relax \mathversion {bold}{\bf Y}}})$ and $V_2({\unhbox \voidb@x \hbox {\relax \mathversion {bold}{\bf Y}}})$ used. $V_1({\unhbox \voidb@x \hbox {\relax \mathversion {bold}{\bf Y}}})$ is a horizontal jittered dot plot while $V_2({\unhbox \voidb@x \hbox {\relax \mathversion {bold}{\bf Y}}})$ is a scatterplot of the first and second dimensional projections, with color representing groups in both cases. }}{xvi}{figure.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$V_1({\unhbox \voidb@x \hbox {\relax \mathversion {bold}{\bf Y}}})$}}}{xvi}{figure.47}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$V_2({\unhbox \voidb@x \hbox {\relax \mathversion {bold}{\bf Y}}})$}}}{xvi}{figure.47}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Lineup ($m=20$) from treatment with $p = 20$, separation = Yes and $d = 1$. The subjects were asked to identify the plot with the most separated colors. Can you identify the observed data plot? The solution to the lineup is provided in the Appendix. }}{xvii}{figure.48}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Lineup ($m=20$) from treatment with $p = 100$, separation = No and $d = 2$.The subjects were asked to identify the plot with the most separation between the colored groups. Can you identify the observed data plot? The solution is provided in the Appendix. }}{xviii}{figure.49}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Detection rate by dimension, faceted by projection and separation. The three points represents the three replicates for each treatment level. A fixed effects logistic regression model is overlaid on the points. It can be seen that the detection rate decreases as $p$ increases for data with real separation. When the data is purely noise data, the detection rate is flat across dimensions. Detection rate does not change with projection. Even with $p = 100$ subjects more often detected separation than would be expected by chance. }}{xx}{figure.53}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Time taken in seconds to respond on log scale against dimension colored by separation and faceted by projection. A line shows the trend over dimension for each separation within projection. Bootstrap resampling bands are drawn for each colored lines. Time taken to respond is higher when the data has no separation. Also as dimension increases, the time to answer when there is separation is equal to the time taken when there is no separation. }}{xxii}{figure.56}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Comparing the choices that subjects make for each lineup. Relative frequency of plots chosen against a measure of the average separation between groups, the larger the value the more separated are the groups. Each cell here shows the data for one of the lineups used in the experiment, 60 in total, and each ``pin'' represents a plot in the lineup, 20 for each lineup. Red indicates the observed data plot. Subjects are asked to pick the plot in the lineup where the groups are the most separated, so we would expect that more subjects would pick the plots with the largest average separation. In general, this happens, the tallest pins are in the right of each cell. The top three rows show the results for the data with separation, so the observed data plot (red) is typically the pin on the very left of the cell, less so for the higher dimensions which are the cells at right. Figure (a) shows 1D projections and Figure (b) shows for 2D projections. There is not much difference between the two figures. }}{xxiii}{figure.60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Projection:1D}}}{xxiii}{figure.60}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Projection:2D}}}{xxiii}{figure.60}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Detection rate and mean time taken to respond in seconds are plotted against the difference for 1D and 2D projections separately. The difference is between maximum separation of all the null plots and separation of the observed data plot for each lineup for 1D projections but for 2D projections the difference is based on the average separation between the groups. The vertical line represents difference equal to 1 when the average separation of the observed data plot is equal to the maximum average separation of the null plots for 2D projection. The points left to the line indicates a difficult lineup in the sense that at least one of the null plots had a lower average separation value than the observed data plot. (a) and (b) As difference increases, detection rate increases. (c) and (d) As difference increases, mean time taken decreases indicating that the subjects have an easier time in identifying the observed data plot. }}{xxv}{figure.66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Projection:1D}}}{xxv}{figure.66}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Projection:2D}}}{xxv}{figure.66}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Projection:1D}}}{xxv}{figure.66}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Projection:2D}}}{xxv}{figure.66}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Plot showing the distribution of the sum of absolute difference of means for data with and without separation for different dimensions. The distributions of data with real separation (V) and purely noise data (U) are shown in brown and green respectively with the dark purple line showing the 5th percentile of V. The dark purple area shows the area of U which is greater than the 5th percentile of V. The dark purple region ($\delta $) increases as dimension ($p$) increases. }}{xxix}{figure.72}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparing the classical inference method and the visual inference method. (a) gives decision regions for classical inference for $H_0: \mu =\mu _0$ vs $H_a:\mu >\mu _0$ and (b) gives sampling distribution of the test statistic with the true value and the values for the null plots. }}{iii}{figure.78}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Classical Inference}}}{iii}{figure.78}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Visual Inference}}}{iii}{figure.78}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Scatterplot of 50 points in $X_1$ and $X_2$ with a strong positive association. The colored tiles show binned frequencies. (b) Scatterplot with permuted $X_1$ and original $X_2$ from $X$ with almost no association. The colored tiles show binned frequencies.}}{viii}{figure.83}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces { Dataset $X$ with two variables $X_1$ and $X_2$}}}{viii}{figure.83}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces { Dataset $Y$ with permuted $X_1$ and original $X_2$}}}{viii}{figure.83}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Two dimensional projections with 3 classes for a particular data and a data with classes being permuted. Two different separation distances are used. Average distance calculates the distance between all the points in a cluster to all the points in the other clusters and takes the average of these distances. The lines show the distance between the points. On the other hand, minimum separation calculates the minimum distance of the points in a cluster to all the points in the other clusters. The line shows the minimum distances. }}{xi}{figure.84}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Optional caption for list of figures}}{xiii}{figure.88}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xiii}{figure.88}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xiii}{figure.88}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Optional caption for list of figures}}{xiv}{figure.91}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xiv}{figure.91}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xiv}{figure.91}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Optional caption for list of figures}}{xv}{figure.95}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xv}{figure.95}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xv}{figure.95}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces An example lineup from Turk Experiment 1. The lineup has $m = 20$ plots of which one is the observed data plot and the remaining $m - 1$ are the null plots generated assuming that the null hypothesis is true. Subjects were asked to identify the plot which has the largest vertical difference between the two groups. Can you identify the observed plot ?}}{xxi}{figure.105}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Optional caption for list of figures}}{xxii}{figure.108}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xxii}{figure.108}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xxii}{figure.108}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Optional caption for list of figures}}{xxiii}{figure.109}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Optional caption for list of figures}}{xxv}{figure.114}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xxv}{figure.114}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xxv}{figure.114}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{xxv}{figure.114}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{xxv}{figure.114}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces An example lineup from Turk Experiment 2. In this lineup, one of the plots is the observed plot and the other 19 plots are the null plots generated assuming that the null hypothesis $H_o : \beta = 0$ is true. Subjects were asked to identify the plot with the steepest slope. Can you identify the observed plot ?}}{xxvi}{figure.116}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Optional caption for list of figures}}{xxvii}{figure.119}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xxvii}{figure.119}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xxvii}{figure.119}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Optional caption for list of figures}}{xxviii}{figure.120}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Optional caption for list of figures}}{xxix}{figure.127}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xxix}{figure.127}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xxix}{figure.127}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{xxix}{figure.127}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{xxix}{figure.127}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{xxix}{figure.127}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{xxix}{figure.127}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Plot showing relative frequency versus $p$-value for the lineup in Figure \ref {turk2-exp}. The red shows the true plot while the black ones are the null plots. It can be seen that as the p-value of the slope increases, the relative risk decreases. }}{xxx}{figure.128}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces An example lineup from Large $p$, Small $n$ Turk Experiment.}}{xxxi}{figure.130}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Optional caption for list of figures}}{xxxii}{figure.133}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xxxii}{figure.133}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xxxii}{figure.133}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Optional caption for list of figures}}{xxxiii}{figure.134}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Optional caption for list of figures}}{xxxiv}{figure.139}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{xxxiv}{figure.139}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{xxxiv}{figure.139}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{xxxiv}{figure.139}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{xxxiv}{figure.139}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
