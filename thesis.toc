@@ -1,54 +1,73 @@
 \def \@chapapp {}
-\contentsline {chapter}{LIST OF TABLES}{v}{section*.3}
-\contentsline {chapter}{LIST OF FIGURES}{vii}{section*.5}
+\contentsline {chapter}{LIST OF TABLES}{vi}{section*.3}
+\contentsline {chapter}{LIST OF FIGURES}{viii}{section*.5}
 \def \@chapapp {CHAPTER\ }
 \def \@chapapp {}
-\contentsline {chapter}{ACKNOWLEDGEMENTS}{xiii}{section*.7}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{xiv}{section*.7}
 \def \@chapapp {CHAPTER\ }
 \def \@chapapp {}
-\contentsline {chapter}{ABSTRACT}{xiv}{section*.8}
+\contentsline {chapter}{ABSTRACT}{xv}{section*.8}
 \def \@chapapp {CHAPTER\ }
-\contentsline {chapter}{\numberline {1.}Introduction}{1}{chapter.9}
+\contentsline {chapter}{\numberline {1.}INTRODUCTION}{1}{chapter.9}
 \contentsline {section}{\numberline {1.1}Background}{1}{section.10}
 \contentsline {section}{\numberline {1.2}Review of Hypothesis Testing}{2}{section.11}
 \contentsline {section}{\numberline {1.3}Introduction to Visual Inference}{5}{section.13}
 \contentsline {subsection}{\numberline {1.3.1}Protocols of Visual Inference}{5}{subsection.14}
 \contentsline {section}{\numberline {1.4}Scope of my Research}{10}{section.18}
-\contentsline {chapter}{\numberline {2.}Using Visual Statistical Inference to Better Understand Random Class Separations in High Dimension, Low Sample Size Data}{i}{chapter.19}
-\contentsline {section}{\numberline {2.1}Introduction}{ii}{section.20}
-\contentsline {section}{\numberline {2.2}Visual inference methods}{iv}{section.22}
-\contentsline {section}{\numberline {2.3}Dimension reduction}{vii}{section.25}
-\contentsline {section}{\numberline {2.4}Amazon Turk experiments}{x}{section.30}
-\contentsline {section}{\numberline {2.5}Wasps application}{x}{section.31}
-\contentsline {section}{\numberline {2.6}Follow-up simulation experiment}{xiii}{section.40}
-\contentsline {subsection}{\numberline {2.6.1}Experimental design}{xiii}{subsection.41}
-\contentsline {subsection}{\numberline {2.6.2}Simulation process}{xiv}{subsection.43}
-\contentsline {subsection}{\numberline {2.6.3}Producing lineups}{xv}{subsection.44}
-\contentsline {subsection}{\numberline {2.6.4}Data collection}{xvi}{subsection.50}
-\contentsline {section}{\numberline {2.7}Results}{xix}{section.51}
-\contentsline {subsection}{\numberline {2.7.1}Effect of experimental factors on detection rate}{xix}{subsection.52}
-\contentsline {subsection}{\numberline {2.7.2}Time taken to respond under different treatments}{xxi}{subsection.55}
-\contentsline {subsection}{\numberline {2.7.3}What affects decisions?}{xxii}{subsection.57}
-\contentsline {subsection}{\numberline {2.7.4}How do the null plots affect choices?}{xxiii}{subsection.61}
-\contentsline {section}{\numberline {2.8}Conclusions}{xxiv}{section.67}
-\contentsline {chapter}{\numberline {3.}Utilizing Distance Metrics on Lineups to Examine What People Read From Data Plots}{i}{chapter.74}
-\contentsline {section}{\numberline {3.1}Introduction}{ii}{section.75}
-\contentsline {section}{\numberline {3.2}Null Generating Mechanism}{v}{section.79}
-\contentsline {section}{\numberline {3.3}Distance Measures}{vi}{section.80}
-\contentsline {section}{\numberline {3.4}Distance Metric Distribution}{xii}{section.85}
-\contentsline {section}{\numberline {3.5}Effect of Plot Type and Question of Interest }{xiii}{section.92}
-\contentsline {section}{\numberline {3.6}Metric Evaluation}{xv}{section.96}
-\contentsline {section}{\numberline {3.7}Selection of the Number of Bins}{xvi}{section.100}
-\contentsline {section}{\numberline {3.8}Results}{xx}{section.103}
-\contentsline {subsection}{\numberline {3.8.1}Turk Experiment -- Side by Side Boxplots}{xx}{subsection.104}
-\contentsline {subsection}{\numberline {3.8.2}Turk Experiment -- Scatterplots with an Overlaid Regression Line}{xxiv}{subsection.115}
-\contentsline {subsection}{\numberline {3.8.3}Turk Experiment -- Large $p$, Small $n$ Data}{xxviii}{subsection.129}
-\contentsline {section}{\numberline {3.9}Conclusion}{xxxiii}{section.140}
-\contentsline {paragraph}{Acknowledgement:}{xxxvi}{section*.141}
-\contentsline {chapter}{\numberline {4.}Conclusion}{xxxvii}{chapter.142}
-\contentsline {section}{\numberline {4.1}Contribution to Research and Literature}{xxxvii}{section.143}
+\contentsline {chapter}{\numberline {2.}USING VISUAL STATISTICAL INFERENCE TO BETTER UNDERSTAND RANDOM CLASS SEPARATIONS IN HIGH DIMENSION, LOW SAMPLE SIZE DATA}{12}{chapter.19}
+\contentsline {section}{\numberline {2.1}Introduction}{13}{section.21}
+\contentsline {section}{\numberline {2.2}Visual inference methods}{15}{section.23}
+\contentsline {section}{\numberline {2.3}Dimension reduction}{18}{section.26}
+\contentsline {section}{\numberline {2.4}Amazon Turk experiments}{21}{section.31}
+\contentsline {section}{\numberline {2.5}Wasps application}{21}{section.32}
+\contentsline {section}{\numberline {2.6}Follow-up simulation experiment}{25}{section.41}
+\contentsline {subsection}{\numberline {2.6.1}Experimental design}{25}{subsection.42}
+\contentsline {subsection}{\numberline {2.6.2}Simulation process}{25}{subsection.44}
+\contentsline {subsection}{\numberline {2.6.3}Producing lineups}{27}{subsection.45}
+\contentsline {subsection}{\numberline {2.6.4}Data collection}{28}{subsection.51}
+\contentsline {section}{\numberline {2.7}Results}{30}{section.52}
+\contentsline {subsection}{\numberline {2.7.1}Effect of experimental factors on detection rate}{30}{subsection.53}
+\contentsline {subsection}{\numberline {2.7.2}Time taken to respond under different treatments}{32}{subsection.56}
+\contentsline {subsection}{\numberline {2.7.3}What affects decisions?}{33}{subsection.58}
+\contentsline {subsection}{\numberline {2.7.4}How do the null plots affect choices?}{34}{subsection.62}
+\contentsline {section}{\numberline {2.8}Conclusions}{35}{section.68}
+\contentsline {chapter}{\numberline {3.}UTILIZING DISTANCE METRICS ON LINEUPS TO EXAMINE WHAT PEOPLE READ FROM DATA PLOTS}{38}{chapter.70}
+\contentsline {section}{\numberline {3.1}Introduction}{39}{section.72}
+\contentsline {section}{\numberline {3.2}Null Generating Mechanism}{42}{section.76}
+\contentsline {section}{\numberline {3.3}Distance Measures}{43}{section.77}
+\contentsline {section}{\numberline {3.4}Distance Metric Distribution}{49}{section.82}
+\contentsline {section}{\numberline {3.5}Effect of Plot Type and Question of Interest }{50}{section.89}
+\contentsline {section}{\numberline {3.6}Metric Evaluation}{52}{section.93}
+\contentsline {section}{\numberline {3.7}Selection of the Number of Bins}{53}{section.97}
+\contentsline {section}{\numberline {3.8}Results}{57}{section.100}
+\contentsline {subsection}{\numberline {3.8.1}Turk Experiment -- Side by Side Boxplots}{57}{subsection.101}
+\contentsline {subsection}{\numberline {3.8.2}Turk Experiment -- Scatterplots with an Overlaid Regression Line}{62}{subsection.112}
+\contentsline {subsection}{\numberline {3.8.3}Turk Experiment -- Large $p$, Small $n$ Data}{65}{subsection.126}
+\contentsline {section}{\numberline {3.9}Conclusion}{70}{section.137}
+\contentsline {paragraph}{Acknowledgement:}{73}{section*.138}
+\contentsline {chapter}{\numberline {4.}NULLABOR: AN R PACKAGE FOR VISUAL STATISTICAL INFERENCE}{74}{chapter.139}
+\contentsline {section}{\numberline {4.1}Introduction}{74}{section.140}
+\contentsline {section}{\numberline {4.2}Generate null data with a specific distribution}{74}{section.141}
+\contentsline {section}{\numberline {4.3}Generate null data by permuting a variable}{75}{section.142}
+\contentsline {section}{\numberline {4.4}Generate null data with null residuals from a model}{76}{section.143}
+\contentsline {section}{\numberline {4.5}The lineup protocol}{76}{section.144}
+\contentsline {section}{\numberline {4.6}The Rorschach protocol}{79}{section.145}
+\contentsline {section}{\numberline {4.7}Distance metrics}{80}{section.146}
+\contentsline {subsection}{\numberline {4.7.1}Distance for univariate data}{80}{subsection.147}
+\contentsline {subsection}{\numberline {4.7.2}Distance based on regression parameters}{80}{subsection.148}
+\contentsline {subsection}{\numberline {4.7.3}Distance based on boxplots}{81}{subsection.149}
+\contentsline {subsection}{\numberline {4.7.4}Distance based on separation}{81}{subsection.150}
+\contentsline {subsection}{\numberline {4.7.5}Binned Distance}{81}{subsection.151}
+\contentsline {section}{\numberline {4.8}Calculating the mean distances for the plots in the lineup}{82}{section.152}
+\contentsline {section}{\numberline {4.9}Calculating difference measure for lineups}{83}{section.153}
+\contentsline {section}{\numberline {4.10}Optimum number of bins}{84}{section.154}
+\contentsline {section}{\numberline {4.11}Distribution of distance metrics}{84}{section.155}
+\contentsline {section}{\numberline {4.12}Plotting the empirical distribution of the distance metric}{87}{section.156}
+\contentsline {chapter}{\numberline {5.}CONCLUSION}{89}{chapter.157}
+\contentsline {section}{\numberline {5.1}Contribution to Research and Literature}{89}{section.158}
 \def \@chapapp {APPENDIX\ }
-\contentsline {chapter}{\numberline {A.}ADDITIONAL MATERIAL}{xxxviii}{appendix.144}
-\contentsline {chapter}{\numberline {B.}STATISTICAL RESULTS}{xxxix}{appendix.146}
+\contentsline {chapter}{\numberline {A.}SUPPLEMENTARY MATERIALS OF CHAPTER 2}{90}{appendix.159}
+\contentsline {section}{\numberline {A.1}Solutions to the Lineups}{90}{section.160}
+\contentsline {section}{\numberline {A.2}Choice of dimensions}{90}{section.161}
 \def \@chapapp {}
-\contentsline {chapter}{BIBLIOGRAPHY}{xl}{section*.148}
+\contentsline {chapter}{BIBLIOGRAPHY}{95}{section*.164}

@@ -3,44 +3,63 @@
 \BOOKMARK [0][-]{section*.5}{LIST OF FIGURES}{}% 3
 \BOOKMARK [0][-]{section*.7}{ACKNOWLEDGEMENTS}{}% 4
 \BOOKMARK [0][-]{section*.8}{ABSTRACT}{}% 5
-\BOOKMARK [0][-]{chapter.9}{1. Introduction}{}% 6
+\BOOKMARK [0][-]{chapter.9}{1. INTRODUCTION}{}% 6
 \BOOKMARK [1][-]{section.10}{1.1 Background}{chapter.9}% 7
 \BOOKMARK [1][-]{section.11}{1.2 Review of Hypothesis Testing}{chapter.9}% 8
 \BOOKMARK [1][-]{section.13}{1.3 Introduction to Visual Inference}{chapter.9}% 9
 \BOOKMARK [2][-]{subsection.14}{1.3.1 Protocols of Visual Inference}{section.13}% 10
 \BOOKMARK [1][-]{section.18}{1.4 Scope of my Research}{chapter.9}% 11
-\BOOKMARK [0][-]{chapter.19}{2. Using Visual Statistical Inference to Better Understand Random Class Separations in High Dimension, Low Sample Size Data}{}% 12
-\BOOKMARK [1][-]{section.20}{2.1 Introduction}{chapter.19}% 13
-\BOOKMARK [1][-]{section.22}{2.2 Visual inference methods}{chapter.19}% 14
-\BOOKMARK [1][-]{section.25}{2.3 Dimension reduction}{chapter.19}% 15
-\BOOKMARK [1][-]{section.30}{2.4 Amazon Turk experiments}{chapter.19}% 16
-\BOOKMARK [1][-]{section.31}{2.5 Wasps application}{chapter.19}% 17
-\BOOKMARK [1][-]{section.40}{2.6 Follow-up simulation experiment}{chapter.19}% 18
-\BOOKMARK [2][-]{subsection.41}{2.6.1 Experimental design}{section.40}% 19
-\BOOKMARK [2][-]{subsection.43}{2.6.2 Simulation process}{section.40}% 20
-\BOOKMARK [2][-]{subsection.44}{2.6.3 Producing lineups}{section.40}% 21
-\BOOKMARK [2][-]{subsection.50}{2.6.4 Data collection}{section.40}% 22
-\BOOKMARK [1][-]{section.51}{2.7 Results}{chapter.19}% 23
-\BOOKMARK [2][-]{subsection.52}{2.7.1 Effect of experimental factors on detection rate}{section.51}% 24
-\BOOKMARK [2][-]{subsection.55}{2.7.2 Time taken to respond under different treatments}{section.51}% 25
-\BOOKMARK [2][-]{subsection.57}{2.7.3 What affects decisions?}{section.51}% 26
-\BOOKMARK [2][-]{subsection.61}{2.7.4 How do the null plots affect choices?}{section.51}% 27
-\BOOKMARK [1][-]{section.67}{2.8 Conclusions}{chapter.19}% 28
-\BOOKMARK [0][-]{chapter.74}{3. Utilizing Distance Metrics on Lineups to Examine What People Read From Data Plots}{}% 29
-\BOOKMARK [1][-]{section.75}{3.1 Introduction}{chapter.74}% 30
-\BOOKMARK [1][-]{section.79}{3.2 Null Generating Mechanism}{chapter.74}% 31
-\BOOKMARK [1][-]{section.80}{3.3 Distance Measures}{chapter.74}% 32
-\BOOKMARK [1][-]{section.85}{3.4 Distance Metric Distribution}{chapter.74}% 33
-\BOOKMARK [1][-]{section.92}{3.5 Effect of Plot Type and Question of Interest }{chapter.74}% 34
-\BOOKMARK [1][-]{section.96}{3.6 Metric Evaluation}{chapter.74}% 35
-\BOOKMARK [1][-]{section.100}{3.7 Selection of the Number of Bins}{chapter.74}% 36
-\BOOKMARK [1][-]{section.103}{3.8 Results}{chapter.74}% 37
-\BOOKMARK [2][-]{subsection.104}{3.8.1 Turk Experiment \205 Side by Side Boxplots}{section.103}% 38
-\BOOKMARK [2][-]{subsection.115}{3.8.2 Turk Experiment \205 Scatterplots with an Overlaid Regression Line}{section.103}% 39
-\BOOKMARK [2][-]{subsection.129}{3.8.3 Turk Experiment \205 Large p, Small n Data}{section.103}% 40
-\BOOKMARK [1][-]{section.140}{3.9 Conclusion}{chapter.74}% 41
-\BOOKMARK [0][-]{chapter.142}{4. Conclusion}{}% 42
-\BOOKMARK [1][-]{section.143}{4.1 Contribution to Research and Literature}{chapter.142}% 43
-\BOOKMARK [0][-]{appendix.144}{A. ADDITIONAL MATERIAL}{}% 44
-\BOOKMARK [0][-]{appendix.146}{B. STATISTICAL RESULTS}{}% 45
-\BOOKMARK [0][-]{section*.148}{BIBLIOGRAPHY}{}% 46
+\BOOKMARK [0][-]{chapter.19}{2. USING VISUAL STATISTICAL INFERENCE TO BETTER UNDERSTAND RANDOM CLASS SEPARATIONS IN HIGH DIMENSION, LOW SAMPLE SIZE DATA}{}% 12
+\BOOKMARK [1][-]{section.21}{2.1 Introduction}{chapter.19}% 13
+\BOOKMARK [1][-]{section.23}{2.2 Visual inference methods}{chapter.19}% 14
+\BOOKMARK [1][-]{section.26}{2.3 Dimension reduction}{chapter.19}% 15
+\BOOKMARK [1][-]{section.31}{2.4 Amazon Turk experiments}{chapter.19}% 16
+\BOOKMARK [1][-]{section.32}{2.5 Wasps application}{chapter.19}% 17
+\BOOKMARK [1][-]{section.41}{2.6 Follow-up simulation experiment}{chapter.19}% 18
+\BOOKMARK [2][-]{subsection.42}{2.6.1 Experimental design}{section.41}% 19
+\BOOKMARK [2][-]{subsection.44}{2.6.2 Simulation process}{section.41}% 20
+\BOOKMARK [2][-]{subsection.45}{2.6.3 Producing lineups}{section.41}% 21
+\BOOKMARK [2][-]{subsection.51}{2.6.4 Data collection}{section.41}% 22
+\BOOKMARK [1][-]{section.52}{2.7 Results}{chapter.19}% 23
+\BOOKMARK [2][-]{subsection.53}{2.7.1 Effect of experimental factors on detection rate}{section.52}% 24
+\BOOKMARK [2][-]{subsection.56}{2.7.2 Time taken to respond under different treatments}{section.52}% 25
+\BOOKMARK [2][-]{subsection.58}{2.7.3 What affects decisions?}{section.52}% 26
+\BOOKMARK [2][-]{subsection.62}{2.7.4 How do the null plots affect choices?}{section.52}% 27
+\BOOKMARK [1][-]{section.68}{2.8 Conclusions}{chapter.19}% 28
+\BOOKMARK [0][-]{chapter.70}{3. UTILIZING DISTANCE METRICS ON LINEUPS TO EXAMINE WHAT PEOPLE READ FROM DATA PLOTS}{}% 29
+\BOOKMARK [1][-]{section.72}{3.1 Introduction}{chapter.70}% 30
+\BOOKMARK [1][-]{section.76}{3.2 Null Generating Mechanism}{chapter.70}% 31
+\BOOKMARK [1][-]{section.77}{3.3 Distance Measures}{chapter.70}% 32
+\BOOKMARK [1][-]{section.82}{3.4 Distance Metric Distribution}{chapter.70}% 33
+\BOOKMARK [1][-]{section.89}{3.5 Effect of Plot Type and Question of Interest }{chapter.70}% 34
+\BOOKMARK [1][-]{section.93}{3.6 Metric Evaluation}{chapter.70}% 35
+\BOOKMARK [1][-]{section.97}{3.7 Selection of the Number of Bins}{chapter.70}% 36
+\BOOKMARK [1][-]{section.100}{3.8 Results}{chapter.70}% 37
+\BOOKMARK [2][-]{subsection.101}{3.8.1 Turk Experiment \205 Side by Side Boxplots}{section.100}% 38
+\BOOKMARK [2][-]{subsection.112}{3.8.2 Turk Experiment \205 Scatterplots with an Overlaid Regression Line}{section.100}% 39
+\BOOKMARK [2][-]{subsection.126}{3.8.3 Turk Experiment \205 Large p, Small n Data}{section.100}% 40
+\BOOKMARK [1][-]{section.137}{3.9 Conclusion}{chapter.70}% 41
+\BOOKMARK [0][-]{chapter.139}{4. NULLABOR: AN R PACKAGE FOR VISUAL STATISTICAL INFERENCE}{}% 42
+\BOOKMARK [1][-]{section.140}{4.1 Introduction}{chapter.139}% 43
+\BOOKMARK [1][-]{section.141}{4.2 Generate null data with a specific distribution}{chapter.139}% 44
+\BOOKMARK [1][-]{section.142}{4.3 Generate null data by permuting a variable}{chapter.139}% 45
+\BOOKMARK [1][-]{section.143}{4.4 Generate null data with null residuals from a model}{chapter.139}% 46
+\BOOKMARK [1][-]{section.144}{4.5 The lineup protocol}{chapter.139}% 47
+\BOOKMARK [1][-]{section.145}{4.6 The Rorschach protocol}{chapter.139}% 48
+\BOOKMARK [1][-]{section.146}{4.7 Distance metrics}{chapter.139}% 49
+\BOOKMARK [2][-]{subsection.147}{4.7.1 Distance for univariate data}{section.146}% 50
+\BOOKMARK [2][-]{subsection.148}{4.7.2 Distance based on regression parameters}{section.146}% 51
+\BOOKMARK [2][-]{subsection.149}{4.7.3 Distance based on boxplots}{section.146}% 52
+\BOOKMARK [2][-]{subsection.150}{4.7.4 Distance based on separation}{section.146}% 53
+\BOOKMARK [2][-]{subsection.151}{4.7.5 Binned Distance}{section.146}% 54
+\BOOKMARK [1][-]{section.152}{4.8 Calculating the mean distances for the plots in the lineup}{chapter.139}% 55
+\BOOKMARK [1][-]{section.153}{4.9 Calculating difference measure for lineups}{chapter.139}% 56
+\BOOKMARK [1][-]{section.154}{4.10 Optimum number of bins}{chapter.139}% 57
+\BOOKMARK [1][-]{section.155}{4.11 Distribution of distance metrics}{chapter.139}% 58
+\BOOKMARK [1][-]{section.156}{4.12 Plotting the empirical distribution of the distance metric}{chapter.139}% 59
+\BOOKMARK [0][-]{chapter.157}{5. CONCLUSION}{}% 60
+\BOOKMARK [1][-]{section.158}{5.1 Contribution to Research and Literature}{chapter.157}% 61
+\BOOKMARK [0][-]{appendix.159}{A. SUPPLEMENTARY MATERIALS OF CHAPTER 2}{}% 62
+\BOOKMARK [1][-]{section.160}{A.1 Solutions to the Lineups}{appendix.159}% 63
+\BOOKMARK [1][-]{section.161}{A.2 Choice of dimensions}{appendix.159}% 64
+\BOOKMARK [0][-]{section*.164}{BIBLIOGRAPHY}{}% 65

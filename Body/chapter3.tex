@@ -1,6 +1,5 @@
 %% =============Chapter 3 starts here===================== 
-
-\chapter{Utilizing Distance Metrics on Lineups to Examine What People Read From Data Plots} \label{ch:metrics}
+\chapter{UTILIZING DISTANCE METRICS ON LINEUPS TO EXAMINE WHAT PEOPLE READ FROM DATA PLOTS} \label{ch:metrics}
 \vspace{0.8cm}
 %\author{Niladri Roy Chowdhury, Dianne Cook, Heike Hofmann, Mahbubul Majumder, Yifan Zhao}
 %\date{\today}  %\today is replaced with the current date
@@ -12,11 +11,11 @@
 \large{Niladri Roy Chowdhury, Dianne Cook, Heike Hofmann, Mahbubul Majumder, Yifan Zhao}\\
 \end{center}
 
-\begin {abstract} 
+\section*{Abstract}
 Graphics play a crucial role in statistical analysis and data mining. This paper describes metrics developed to assist the use of lineups for making inferential statements. Lineups embed the plot of the data among a set of null plots, and engage a human observer to select the plot that is most different from the rest. If the data plot is selected it corresponds to the rejection of a null hypothesis. Metrics are calculated in association with lineups, to measure the quality of the lineup, and help to understand what people see in the data plots.  The null plots represent a finite sample from a null distribution, and the selected sample potentially affects the ease or difficulty of a lineup. Distance metrics are designed to describe how close the true data plot is to the null plots, and how close the null plots are to each other. The distribution of the distance metrics is studied to learn how well this matches to what people detect in the plots, the effect of null generating mechanism and plot choices for particular tasks.  The analysis was conducted on data collected from Amazon Turk studies conducted with lineups for studying an array of exploratory data analysis tasks.
 
 %Statistical graphics play a crucial role in exploratory data analysis, model checking and diagnosis. Until recently there were no formal visual methods in place for determining statistical significance of findings. This changed, when \citep{buja:2009} conceptually introduced two protocols for formal tests of visual findings. In this paper we use the lineup protocol \citep{buja:2009} and take a closer look at the null plots that appear in a lineup along with the true plot. Different distance measures between the null plots and the true plot are calculated. On the basis of these distance measures, a measure of ``closeness'' between the null plots and the true plot is defined. A human subjects experiment is conducted using simulated data to provide controlled conditions. Results suggest that some of the distance measures works better than the others in most situations.
-\end {abstract}
+
 
 
 %{\color{red} Key Ideas:
@@ -410,7 +409,7 @@ The empirical distribution of the distance measures is obtained by calculating t
 
 The empirical distribution of the distance works as the $t$-distribution in the classical setting. In the classical setting, the test statistics follows a $t$-distribution under the null hypothesis. The observed test statistic is then compared to this distribution, as shown in Figure \ref{compare}. In visual inference, the mean distances of the null plots gives the empirical distribution. The mean distance of the true plot from the null plots in the lineup acts as the observed test statistic. Unlike the $t$-distribution, the empirical distribution is generally skewed.
 
-The mean distance between the true plot and the null plots in a lineup of size $m = 20$ is calculated by averaging over the distances between the true plot and each of the  $(m - 1)$ null plots. The mean distances for the $(m - 1)$ null plots in the lineup are calculated by taking the mean of the distances of the particular null plot and the other $(m - 2)$ null plots. The mean distances for the true dataset and the null datasets are plotted on the empirical distribution. If the mean distance of the true plot is larger than any of the null plots, the lineup would be regarded as``easy". Otherwise, it is a ``difficult" lineup. 
+The mean distance between the true plot and the null plots in a lineup of size $m = 20$ is calculated by averaging over the distances between the true plot and each of the  $(m - 1)$ null plots. The mean distances for the $(m - 1)$ null plots in the lineup are calculated by taking the mean of the distances of the particular null plot and the other $(m - 2)$ null plots. The mean distances for the true dataset and the null datasets are plotted on the empirical distribution. If the mean distance of the true plot is larger than any of the null plots, the lineup would be regarded as ``easy". Otherwise, it is a ``difficult" lineup. 
 
 The empirical distribution of the distance based on regression is shown in Figure \ref{dist}. To generate this distribution, $N = 1000$ and $m = 20$ was used. Figure \ref{dist_1} shows the lineup plot for $m = 20$ for testing whether there exists a significant linear relationship between $X_1$ and $X_2$. The 19 null plots are generated by fitting the null model and generating from the null model. Figure \ref{dist_2} shows the empirical distribution of the distance with the mean distances for the true plot (in orange) and the null plots (in black) for the particular. The true plot is easy to be identified in the lineup (Figure \ref{dist_1}). It can also be seen in Figure \ref{dist_2} as the orange line is extreme compared to the black lines. 
 
@@ -628,7 +627,7 @@ It is important to mention at this point that Table \ref{tbl:bin1} and Table \re
 
 %{\color{blue} Description of the Turk Results and analysis.}
 
-The performance of the distance metrics was evaluated with comparing the distances with the response of the subjects. A number of experiments were done in Amazon Mechanical Turk \citep{turk}. Subjects were recruited through Amazon Mechanical Turk \citep{turk} and were shown a sequence of lineups. In each experiment, they were asked specific questions. Their responses were recorded along with other demographic informations. The details about the design of experiments can be found in \cite{majumder:2011} and \cite{roychowdhury:2013}. 
+The performance of the distance metrics was evaluated with comparing the distances with the response of the subjects. A number of experiments were done in Amazon Mechanical Turk \citep{turk}. Subjects were recruited through Amazon Mechanical Turk \citep{turk} and were shown a sequence of lineups. In each experiment, they were asked specific questions. Their responses were recorded along with other demographic informations. The details about the design of experiments can be found in \cite{majumder:2013} and \cite{roychowdhury:2013}. 
 
 \subsection{Turk Experiment -- Side by Side Boxplots}
 

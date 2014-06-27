@@ -7,161 +7,411 @@ A level-1 auxiliary file: Preface/dedication.aux
 A level-1 auxiliary file: Preface/acknowl.aux
 A level-1 auxiliary file: Preface/abstract.aux
 A level-1 auxiliary file: Body/chapter1.aux
-A level-1 auxiliary file: Body/chapter2a.aux
-Illegal, another \bibstyle command---line 121 of file Body/chapter2a.aux
- : \bibstyle
- :          {spbasic}
-I'm skipping whatever remains of this command
-A level-1 auxiliary file: Body/chapter3a.aux
+A level-1 auxiliary file: Body/chapter2.aux
+A level-1 auxiliary file: Body/chapter3.aux
+A level-1 auxiliary file: Body/chapter4.aux
 A level-1 auxiliary file: Body/conclusions.aux
 A level-1 auxiliary file: Appendix/appendix1.aux
-A level-1 auxiliary file: Appendix/appendix2.aux
 A level-1 auxiliary file: Reference/bibtex.aux
-Illegal, another \bibdata command---line 2 of file Reference/bibtex.aux
- : \bibdata
- :         {references}
-I'm skipping whatever remains of this command
 Database file #1: references.bib
-Repeated entry---line 451 of file references.bib
+Repeated entry---line 431 of file references.bib
  : @article{cleveland:1984
  :                        ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 463 of file references.bib
+Repeated entry---line 443 of file references.bib
  : @book{hald:2004
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 555 of file references.bib
+Repeated entry---line 525 of file references.bib
  : @book{wilkinson:1999
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 610 of file references.bib
+Repeated entry---line 580 of file references.bib
  : @misc{friendly:2001
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 656 of file references.bib
+Repeated entry---line 626 of file references.bib
  : @book{kutner:2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 663 of file references.bib
+Repeated entry---line 633 of file references.bib
  : @book{casella:2002
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 670 of file references.bib
+Repeated entry---line 640 of file references.bib
  : @book{lehman:1997
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 677 of file references.bib
+Repeated entry---line 647 of file references.bib
  : @book{moore:2009
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 684 of file references.bib
- : @article{lee:2009
- :                  ,Author="Lee, E.-K. and Cook, D.",Year=2009,
-I'm skipping whatever remains of this entry
-Repeated entry---line 689 of file references.bib
- : @article{hadley:2010
- :                     , author = "Wickham, H. and Cook, D.
-I'm skipping whatever remains of this entry
-Repeated entry---line 693 of file references.bib
+Repeated entry---line 654 of file references.bib
  :   @article{marron:2007
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 703 of file references.bib
+Repeated entry---line 664 of file references.bib
  :   @article{yata:2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 712 of file references.bib
+Repeated entry---line 673 of file references.bib
  :   @article{marron:2011
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 721 of file references.bib
+Repeated entry---line 682 of file references.bib
  :   @article{donoho:2009
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 730 of file references.bib
+Repeated entry---line 691 of file references.bib
  :   @article{donoho:2008
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 740 of file references.bib
- : @article{toth:2010
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 750 of file references.bib
+Repeated entry---line 702 of file references.bib
  : @article{dudoit:2002
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 759 of file references.bib
+Repeated entry---line 711 of file references.bib
  : @article{hall:2005
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 778 of file references.bib
+Repeated entry---line 730 of file references.bib
  : @article{huber:1985
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 793 of file references.bib
- : @techreport{roychowdhury:2012
- :                              ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 801 of file references.bib
+Repeated entry---line 745 of file references.bib
  : @book{ripley:1996
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 808 of file references.bib
+Repeated entry---line 752 of file references.bib
  : @article{hennig:2010
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 815 of file references.bib
- : @article{toth:2007
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 825 of file references.bib
+Repeated entry---line 760 of file references.bib
  : @article{witten:2011
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 819 of file references.bib
+ : @article{cleveland:1984
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 831 of file references.bib
+ : @book{hald:2004
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 922 of file references.bib
+ : @book{wilkinson:1999
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 986 of file references.bib
+ : @misc{turk
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 993 of file references.bib
+ : @misc{friendly:2001
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1026 of file references.bib
+ : @article{fernholz03
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1047 of file references.bib
+ : @article{gelman:2004
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1069 of file references.bib
+ : @book{kutner:2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1076 of file references.bib
+ : @book{casella:2002
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1083 of file references.bib
+ : @book{lehman:1997
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1090 of file references.bib
+ : @book{moore:2009
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1114 of file references.bib
+ :   @article{marron:2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1124 of file references.bib
+ :   @article{yata:2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1133 of file references.bib
+ :   @article{marron:2011
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1142 of file references.bib
+ :   @article{donoho:2009
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1151 of file references.bib
+ :   @article{donoho:2008
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1161 of file references.bib
+ : @article{dudoit:2002
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1170 of file references.bib
+ : @article{hall:2005
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1189 of file references.bib
+ : @article{huber:1985
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1198 of file references.bib
+ : @book{ripley:1996
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1205 of file references.bib
+ : @article{hennig:2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1214 of file references.bib
+ : @article{witten:2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1248 of file references.bib
+ : @article{cleveland:1984
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1260 of file references.bib
+ : @book{hald:2004
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1341 of file references.bib
+ : @book{wilkinson:1999
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1396 of file references.bib
+ : @misc{turk
+ :           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1403 of file references.bib
+ : @misc{friendly:2001
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1436 of file references.bib
+ : @article{fernholz03
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1457 of file references.bib
+ : @article{gelman:2004
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1479 of file references.bib
+ : @book{kutner:2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1486 of file references.bib
+ : @book{casella:2002
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1493 of file references.bib
+ : @book{lehman:1997
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1500 of file references.bib
+ : @book{moore:2009
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1507 of file references.bib
+ :   @article{marron:2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1517 of file references.bib
+ :   @article{yata:2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1526 of file references.bib
+ :   @article{marron:2011
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1535 of file references.bib
+ :   @article{donoho:2009
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1544 of file references.bib
+ :   @article{donoho:2008
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1554 of file references.bib
+ : @article{dudoit:2002
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1563 of file references.bib
+ : @article{hall:2005
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1582 of file references.bib
+ : @article{huber:1985
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1591 of file references.bib
+ : @book{ripley:1996
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1598 of file references.bib
+ : @article{hennig:2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1605 of file references.bib
+ : @article{witten:2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1615 of file references.bib
+ : @article{cleveland:1984
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1627 of file references.bib
+ : @book{hald:2004
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1697 of file references.bib
+ : @manual{r
+ :          ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1719 of file references.bib
+ : @book{wilkinson:1999
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1774 of file references.bib
+ : @misc{friendly:2001
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1797 of file references.bib
+ : @book{kutner:2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1804 of file references.bib
+ : @book{casella:2002
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1811 of file references.bib
+ : @book{lehman:1997
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1818 of file references.bib
+ : @book{moore:2009
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1825 of file references.bib
+ :   @article{marron:2007
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1835 of file references.bib
+ :   @article{yata:2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1844 of file references.bib
+ :   @article{marron:2011
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1853 of file references.bib
+ :   @article{donoho:2009
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1862 of file references.bib
+ :   @article{donoho:2008
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1872 of file references.bib
+ : @article{dudoit:2002
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1881 of file references.bib
+ : @article{hall:2005
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1900 of file references.bib
+ : @article{huber:1985
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1909 of file references.bib
+ : @book{tukey:1977
+ :                 ,Author="Tukey, J.~W.",
+I'm skipping whatever remains of this entry
+Repeated entry---line 1915 of file references.bib
+ : @techreport{roychowdhury:2012
+ :                              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1923 of file references.bib
+ : @book{ripley:1996
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1930 of file references.bib
+ : @article{hennig:2010
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1938 of file references.bib
+ : @article{witten:2011
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1947 of file references.bib
+ : @article{anscombe:1972
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1956 of file references.bib
+ : @inproceedings{wilkinson2005graph
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1965 of file references.bib
+ : @article{huttenlocher:1993
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1973 of file references.bib
+ : @article{kirk:1996
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "["
-Warning--I didn't find a database entry for "majumder:2013"
-Warning--I didn't find a database entry for "buja:2005"
-Warning--I didn't find a database entry for "comon:1994"
-Warning--I didn't find a database entry for "roweis:2000"
-You've used 39 entries,
+Warning--I didn't find a database entry for "majumder:2011"
+Warning--empty institution in buja:2005
+You've used 42 entries,
             1940 wiz_defined-function locations,
-            707 strings with 10068 characters,
-and the built_in function-call counts, 16813 in all, are:
-= -- 1709
-> -- 633
-< -- 26
-+ -- 216
-- -- 212
-* -- 1306
-:= -- 2739
-add.period$ -- 117
-call.type$ -- 39
-change.case$ -- 291
-chr.to.int$ -- 39
-cite$ -- 39
-duplicate$ -- 741
-empty$ -- 1105
-format.name$ -- 267
-if$ -- 3436
+            720 strings with 10353 characters,
+and the built_in function-call counts, 15932 in all, are:
+= -- 1517
+> -- 666
+< -- 28
++ -- 226
+- -- 222
+* -- 1406
+:= -- 2832
+add.period$ -- 124
+call.type$ -- 42
+change.case$ -- 312
+chr.to.int$ -- 42
+cite$ -- 43
+duplicate$ -- 577
+empty$ -- 1093
+format.name$ -- 284
+if$ -- 3054
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 197
-num.names$ -- 117
-pop$ -- 256
+missing$ -- 46
+newline$ -- 211
+num.names$ -- 126
+pop$ -- 269
 preamble$ -- 1
-purify$ -- 301
+purify$ -- 321
 quote$ -- 0
-skip$ -- 706
+skip$ -- 435
 stack$ -- 0
-substring$ -- 1162
-swap$ -- 286
-text.length$ -- 4
+substring$ -- 1079
+swap$ -- 88
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 216
-warning$ -- 0
-while$ -- 105
+type$ -- 234
+warning$ -- 1
+while$ -- 112
 width$ -- 0
-write$ -- 502
-(There were 26 error messages)
+write$ -- 537
+(There were 89 error messages)

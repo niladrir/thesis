@@ -17,6 +17,13 @@ Buja, A., Cook, D., Hofmann, H., Lawrence, M., Lee, E., Swayne, D., and
 \newblock {\em Royal Society Philosophical Transactions A},
   367(1906):4361--4383.
 
+\bibitem[\protect\astroncite{Buja and Wolgang}{2005}]{buja:2005}
+Buja, A. and Wolgang, R. (2005).
+\newblock {C}alibration for {S}imultaneity: ({R}e){S}ampling {M}ethods for
+  {S}imultaneous {I}nference with {A}pplications to {F}unctional {E}stimation
+  and {F}unctional {D}ata.
+\newblock Technical report.
+
 \bibitem[\protect\astroncite{Casella and Berger}{2002}]{casella:2002}
 Casella, G. and Berger, R. (2002).
 \newblock {\em Statistical Inference}.
@@ -28,6 +35,11 @@ Cleveland, W. and McGill, R. (1984).
   {A}pplication to the {D}evelopment of {G}raphical {M}ethods.
 \newblock {\em Journal of the American Statistical Association},
   79(387):531--554.
+
+\bibitem[\protect\astroncite{Comon}{1994}]{comon:1994}
+Comon, P. (1994).
+\newblock {I}ndependent {C}omponent {A}nalysis: a new concept?
+\newblock {\em Signal Processing}, 36(3):287 -- 314.
 
 \bibitem[\protect\astroncite{Donoho and Jin}{2008}]{donoho:2008}
 Donoho, D. and Jin, J. (2008).
@@ -109,22 +121,22 @@ Kutner, M., Nachtsheim, C., Neter, J., and Li, W. (2005).
 \newblock {\em Applied Linear Statistical Models}.
 \newblock McGraw-Hill/Irwin, New York.
 
-\bibitem[\protect\astroncite{Lee and Cook}{2009}]{lee:2009}
-Lee, E.-K. and Cook, D. (2009).
+\bibitem[\protect\astroncite{Lee and Cook}{2010}]{lee:2009}
+Lee, E.-K. and Cook, D. (2010).
 \newblock A {P}rojection {P}ursuit {I}ndex for {L}arge $p$ {S}mall $n$ {D}ata.
-\newblock {\em Statistics and Computing},
-  page~{\url{http://www.springerlink.com/content/g47n0n342761838m/?p=d2ff5a7b69eb45ef8abf7ef3aba69557&pi=3}}.
+\newblock {\em Statistics and Computing}, 20:3:381--392.
 
 \bibitem[\protect\astroncite{Lehmann}{1997}]{lehman:1997}
 Lehmann, E.~L. (1997).
 \newblock {\em Testing Statistical Hypotheses}.
 \newblock Springer, New York.
 
-\bibitem[\protect\astroncite{Majumder et~al.}{2013}]{majumder:2011}
+\bibitem[\protect\astroncite{Majumder et~al.}{2013}]{majumder:2013}
 Majumder, M., Hofmann, H., and Cook, D. (2013).
 \newblock {V}alidation of {V}isual {S}tatistical {I}nference, {A}pplied to
   {L}inear {M}odels.
-\newblock {\em Journal of American Statistical Association}, 108(503):942--956.
+\newblock {\em Journal of American Statistical Association}, 108:503:942 --
+  956.
 
 \bibitem[\protect\astroncite{Marron et~al.}{2007}]{marron:2007}
 Marron, J.~S., Todd, M.~J., and Ahn, J. (2007).
@@ -136,29 +148,34 @@ Moore, D., McCabe, G., Duckworth, W., and Alwan, L. (2009).
 \newblock {\em The Practice of Business Statistics}.
 \newblock W. H. Freeman and Company, New York.
 
-\bibitem[\protect\astroncite{{R Development Core Team}}{2009}]{r}
-{R Development Core Team} (2009).
+\bibitem[\protect\astroncite{{R Core Team}}{2013}]{r}
+{R Core Team} (2013).
 \newblock {\em {R}: {A} {L}anguage and {E}nvironment for {S}tatistical
   {C}omputing}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria.
-\newblock {ISBN} 3-900051-07-0.
 
 \bibitem[\protect\astroncite{Ripley}{1996}]{ripley:1996}
 Ripley, B.~D. (1996).
 \newblock {\em {P}attern {R}ecognition and {N}eural {N}etworks}.
 \newblock Cambridge University Press.
 
+\bibitem[\protect\astroncite{Roweis and Saul}{2000}]{roweis:2000}
+Roweis, S. and Saul, L. (2000).
+\newblock {N}onlinear {D}imensionality {R}eduction by {L}ocally {L}inear
+  {E}mbedding.
+\newblock {\em Science}, 290:2323 -- 2326.
+
 \bibitem[\protect\astroncite{Roy~Chowdhury et~al.}{2012}]{roychowdhury:2012}
 Roy~Chowdhury, N., Cook, D., Hofmann, H., and Majumder, M. (2012).
 \newblock {W}here's {W}aldo: {L}ooking {C}losely at a {L}ineup.
 \newblock Technical Report~2, Iowa State University, Department of Statistics.
 
-\bibitem[\protect\astroncite{Roy~Chowdhury et~al.}{2013}]{roychowdhury:2013}
+\bibitem[\protect\astroncite{Roy~Chowdhury et~al.}{2014}]{roychowdhury:2013}
 Roy~Chowdhury, N., Cook, D., Hofmann, H., Majumder, M., Lee, E., and Toth, A.
-  (2013).
+  (2014).
 \newblock {V}isual {S}tatistical {I}nference for {H}igh {D}imension, {S}mall
   {S}ample {S}ize {D}ata.
-\newblock {\em Computational Statistics: Submitted}.
+\newblock {\em Computational Statistics: Accepted}.
 
 \bibitem[\protect\astroncite{Toth et~al.}{2010}]{toth:2010}
 Toth, A., Varala, K., Henshaw, M., Rodriguez-Zas, S., Hudson, M., and Robinson,
@@ -183,7 +200,7 @@ Tukey, J.~W. (1977).
 \bibitem[\protect\astroncite{Wickham}{2009}]{hadley:2009}
 Wickham, H. (2009).
 \newblock {\em ggplot2: {E}legant {G}raphics for {D}ata {A}nalysis}.
-\newblock {useR}. Springer.
+\newblock Springer New York.
 
 \bibitem[\protect\astroncite{Wickham et~al.}{2010}]{hadley:2010}
 Wickham, H., Cook, D., Hofmann, H., and Buja, A. (2010).
