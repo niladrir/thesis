@@ -45,39 +45,36 @@
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{52}{figure.92}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{52}{figure.92}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces An example lineup from Turk Experiment 1. The lineup has $m = 20$ plots of which one is the observed data plot and the remaining $m - 1$ are the null plots generated assuming that the null hypothesis is true. Subjects were asked to identify the plot which has the largest vertical difference between the two groups. Can you identify the observed plot ?}}{58}{figure.102}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Optional caption for list of figures}}{59}{figure.105}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{59}{figure.105}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{59}{figure.105}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Optional caption for list of figures}}{60}{figure.106}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Optional caption for list of figures}}{61}{figure.111}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{61}{figure.111}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{61}{figure.111}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{61}{figure.111}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{61}{figure.111}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces An example lineup from Turk Experiment 2. In this lineup, one of the plots is the observed plot and the other 19 plots are the null plots generated assuming that the null hypothesis $H_o : \beta = 0$ is true. Subjects were asked to identify the plot with the steepest slope. Can you identify the observed plot ?}}{62}{figure.113}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Optional caption for list of figures}}{63}{figure.116}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}{figure.116}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{63}{figure.116}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Optional caption for list of figures}}{64}{figure.117}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Optional caption for list of figures}}{66}{figure.124}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{figure.124}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{figure.124}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{66}{figure.124}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{66}{figure.124}
-\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{66}{figure.124}
-\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{66}{figure.124}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Plot showing relative frequency versus $p$-value for the lineup in Figure \ref {turk2-exp}. The red shows the true plot while the black ones are the null plots. It can be seen that as the p-value of the slope increases, the relative risk decreases. }}{67}{figure.125}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces An example lineup from Large $p$, Small $n$ Turk Experiment.}}{68}{figure.127}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Optional caption for list of figures}}{69}{figure.130}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{69}{figure.130}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{69}{figure.130}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Optional caption for list of figures}}{70}{figure.131}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Optional caption for list of figures}}{71}{figure.136}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{71}{figure.136}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{71}{figure.136}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{71}{figure.136}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{71}{figure.136}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces }}{60}{figure.105}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{60}{figure.105}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{60}{figure.105}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Optional caption for list of figures}}{61}{figure.106}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Investigating a lineup with high detection rate but negative difference for the distance metrics}}{62}{figure.111}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{62}{figure.111}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{62}{figure.111}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{62}{figure.111}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{62}{figure.111}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces An example lineup from Turk Experiment 2. In this lineup, one of the plots is the observed plot and the other 19 plots are the null plots generated assuming that the null hypothesis $H_o : \beta = 0$ is true. Subjects were asked to identify the plot with the steepest slope. Can you identify the observed plot ?}}{64}{figure.113}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Optional caption for list of figures}}{65}{figure.116}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{65}{figure.116}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{65}{figure.116}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Optional caption for list of figures}}{66}{figure.117}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Optional caption for list of figures}}{67}{figure.122}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{67}{figure.122}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{67}{figure.122}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{67}{figure.122}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{67}{figure.122}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces An example lineup from Large $p$, Small $n$ Turk Experiment.}}{69}{figure.124}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Optional caption for list of figures}}{70}{figure.127}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{70}{figure.127}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{70}{figure.127}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Optional caption for list of figures}}{71}{figure.128}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Optional caption for list of figures}}{71}{figure.133}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{71}{figure.133}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{71}{figure.133}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{71}{figure.133}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{71}{figure.133}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Plot showing the distribution of the sum of absolute difference of means for data with and without separation for different dimensions. The distributions of data with real separation (V) and purely noise data (U) are shown in brown and green respectively with the dark purple line showing the 5th percentile of V. The dark purple area shows the area of U which is greater than the 5th percentile of V. The dark purple region ($\delta $) increases as dimension ($p$) increases. }}{93}{figure.162}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Plot showing the distribution of the sum of absolute difference of means for data with and without separation for different dimensions. The distributions of data with real separation (V) and purely noise data (U) are shown in brown and green respectively with the dark purple line showing the 5th percentile of V. The dark purple area shows the area of U which is greater than the 5th percentile of V. The dark purple region ($\delta $) increases as dimension ($p$) increases. }}{94}{figure.159}

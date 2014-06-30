@@ -28,9 +28,9 @@ Graphics play a crucial role in statistical analysis and data mining. This paper
 %\twocolumn
 
 \section{Introduction} 
-Graphics are an important component of big data analysis, providing a mechanism for discovering unexpected patterns in data. Pioneering research by \citet{gelman:2004}, \citet{buja:2009} and \cite{majumder:2011} provide methods to quantify the significance of discoveries made from visualizations. %Although, there have been major advances in statistical graphics over the years, for example, systems like R \citep{R} provide high quality static graphics, and very recently some access to interactive graphics. But the problem remains that graphics are not widely considered to be a part of inferential statistics. 
+Graphics are an important component of big data analysis, providing a mechanism for discovering unexpected patterns in data. Pioneering research by \citet{gelman:2004}, \citet{buja:2009} and \cite{majumder:2013} provide methods to quantify the significance of discoveries made from visualizations. %Although, there have been major advances in statistical graphics over the years, for example, systems like R \citep{R} provide high quality static graphics, and very recently some access to interactive graphics. But the problem remains that graphics are not widely considered to be a part of inferential statistics. 
 \cite{buja:2009} introduced two protocols which bridge the gulf between traditional statistical inference and exploratory data analysis. These are the Rorschach and the lineup protocols. The Rorschach protocol helps to understand the extent of randomness. The lineup protocol places a statistical plot firmly in the hypothesis testing framework, where a plot of the data is considered to be a test statistic. Unlike the simpler numeric test statistics in classical inference, though, the plot as a test statistic is a complex entity. This plot is compared with a set of null plots, obtained from an appropriate distribution consistent with the null hypothesis. The lineup protocol places the data plot randomly among the obtained null plots, and requires a human observer to examine the plots and identify the most different plot. If this plot is that of the data, this is quantifiable evidence against the null hypothesis. 
-The lineup protocol was formally tested in a head-to-head comparison with the equivalent conventional test by \cite{majumder:2011}. The experiment utilized human subjects from Amazon's Mechanical Turk (\cite{turk}) and used simulation to control conditions. The results suggest that the visual inference is comparable to conventional tests in a controlled conventional setting. This provides support for its appropriateness for testing in real exploratory situations where no conventional test exists. Interestingly, the power of a visual test increases with the number of observers engaged to evaluate lineups, and the pattern in results suggests that the power will provide results consistent with practical significance (\cite{kirk:1996}).
+The lineup protocol was formally tested in a head-to-head comparison with the equivalent conventional test by \cite{majumder:2013}. The experiment utilized human subjects from Amazon's Mechanical Turk (\cite{turk}) and used simulation to control conditions. The results suggest that the visual inference is comparable to conventional tests in a controlled conventional setting. This provides support for its appropriateness for testing in real exploratory situations where no conventional test exists. Interestingly, the power of a visual test increases with the number of observers engaged to evaluate lineups, and the pattern in results suggests that the power will provide results consistent with practical significance (\cite{kirk:1996}).
 
 %But there may be one issue when using the lineup protocol. In traditional hypothesis testing, the true value of the test statistic is compared with all possible values of its null distribution. If the statistic is extreme on this scale, there is evidence to disbelieve the null hypothesis. With the lineup protocol, for a data plot to be considered to be extreme, a human judge must pick it as different from the other plots in the lineup. 
 
@@ -58,7 +58,7 @@ The lineup protocol was formally tested in a head-to-head comparison with the eq
 \end{figure}
 
 
-{\color{red}***  Point 1: Finite comparison vs infinite comparison, measuring how different data plot is from null plots}
+%{\color{red}***  Point 1: Finite comparison vs infinite comparison, measuring how different data plot is from null plots}
 
 In traditional hypothesis testing, the sampling distribution of a test statistic is functional and continuous. In the lineup protocol, although conceptually we may have an infinite collection of plots from the null distribution, in practice, we can only evaluate against a finite number of null plots. A human judge has a physical limit on the number of plots they can peruse. This poses one of the issues with using the lineup protocol.  Figure \ref{compare} illustrates the difference. In traditional inference, the black curve represents the sampling distribution for the $t$-distribution under the null hypothesis, and the shaded red area shows the rejection region. In visual inference, let us consider that the black curve gives the sampling distribution although the sampling distribution is essentially a distribution of null plots. Although the test statistic is not numeric, the true data plot which is the test statistic is represented using red bar and the null plots that are drawn from the null distribution are the blue bars. % for the plots in the lineup shown in Figure \ref{lineup}. 
 Effectively,  in visual inference the red line is compared only to these finite number of blue lines visually to make a decision, unlike classical inference where we look at the rejection region (Figure \ref{compare}) to make decisions. Even though the data plot might be extreme, it is possible by randomly selecting from the null distribution, to obtain a null plot that is more extreme, as Tukey suggested \citep{fernholz03}:
@@ -68,7 +68,7 @@ Effectively,  in visual inference the red line is compared only to these finite 
 \end{quotation}
 
 
-{\color{red}***Point 2: Use metrics to ensure that a range of comparisons is made available to observers}
+%{\color{red}***Point 2: Use metrics to ensure that a range of comparisons is made available to observers}
 
 This can be partially solved by having a large number of observers, who each evaluate lineups constructed with different null plots. Having some idea of the type of coverage of the sampling distribution that is provided by the lineups would be useful ahead of engaging observers and evaluating the lineups. Could we say that lineup X is expected to be ``difficult'' but lineup Y is expected to be ``easy'' then it may help in determining an appropriate number of observers? A difficult lineup is one where the data plot is similar to the null plots, and an easy lineup is where the data plot has some feature that makes it very different from the null plots. Being able to compute a plot to plot distance metric would be very helpful ahead of running a lineup protocol.
 
@@ -77,11 +77,11 @@ This can be partially solved by having a large number of observers, who each eva
 
 %To avoid basing conclusions on artifacts introduced by a `bad' sample, we need to be aware of properties of this set of null plots. In this paper, we develop techniques that help to determine the quality of the lineup. A variety of distance metrics measuring the ``closeness'' of the true data plot and the null plots, and the null plots with themselves are examined. These are compared to human subject picks in several Amazon Turk studies.  Describing plots numerically, is something  of an oxymoron, it cannot be done. Nonetheless, the distance measures provide indications of the quality of a lineup. The purpose of this paper is to help determine if a lineup might provide inadequate coverage of the full null distribution, and these measures might help to gain more insight on how the human eyes work in reading statistical graphics. 
 
-{\color{red} ***  Point 3: Metrics might replace human observers, eventually, but as of now, human eye can still beat numbers for finding unexpected patterns. The lineup protocol gives us a chance to evaluate metrics to finding unexpected structures - check out the scagnostics literature}
+%{\color{red} ***  Point 3: Metrics might replace human observers, eventually, but as of now, human eye can still beat numbers for finding unexpected patterns. The lineup protocol gives us a chance to evaluate metrics to finding unexpected structures - check out the scagnostics literature}
 
 This is a two way process: As metrics are devised to measure the quality of a lineup, the lineup protocol also provides an opportunity to measure the performance of a metric. The human eye can detect patterns in a plot that just cannot be easily quantified numerically, which is why graphics provide an important tool for exploring data and finding the unexpected. Describing plots numerically, is something  of an oxymoron, it cannot be universally done. An example in past work are scagnostics \citep{tukey:1977,wilkinson2005graph} which were developed to assess the different aspects of scattered points like outliers, shape, trend, density and coherence.  If a scatterplot has just one of these structures the scagnostics are descriptive, however, they fail terribly if a plot contains more than one. The goal here is to find some distance measures that can provide some indications of the quality of a lineup, and then to use the results of observer evaluation to determine which metrics best match what people see.
 
-{\color{red} *** Point 4: Metrics can help us understand what it is that people pick up on to trigger a detection of the data. Currently lineups rely on people verbally reporting why they picked a plot. }
+%{\color{red} *** Point 4: Metrics can help us understand what it is that people pick up on to trigger a detection of the data. Currently lineups rely on people verbally reporting why they picked a plot. }
 
 Following up on choices, observers are asked to describe their reasoning. These reasons are used to obtain more information about the rejection: was it some nonlinear dependency, an outlier, clustering, that triggered the detection of the data plot? Good distance metrics may also help relate the descriptive words used with mathematically defined features. 
 
@@ -169,9 +169,11 @@ There may be other null generating mechanism depending on the hypothesis.
 %
 %\red{Another thing that we should discuss on Friday is whether it might be better to call the measures we use norms rather than distances - a distance usually assumes the comparison of two objects, and we implicitly compare against null or identity, which is what a norm does..}
 
-There are different types of distance measures suitable in measuring the distance between the null data and the true data. In this paper, six different types of distance measures were used so that they can identify the different characteristics present in a plot. Some of the distance metrics are generic and uses the raw data to calculate the distances. They do not consider any graphical element in the plot which may somehow affect the decision of the subjects in identifying the true plot. A regression line overlaid on a scatterplot may affect the decision of a plot. Same can be done when a boxplot is used to represent the data instead of a dot plot. The distance metrics should take into account the presence of these graphical elements. Distance metrics like distance based on regression line, distance based on boxplots are designed to address this issue. \\
+Different distance measures are available for calculating the distance between two plots.  The different measures were studied. Some of the distances work only for permuted data like hamming distance while some are computationally intensive. Most of the distances are calculated on the basis of the raw data.  They typically do not consider the graphical elements present in the plot.  
 
-For all of the distance measures below, let $X$ denote the true dataset with one or two variables. Let $Y$ denote the null dataset obtained from $X$ using any of the above mentioned null generating mechanism.
+In this paper, we are interested in calculating the distance between the true plot and the null plot and also between all the null plots in a lineup. A human subject is asked to identify the true plot in the lineup. The response is based on any structure present in the true plot and the finite null plots. The graphical element in the plot can affect the decision. For example, a regression line overlaid on a scatterplot may make it easier to pick a plot with the steepest slope. Similarly, the presence of boxes in a side-by-side boxplot may make it easier to identify the largest vertical difference between the means than when looked at a dot plot. The distance metrics should take into account the presence of these graphical elements.  Five different distance measures were used to identify the different characteristics present in a plot. One the distance metrics is generic in the sense that it uses the raw date to calculate the distances and do not consider any graphical elements present in a plot. Other the distance metrics take the type of data and the presence of graphical elements into consideration. \\
+
+For all of the distance measures below, let $X$ denote the true or real dataset with one or two variables. Let $Y$ denote the null dataset obtained from $X$ using any of the above mentioned null generating mechanism.
 
 %\blue{For all of the distance measures below, let $P$ be a permutation mapping  the set $\{1, 2, ..., n\}$ onto itself. Let further $[P]$ denote the $n \times n$ matrix associated to permutation $P$.
 %}
@@ -340,7 +342,7 @@ d^2_{\hbox{avesep}}(X, Y):= ||s_g(X) - s_g(Y)||^2 = \sum_{i = 1}^g ((s_g(X))_i -
 
 \begin{figure}[hbtp]
 \centering
-\includegraphics[scale=0.75]{ave-min-sep.pdf}
+\includegraphics[scale=0.8]{ave-min-sep.pdf}
 \label{sep-dist}
 	\vspace{-.1in}
 \caption{Two dimensional projections with 3 classes for a particular data and a data with classes being permuted. Two different separation distances are used. Average distance calculates the distance between all the points in a cluster to all the points in the other clusters and takes the average of these distances. The lines show the distance between the points.  On the other hand,  minimum separation calculates the minimum distance of the points in a cluster to all the points in the other clusters. The line shows the minimum distances.  }
@@ -350,7 +352,7 @@ d^2_{\hbox{avesep}}(X, Y):= ||s_g(X) - s_g(Y)||^2 = \sum_{i = 1}^g ((s_g(X))_i -
 Figure \ref{sep-dist} illustrates the difference between the two methods of separation. Here the two methods are applied on two dimensional projections of a dataset with 60 dimensions and 30 observations with three classes. The same is done on the projections of the same dataset with permuted classes. The average separation calculates the euclidean distance between each point in one cluster to all the points in the other two clusters. For example, for the original data, the distance between the points in the green cluster and the other two clusters are calculated and then the average of these distances represent the average distance for the green cluster. Similarly, the average distances for the other two clusters are calculated. The minimum distance also calculates the euclidean distance between each point in one cluster to all the points in the other two clusters. But instead of taking the average, it looks at the minimum distance. For the original data, the minimum distance between any point in the green cluster and the other two clusters is the distance between the point and a point in the red cluster. 
 
 
-The last three distance measures are also dependent on the question of interest and hence can be changed accordingly. But, in general, this should not be a problem because the question which is typically asked is ``Which plot among these is different ?". 
+The last three distance measures are also dependent on the question of interest and hence can be changed accordingly. But, in general, this should not be a problem because the question which is typically asked is ``Which plot among these is different ?''. 
 %\item $t$ statistic: In this paper we used the test statistic of a t-test based on the correlation coefficient $r$ where $$t =\frac{r \sqrt{n - 2}}{\sqrt{1 - r^2}}$$ where $n$ is the number of observations in $X$ or $Y$. This is the only measure that makes a distributional assumption that the ($X$,$Y$) follows approximately a bivariate Normal distribution. Hence the $t$-statistic follows a t distribution with ($n$ - 2) degrees of freedom.
 %%\red{use either upper case or lower case $T$, not both. }
 %%The first one was used when one variable is continuous and the other is categorical while the other is used when both the variables are continuous.  
@@ -401,17 +403,15 @@ The last three distance measures are also dependent on the question of interest 
 %r_P(X) = \frac{ \sum_{i=1}^n (Y_i - \bar{Y_i})(Y_{P(i)} - \bar{Y}_{P(i)})}{\sqrt{\sum_{i=1}^n (Y_i - \bar{Y_i})^2}\sqrt{\sum_{i=1}^n (Y_{P(i)}- \bar{Y}_{P(i)})^2}}.
 %\]
 
+\section{Distribution of distance metric} \label{sec:distri}
 
+In classical inference, the sampling distribution of the test statistic is functional. In visual inference, the sampling distribution of the true plot, the test statistic, is conceptually composed of infinite null plots. But a human judge can only observe a finite collection of these null plots as seen in Figure \ref{compare}. A distribution of a distance metric compares to the sampling distribution of the test statistic in classical inference. In classical inference, the sampling distribution is obtained under the null hypothesis and the observed value of the test statistic is compared to this distribution. Similarly, in visual inference, the distances between a large number of null plots are obtained and an empirical distribution of the distance metric is obtained. The distance between the true plot and the null plots is then compared to these distribution.
 
-\section{Distance Metric Distribution} \label{sec:distri}
+For a lineup of size $m = 20$, the distances between the true plot and all the ($m$ - 1) null plots are calculated. A mean value is calculated by averaging over these distances. This mean value represents the distance for the true plot. Similarly, the mean distances for the $(m - 1)$ null plots in the lineup are calculated by taking the mean of the distances of the particular null plot and the other $(m - 2)$ null plots. These ($m$ - 1) mean distances represent the distances for the null plots. If the true plot has a stronger structure than the null plots, it can be expected the distance for the true plot will be larger than any of the distances for the null plots. If the true plot have structure of similar strength as the null plots and it is unidentifiable, the distance of the true plot will be similar to the distances for the null plots. 
 
-The empirical distribution of the distance measures is obtained by calculating the distances between the null plots among themselves. One null data is generated from the true data set using the null generating mechanism. Assuming this null data to be the ``true" data set, a number of null data sets are obtained from this null data and the distances between these datasets are calculated. One single distance value is obtained by averaging all these distances. This process is repeated a large number of times, say, $N$ where $N$ is a large number of the order $10^3$ or $10^4$. Finally $N$ mean distances or average distances are obtained which gives the empirical distribution of the distance. 
+The empirical distribution of the distance measures is obtained in the following way. A null data is generated from the true dataset using the null generating mechanism. Assuming this null data to be the ``true'' data set, a number of null data sets are obtained from this null data by the null generating mechanism and the distances between these datasets are calculated. For a lineup of size $m$, ($m$ - 2) null datasets are generated from each ``null'' dataset. A mean distance is obtained by averaging over all these distances. This process is repeated a large number of times, say, $N$ where $N$ is a large number of the order $10^3$ or $10^4$. These $N$ mean distances or average distances are obtained and plotted to get the empirical distribution of the distance metric. The mean distances for the true dataset and the null datasets are plotted on the empirical distribution. If the mean distance of the true plot is larger than any of the null plots, the lineup would be regarded as ``easy''. Otherwise, it is a ``difficult'' lineup.
 
-The empirical distribution of the distance works as the $t$-distribution in the classical setting. In the classical setting, the test statistics follows a $t$-distribution under the null hypothesis. The observed test statistic is then compared to this distribution, as shown in Figure \ref{compare}. In visual inference, the mean distances of the null plots gives the empirical distribution. The mean distance of the true plot from the null plots in the lineup acts as the observed test statistic. Unlike the $t$-distribution, the empirical distribution is generally skewed.
-
-The mean distance between the true plot and the null plots in a lineup of size $m = 20$ is calculated by averaging over the distances between the true plot and each of the  $(m - 1)$ null plots. The mean distances for the $(m - 1)$ null plots in the lineup are calculated by taking the mean of the distances of the particular null plot and the other $(m - 2)$ null plots. The mean distances for the true dataset and the null datasets are plotted on the empirical distribution. If the mean distance of the true plot is larger than any of the null plots, the lineup would be regarded as ``easy". Otherwise, it is a ``difficult" lineup. 
-
-The empirical distribution of the distance based on regression is shown in Figure \ref{dist}. To generate this distribution, $N = 1000$ and $m = 20$ was used. Figure \ref{dist_1} shows the lineup plot for $m = 20$ for testing whether there exists a significant linear relationship between $X_1$ and $X_2$. The 19 null plots are generated by fitting the null model and generating from the null model. Figure \ref{dist_2} shows the empirical distribution of the distance with the mean distances for the true plot (in orange) and the null plots (in black) for the particular. The true plot is easy to be identified in the lineup (Figure \ref{dist_1}). It can also be seen in Figure \ref{dist_2} as the orange line is extreme compared to the black lines. 
+The empirical distribution of the distance based on regression is shown in Figure \ref{dist}. To generate this distribution, $N = 1000$ and $m = 20$ are used. Figure \ref{dist_1} shows the lineup plot for $m = 20$ for testing whether there exists a significant linear relationship between $X_1$ and $X_2$. The 19 null plots are generated by fitting the null model and generating from the null model. Figure \ref{dist_2} shows the empirical distribution of the distance in grey with the mean distances for the true plot (in orange) and the null plots (in black). The true plot is easy to be identified in the lineup (Figure \ref{dist_1}). It can also be seen in Figure \ref{dist_2} as the orange line is extreme compared to the black lines. 
 
 \begin{figure}[hbtp]
 \centering
@@ -445,7 +445,7 @@ The empirical distribution of the distance based on regression is shown in Figur
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
-Figure \ref{dist2_1} shows the lineup plot for $m = 20$ for testing whether there exists a significant difference between the two groups A and B. The 19 null plots are generated by permuting the group variable keeping the other variable fixed. Figure \ref{dist2_2} shows the empirical distribution of the distance based on the boxplots with the mean distance for the true plot (in orange) and the null plots (in black). The true plot is hard to be identified from the lineup which is also evident in the distribution since many black lines are to the right of the orange line.
+Figure \ref{dist2_1} shows the lineup plot for $m = 20$ for testing whether there exists a significant difference between the two groups A and B. The 19 null plots are generated by permuting the group variable keeping the other variable fixed. Figure \ref{dist2_2} shows the empirical distribution of the distance based on the boxplots in grey with the mean distance for the true plot (in orange) and the null plots (in black). The true plot is hard to be identified from the lineup which is also evident in the distribution since many black lines are to the right of the orange line.
 
 \section{Effect of Plot Type and Question of Interest } \label{sec:plot_type}
 
@@ -551,24 +551,27 @@ The choice of number of bins or bin sizes is investigated with different types o
 %%{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 %\end{figure*}
 
-\begin{table*}[hbtp]
+%\begin{landscape}
+\begin{table}[hbtp]
 \caption{Preferable number of bins for different types of observed data to calculate the binned distance.}
 \centering 
-\begin{tabular}{p{1.5cm}l c  p{2cm} c cc l c p{4cm}} 
+\begin{tabular}{p{1.5cm}l c  p{2cm} c cc l c p{3.5cm}} 
 \hline
- Type of Data & Observed Plot && Null Generating Mechanism & A typical null plot && & Difference && (x-bin, y-bin, Max; Min) \\ %[0.5ex] % inserts table %heading 
+ Type of Data & Observed Plot && Null Generating Mechanism & A typical null plot && & Difference && \hspace{0.55cm}($p$, $q$, Max; Min) \\ %[0.5ex] % inserts table %heading 
 %\hline
 % Linear association & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-data1.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot1.pdf}} \end{center} \end{minipage} &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot1.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} small\\
  \hline
- Linear association & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-1.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-1.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-1.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (2, 2, 5.7 ; - 2.5)\\
+ Linear association & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-1.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-1.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-1.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (2, 2, 5.7 ; - 2.5)\\
  \hline
-Nonlinear relationship & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-2.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-2.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-2.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (2, 10, 6.2 ; - 0.0)\\
+Nonlinear relationship & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-2.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-2.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-2.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (2, 10, 6.2 ; - 0.0)\\
  \hline
- Linear relation with outliers & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-3.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-3.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-3.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (2, 6, 16.7 ; - 0.4)\\
+ Linear relation with outliers & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-3.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-3.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-3.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (2, 6, 16.7 ; - 0.4)\\
  \hline
- Same values with one outlier & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-4.pdf}} \end{center} \end{minipage} && Simulation from a \emph{Poi(9)} distribution &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-4.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-4.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm}(10, 3, 34.3 ; - 0.1)\\
+ Same values with one outlier & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-4.pdf}} \end{center} \end{minipage} && Simulation from a \emph{Poi(9)} distribution &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-null-4.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{anscombe-nbin-4.pdf}} \end{center} \end{minipage} &&           \hspace{0.5cm}(10, 3, 34.3 ; - 0.1)\\
  \hline
-    Clusters & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data1.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null1.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot1.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (3, 2, 27.6 ; - 5.7)\\
+    Clusters & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data1.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null1.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot1.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (3, 2, 27.6 ; - 5.7)\\
+ \hline
+Categorical & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data2.pdf}} \end{center} \end{minipage} && Simulation from a Normal distribution &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null2.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot2.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (3, 3, 30.7; 6.2) \\
  \hline
 %Clusters & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-data2.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot2.pdf}} \end{center} \end{minipage} && \hspace{0.8cm} small\\
 % \hline
@@ -580,29 +583,28 @@ Nonlinear relationship & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.2
 % \hline
 \end{tabular}
 \label{tbl:bin1}
-\end{table*}
+\end{table}
+%\end{landscape}
 
 %\newpage
-\begin{table*}[hbtp]
+\begin{table}[hbtp]
 \caption{Preferable number of bins for different types of observed data to calculate the binned distance.}
 \centering 
-\begin{tabular}{p{1.5cm}l c  p{2cm} c cc l c p{4cm}} 
+\begin{tabular}{p{1.5cm}l c  p{2cm} c cc l c p{3.5cm}} 
 \hline
- Type of Data & Observed Plot && Null Generating Mechanism & A typical null plot && & Difference && (x-bin, y-bin, Max; Min) \\ %[0.5ex] % inserts table %heading 
+ Type of Data & Observed Plot && Null Generating Mechanism & A typical null plot && & Difference && \hspace{0.55cm}($p$, $q$, Max; Min) \\ %[0.5ex] % inserts table %heading 
  \hline
-Categorical & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data2.pdf}} \end{center} \end{minipage} && Simulation from a Normal distribution &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null2.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot2.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (3, 3, 30.7; 6.2) \\
+Nonlinear relation with outliers & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data3.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null3.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot3.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (4, 10, 3.9; -3.4) \\
  \hline
-Nonlinear relation with outliers & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data3.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null3.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot3.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (4, 10, 3.9; -3.4) \\
+Linear relationship with outlier  & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data5.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null5.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot5.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (3, 10, 0.3; -7.1) \\
  \hline
-Linear relationship with outlier  & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data5.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null5.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot5.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (3, 10, 0.3; -7.1) \\
+ Residual Plot & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data4.pdf}} \end{center} \end{minipage} && Simulation from the null model &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null4.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot4.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (3, 7, 17.8; -4.5)\\
  \hline
- Residual Plot & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data4.pdf}} \end{center} \end{minipage} && Simulation from the null model &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null4.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot4.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (3, 7, 17.8; -4.5)\\
+ Residual Plot & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data6.pdf}} \end{center} \end{minipage} && Simulation from the null model &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null6.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot6.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (2, 5, 4.8; -4.4)\\
  \hline
- Residual Plot & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data6.pdf}} \end{center} \end{minipage} && Simulation from the null model &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null6.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot6.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (2, 5, 4.8; -4.4)\\
+Spiral data & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data7.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null7.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot7.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (5, 7, 23.6; -11.9)\\
  \hline
-Spiral data & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data7.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null7.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot7.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (5, 7, 23.6; -11.9)\\
- \hline
-Contaminated data & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data8.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null8.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot8.pdf}} \end{center} \end{minipage} &&           \hspace{0.8cm} (5, 3, 8.1; -2.5)\\
+Contami -nated data & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{data8.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{null8.pdf}} \end{center} \end{minipage} &&&  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot8.pdf}} \end{center} \end{minipage} &&           \hspace{0.6cm} (5, 3, 8.1; -2.5)\\
  \hline
 %Clusters & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-data2.pdf}} \end{center} \end{minipage} && Permutation &  \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\includegraphics{bin-select-plot2.pdf}} \end{center} \end{minipage} && \hspace{0.8cm} small\\
 % \hline
@@ -614,7 +616,7 @@ Contaminated data & \begin{minipage}[h]{1.5cm} \begin{center} \scalebox{0.25}{\i
 % \hline
 \end{tabular}
 \label{tbl:bin2}
-\end{table*}
+\end{table}
 
 The rationale behind selecting different types of data is to investigate how the optimal number of bins or bin sizes varies with different types of data. The different null generating mechanisms are also selected for the same reason. In Table \ref{tbl:bin1} the first four observed data plots corresponds to the datasets described by Francis Anscombe in \citep{anscombe:1972} but with large number of data points. Although the datasets have the same pattern, the datasets do not follow the properties of Anscombe's quartet. The fifth dataset is a data with 3 distinct clusters. In Table \ref{tbl:bin2}, the first dataset shows a categorical data. The second and the third data are non-linear and linear association with the presence of outliers. The fourth and fifth datasets are the residual plots with curved pattern and non-constant variance pattern. The sixth data is a spiral data while the seventh one is a data with contamination. 
 
@@ -629,20 +631,20 @@ It is important to mention at this point that Table \ref{tbl:bin1} and Table \re
 
 The performance of the distance metrics was evaluated with comparing the distances with the response of the subjects. A number of experiments were done in Amazon Mechanical Turk \citep{turk}. Subjects were recruited through Amazon Mechanical Turk \citep{turk} and were shown a sequence of lineups. In each experiment, they were asked specific questions. Their responses were recorded along with other demographic informations. The details about the design of experiments can be found in \cite{majumder:2013} and \cite{roychowdhury:2013}. 
 
-\subsection{Turk Experiment -- Side by Side Boxplots}
+\subsection{Turk Experiment -- Side-by-Side Boxplots}
 
-In this experiment, all the lineups generated had a side by side boxplot as the test statistic. Assuming that the null hypothesis is true, the null plots were generated by assuming that there is no difference between the two distributions. The subjects were shown a few lineups and were asked to identify the plot which has the largest vertical difference between group 1 and group 2. Figure \ref{turk1} gives such a lineup. \\
+In this experiment, all the lineups generated had a side-by-side boxplot as the test statistic. The null plots were generated by assuming that there is no difference between the two distributions. The subjects were shown a set of lineups and were asked to identify the plot which has the largest vertical difference between Group A and Group B. Figure \ref{turk1} gives such a lineup.  \\
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.5\textwidth]{turk1-example.pdf}
+\includegraphics[width=1.0\textwidth]{turk1-example.pdf}
 % plot_turk1_100_16_12_3
 %\includegraphics[width=.65\textwidth]{large-p-trim-bin.pdf}
 \caption{An example lineup from Turk Experiment 1. The lineup has $m = 20$ plots of which one is the observed data plot and the remaining $m - 1$ are the null plots generated assuming that the null hypothesis is true. Subjects were asked to identify the plot which has the largest vertical difference between the two groups. Can you identify the observed plot ?}
 \label{turk1}
 \end{figure}
 
-The response of the subjects were noted and the proportion of correct response was calculated for each lineup. The distances between the plots in each lineup were computed using both the distance based on boxplots ($d_{\hbox{box}}$) and the binned distance ($d_{\hbox{bin}}$). The mean distance for the true plot and the null plots were calculated and $\delta_{\hbox{lineup}}$ and $\gamma_{\hbox{lineup}}$ are obtained. The proportion of correct response was plotted against each of the two statistics. Figure \ref{turk1comp} shows the detection rate against the difference for $d_{\hbox{box}}$ and $d_{\hbox{bin}}$ and the number of null plots greater than the observed plot for the two distance measures. 
+The response of the subjects were noted and for each lineup the detection rate was calculated by dividing the number of correct response over the total number of response.  The distances between the plots in each lineup were computed using both the distance based on boxplots ($d_{\hbox{box}}$) and the binned distance ($d_{\hbox{bin}}$). The mean distance for the true plot and the null plots were calculated and $\delta_{\hbox{lineup}}$ and $\gamma_{\hbox{lineup}}$ were obtained. The detection rate was plotted against each of the two statistics. Figure \ref{turk1dist} shows the detection rate against the difference for $d_{\hbox{box}}$ and $d_{\hbox{bin}}$ and the number of null plots greater than the observed plot for the two distance measures. 
 
 
 \begin{figure}[hbtp]
@@ -653,29 +655,21 @@ The response of the subjects were noted and the proportion of correct response w
 }
 \subfigure[]{
 \includegraphics[scale=0.75]{turk1-grtr-box-bin.pdf}
-\label{t1bin_1}
+\label{t1grtr_1}
 }
-%\subfigure[]{
-%\includegraphics[scale=0.55]{turk1-grtr-box-prop.pdf}
-%\label{t1comp_2}
-%}
-%\subfigure[]{
-%\includegraphics[scale=0.55]{turk1-grtr-bin-prop-8.pdf}
-%\label{t1bin_2}
-%}
-\label{turk1comp}
 	\vspace{-.1in}
-\caption[Optional caption for list of figures]{(a) Plot showing the detection rate in (a) against the difference based on the boxplot distance and  the binned distance. The vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The detection rate increases with the difference. The detection rate is plotted against the number of null plots greater than the observed plot according to the boxplot distance and the binned distance. The detection rate decreases as the number of null plots greater than the observed plot increases.  }
+\caption[]{Plot showing the detection rate against the difference in (a) and the number of null plots greater than the true plot in (b) based on the boxplot distance and  the binned distance. The vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The detection rate increases with the difference. The detection rate is plotted against the number of null plots greater than the observed plot according to the boxplot distance and the binned distance. The detection rate decreases as the number of null plots greater than the observed plot increases.  }
+\label{turk1dist}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
 %\newpage
 
-In Figure \ref{turk1comp}, the detection rate is plotted against the difference. The red vertical line represents difference equal to 0 indicating that the mean distance of the true plot is equal to the maximum of the mean distance of the null plots i.e. the mean distance of the true plot is equal to at least one of the mean distance of the null plots. It can be seen that as the difference increases, the detection rate increases. So the subjects do better in the easier lineups than the hard ones. The binned distance was calculated using 8 bins on both the axes. Figure \ref{turk1comp} also shows the relation between detection rate and the number of null plots larger than the true plot. It can be seen that as there are more extreme null plots compared to the observed plot, the subjects find it difficult to pick the observed plot. It is interesting to see that the subjects can pick the observed plot with one or two extreme null plots. 
+In Figure \ref{turk1dist}, the detection rate is plotted against the difference. The red vertical line represents difference equal to 0 indicating that the mean distance of the true plot is equal to the maximum of the mean distance of the null plots i.e. the mean distance of the true plot is equal to at least one of the mean distance of the null plots. It can be seen that as the difference increases, the detection rate increases. So the subjects do better in the easier lineups than the hard ones. The binned distance was calculated using 8 bins on the y-axis and 2 bins on the x-axis. Figure \ref{turk1dist} also shows the relation between detection rate and the number of null plots larger than the true plot. It can be seen that as there are more extreme null plots compared to the observed plot, the subjects find it difficult to pick the observed plot. It is interesting to see that the subjects can pick the observed plot with one or two extreme null plots. 
 
-Though the distance based on the boxplots works better, the binned distance does a decent job in this case. According to the binned distance, there are a few lineups which has a negative difference but the proportion correct is above 60\%, which can be also be seen in Figure \ref{turk1comp}. It should be noted that the binned distance does not take into account the graphical elements of the plot (e.g. boxplot) and calculates the distance solely based on the data. So an outlier may have a huge effect on the binned distance but does not effect the distance based on the boxplots. Hence it is advisable to use a distance based on the graphical elements since that is exactly what the subjects look at in the lineup.
+Though the distance based on the boxplots works better, the binned distance does a decent job in this case. Based on the binned distance, there are a few lineups which has a negative difference but the detection rate is above 60\%, which can be also be seen in Figure \ref{turk1dist}. It should be noted that the binned distance does not take into account the graphical elements of the plot (e.g. boxplot) and calculates the distance solely based on the data. So an outlier may have a huge effect on the binned distance but does not effect the distance based on the boxplots. 
 
-The time taken to respond by the subjects is another measure of difficulty of the lineups. Due the presence of some huge outliers, the mean time taken by the subjects for each lineup is looked at and plotted against the difference for both the distance measures. Figure \ref{turk1-mtime} shows the plots. It can be clearly seen that when the difference is below 0, there is no real trend in the median time and there is a huge variability, indicating that the time taken depends on the subjects. But when the difference is above 0, the median time decreases rapidly as the difference increases. Hence the subjects can pick the true plot quickly if the true plot is extreme compared to the null plots.
+The time taken to respond by the subjects is another measure of difficulty of the lineups. The mean time taken by the subjects for each lineup is looked at and plotted against the difference for both the distance measures. Figure \ref{turk1-mtime} shows the plots. It can be clearly seen that when the difference is below 0, there is no real trend in the mean time and there is a huge variability, indicating that the time taken depends on the subjects. But when the difference is above 0, the mean time decreases rapidly as the difference increases. Hence the subjects can pick the true plot quickly if the true plot is extreme compared to the null plots.
  
 %\begin{figure}[hbtp]
 %\centering
@@ -704,54 +698,53 @@ The time taken to respond by the subjects is another measure of difficulty of th
 %\includegraphics[scale=0.55]{turk1-diff-bin-mtime.pdf}
 %\label{t1bin_1}
 %}
-\label{turk1-mtime}
 	\vspace{-.1in}
 \caption[Optional caption for list of figures]{Plot showing the mean time to respond by the subjects against the difference based on the boxplot distance and binned distance. The vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The mean time decreases with the difference.  }
+\label{turk1-mtime}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
-It can be noticed in Figure \ref{turk1comp} that for some of the lineups, the detection rate is high but the difference using distance metric is negative suggesting that the lineup is difficult. One such lineup is marked using a triangle in Figure \ref{turk1comp}. It would be interesting to look into the lineup closely to identify what made the people pick the actual plot as different. Figure \ref{turk1-exp} shows the lineup and the distribution of the distance metrics. 
+It can be noticed in Figure \ref{turk1dist} that for some of the lineups, the detection rate is high but the difference using distance metric is negative suggesting that the lineup is difficult. One such lineup is marked using a triangle in Figure \ref{turk1dist}. Investigating the lineup may reveal the reasons behind most human subjects picking the true plot as different from the null plots. But the difference for all the distance metrics is negative. Figure \ref{turk1exp} shows the lineup and the distributions of the distance metrics. 
 
 \begin{figure}[hbtp]
 \centering
 \subfigure[]{
-\includegraphics[scale=0.7]{lineup-high-prop-neg-diff.pdf}
-\label{t1comp_1}
+\includegraphics[scale=0.67]{lineup-high-prop-neg-diff.pdf}
+\label{t1exp}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{distribution-box-dist-exp1.pdf}
-\label{t1bin_1}
+\includegraphics[scale=0.67]{distribution-box-dist-exp1.pdf}
+\label{t1box}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{distribution-bin-dist-2-8-exp1.pdf}
-\label{t1bin_1}
+\includegraphics[scale=0.67]{distribution-bin-dist-2-8-exp1.pdf}
+\label{t1bin_2_8}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{distribution-bin-dist-2-2-exp1.pdf}
-\label{t1bin_1}
+\includegraphics[scale=0.67]{distribution-bin-dist-2-2-exp1.pdf}
+\label{t1bin_2_2}
 }
-\label{turk1-exp}
-	\vspace{-.1in}
-\caption[Optional caption for list of figures]{Plot showing the lineup in (a) and the distribution of different distance metrics : box plot distance in (b), binned distance with 2 and 8 bins on x and y axis in (c) and binned distance with 2 bins in both axes in (d). The lineup corresponds to the point marked with a triangle in difference vs. detection rate plot in Figure \ref{turk1comp}.}
+\vspace{-.1in}
+\caption[Investigating a lineup with high detection rate but negative difference for the distance metrics]{Plot showing the lineup in (a) and the distribution of different distance metrics : box plot distance in (b), binned distance with 2 and 8 bins on x and y axis in (c) and binned distance with 2 bins in both axes in (d). The lineup corresponds to the point marked with a triangle in difference vs. detection rate plot in Figure \ref{turk1dist}.}
+\label{turk1exp}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
-The lineup in Figure \ref{turk1-exp} is a lineup of side-by-side boxplots. The observed data plot is Plot 20 but there are other candidates who can be picked easily. Plot 19 and Plot 16 seems to have large differences between the quartiles. Specifically in Plot 16, the difference between the  
-first quartiles for the two groups is very large but the differences between the medians and the third quartiles are small. The huge difference of the first quartiles may have affected the huge mean distance of Plot 16 from all the other plots.   
+The lineup in Figure \ref{turk1exp} is a lineup of side-by-side boxplots from the experiment. This particular lineup is marked with a triangle in Figure \ref{turk1dist}.  The observed data plot is Plot 20 but there are other null plots which also have strong structures, for example Plot 19 and Plot 16. Specifically in Plot 16, the difference between the first quartiles for the two groups is huge although the differences between the medians and the third quartiles are not so. As the distance based on the boxplots looks at the difference between the quartiles, this huge difference will affect the distance and hence according to this distance, Plot 16 comes out to be the most different. Using the optimal number of bins selection procedure, the number of bins obtained is 2 on x axis and 8 on y axis. Using these bins, the binned distance shows that Plot 20 is the most different.
 
 \subsection{Turk Experiment -- Scatterplots with an Overlaid Regression Line}
 
-In this experiment, the test statistic is a scatterplot with the regression line overlaid. Assuming that the null hypothesis is true, the null plots are generated by assuming that there is no significant linear relationship between the two variables. The subjects were shown a few lineups and were asked to identify the plot which has the steepest slope. Figure \ref{turk2} gives such a lineup. 
+In this experiment, the test statistic is a scatterplot with a regression line overlaid. The null hypothesis in this case is that there does not exist a significant linear relationship between $X_1$ and $X_2$. The null plots are generated assuming that the null hypothesis is true. The subjects were shown a set of lineups and were asked to identify the plot which has the steepest slope. Figure \ref{turk2} gives such a lineup. 
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.5\textwidth]{turk2-example.pdf}
+\includegraphics[width=1.0\textwidth]{turk2-example.pdf}
 %\includegraphics[width=.65\textwidth]{large-p-trim-bin.pdf}
 \caption{An example lineup from Turk Experiment 2. In this lineup, one of the plots is the observed plot and the other 19 plots are the null plots generated assuming that the null hypothesis $H_o : \beta = 0$ is true. Subjects were asked to identify the plot with the steepest slope. Can you identify the observed plot ?}
 \label{turk2}
 \end{figure}
 
-The distances between the plots in this experiment were computed using both the distance based on regression line ($d_{\hbox{reg}}$) and the binned distance ($d_{\hbox{bin}}$) with a small number of bins. The proportion of correct response for each lineup was calculated from the response of the subjects and plotted against $\delta_{\hbox{lineup}}$ and $\gamma_{\hbox{lineup}}$.  Figure \ref{turk2comp} shows the results for the distance based on the regression line and the binned distance against $\delta_{\hbox{lineup}}$.
+The distances between the plots in this experiment were computed using both the distance based on regression line ($d_{\hbox{reg}}$) and the binned distance ($d_{\hbox{bin}}$) with a small number of bins. The detection rate for each lineup was calculated from the response of the subjects and plotted against $\delta_{\hbox{lineup}}$ and $\gamma_{\hbox{lineup}}$.  Figure \ref{turk2comp} shows the results for the distance based on the regression line and the binned distance against $\delta_{\hbox{lineup}}$.
 
 
 \begin{figure}[hbtp]
@@ -764,88 +757,74 @@ The distances between the plots in this experiment were computed using both the 
 \includegraphics[scale=0.75]{turk2-grtr-reg-bin.pdf}
 \label{t2comp_2}
 }
-%\subfigure[]{
-%\includegraphics[scale=0.55]{turk2-grtr-reg-prop.pdf}
-%\label{t2comp_1}
-%}
-%\subfigure[]{
-%\includegraphics[scale=0.55]{turk2-grtr-bin-prop-2.pdf}
-%\label{t2comp_2}
-%}
-\label{turk2comp}
 	\vspace{-.1in}
 \caption[Optional caption for list of figures]{Plot showing the detection rate in (a) against the difference based on the regression distance and based on the binned distance. The vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The proportion correct increases with the difference. The detection rate is plotted against the number of null plots greater than the observed plot according to the regression distance and according to the binned distance in (b). The detection rate decreases as the number of null plots greater than the observed plot increases.}
+\label{turk2comp}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
-Figure \ref{turk2comp} shows the detection rate against the difference. The vertical line represents difference equal to 0. It can be seen that as the difference increases, the detection rate increases. So the subjects do better in the easier lineups than the hard ones. The distance based on regression works well in capturing the complexity of the lineups. But the binned distance fails to do so. Although the detection rate increases with difference, the proportion correct is high for values with negative difference. This is a classic case where a graphical element affects the response. The presence of the overlaid regression line on almost transparent points of the scatterplot mattered in the subjects picking the correct plot. One other reason may be the use of the same number of bins (2 $\times$ 2) in this case for all the lineups. 
+Figure \ref{turk2comp} shows the detection rate against the difference. The vertical line represents difference equal to 0. It can be seen that as the difference increases, the detection rate increases. So the subjects do better in the easier lineups than the hard ones. The distance based on regression works well in capturing the complexity of the lineups. The difference is positive for lineups with large differences and negative for lineups with small difference. A few lineups have difference close to zero for which the detection rate is close to 50\%.
 
-Figure \ref{turk2comp} also shows that as there are more extreme null plots compared to the observed plot, the subjects find it difficult to pick the observed plot. For a few lineups, almost all the subjects identify the observed plot although there is one more extreme null plot. Though from Figure \ref{turk2comp}, it can be seen that the extremeness is marginal in most cases. 
+But the binned distance fails terribly. Although the detection rate increases with difference, the detection rate is high for values with negative difference. This is a classic scenario where a graphical element affects the response. The presence of the overlaid regression line on almost transparent points of the scatterplot affected the response of the subjects. One other reason may be the use of the same number of bins (2 $\times$ 2) in this case for all the lineups. The relationship may improve if different number of bins can be used for different lineups.
+
+Figure \ref{turk2comp} also shows the detection rate against the number of null plots greater than the observed plot. As the number of plots greater than the observed plot increases, the detection rate decreases.  Hence as there are more extreme null plots compared to the observed plot, the subjects find it difficult to pick the observed plot. For a few lineups, almost all the subjects identify the observed plot although there is one more extreme null plot. Though from Figure \ref{turk2comp}, it can be seen that the extremeness is marginal in most cases. 
 
 \begin{figure}[hbtp]
 \centering
 \includegraphics[scale=0.75]{turk2-mtime-reg-bin.pdf}
-%\subfigure[]{
-%\includegraphics[scale=0.55]{turk2-diff-reg-mtime.pdf}
-%\label{t1comp_1}
-%}
-%\subfigure[]{
-%\includegraphics[scale=0.55]{turk2-diff-bin-mtime.pdf}
-%\label{t1bin_1}
-%}
-\label{turk2-mtime}
 	\vspace{-.1in}
-\caption[Optional caption for list of figures]{Plot showing the mean time to respond by the subjects against the difference based on the regression distance in (a) and binned distance in (b). In both the plots, the vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The median time decreases with the difference.  }
+\caption[Optional caption for list of figures]{Plot showing the mean time to respond by the subjects against the difference based on the regression distance and binned distance. In both the plots, the vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The mean time decreases with the difference.  }
+\label{turk2-mtime}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
-Figure \ref{turk2-mtime} shows the relationship between the median time taken to respond and the difference for both the distances. It can be clearly seen that there is a strong negative association showing that as the difference increases, the subjects take lesser time to respond. Also the variability of the median time is higher for smaller difference. In case of binned distance, the relationship is negative though the variability is higher for the above mentioned reasons.
+Figure \ref{turk2-mtime} shows the relationship between the mean time taken to respond and the difference for both the distances. It can be clearly seen that there is a strong negative association showing that as the difference increases, the subjects take less time to respond. Also the variability of the mean time is higher for smaller difference. In case of binned distance, the relationship is negative though the variability is higher for the above mentioned reasons.
 
-Although the regression based distance seems to efficiently identify the quality of the lineup, there is one lineup (marked by a solid triangle in Figure \ref{turk2comp}) which had a negative difference although people identified the actual plot with reasonable success.  Figure \ref{turk2-exp} shows the lineup and the distribution of different distance metrics.  
+Although the regression based distance seems to efficiently identify the quality of the lineup, there is one lineup (marked by a solid triangle in Figure \ref{turk2comp}) which had a negative difference although people identified the true plot with reasonable success.  Figure \ref{turk2-exp} shows the lineup and the distributions of different distance metrics.  
 
 \begin{figure}[hbtp]
 \centering
 \subfigure[]{
-\includegraphics[scale=0.7]{lineup-exp2-neg-diff-large-prop.pdf}
+\includegraphics[scale=0.67]{lineup-exp2-neg-diff-large-prop.pdf}
 \label{t2comp_1}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{distribution-reg-dist-exp2.pdf}
+\includegraphics[scale=0.67]{distribution-reg-dist-exp2.pdf}
 \label{t2comp_1}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{distribution-bin-dist-2-2-exp2.pdf}
+\includegraphics[scale=0.67]{distribution-bin-dist-2-2-exp2.pdf}
 \label{t2comp_2}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{distribution-bin-dist-8-2-exp2.pdf}
+\includegraphics[scale=0.67]{distribution-bin-dist-8-2-exp2.pdf}
 \label{t2comp_1}
 }
-\subfigure[]{
-\includegraphics[scale=0.7]{distribution-reg-no-int-dist-exp2.pdf}
-\label{t2comp_1}
-}
-\subfigure[]{
-\includegraphics[scale=0.7]{distribution-pval-exp2.pdf}
-\label{t2comp_1}
-}
-\label{turk2-exp}
+%\subfigure[]{
+%\includegraphics[scale=0.47]{distribution-reg-no-int-dist-exp2.pdf}
+%\label{t2comp_1}
+%}
+%\subfigure[]{
+%\includegraphics[scale=0.47]{distribution-pval-exp2.pdf}
+%\label{t2comp_1}
+%}
 	\vspace{-.1in}
 \caption[Optional caption for list of figures]{Plot showing the lineup in (a) and the distribution of different distance metrics : regression based distance in (b), binned distance with 2 bins on each axes in (c) and binned distance with 8 and 2 bins in x and y axis respectively in (d). The lineup corresponds to the point marked with a triangle in difference vs. detection rate plot in Figure \ref{turk2comp}.}
+\label{turk2-exp}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
-The lineup in Figure \ref{turk2-exp} is a difficult one as suggested by the distribution of the distance metrics based on regression. Although around 28\% of the people identify the correct plot, the conventional $p$-value for testing the slope equal to 0 is 0.085. The binned distance with 2 bins on each axes also shows the same. However the binned distance using the optimal number of bins (8 on the x-axis and 2 on the y-axis) by the selection of bins method identifies the actual plot as different from the others. 
+The lineup in Figure \ref{turk2-exp} is a difficult one as suggested by the distribution of the distance metrics based on regression. Although around 28\% of the people identified the true plot correctly, the conventional $p$-value for testing the slope equal to 0 is 0.085, which shows that the relationship is not significant. The binned distance with 2 bins on each axes also shows the same. However the binned distance using the optimal number of bins (8 on the x-axis and 2 on the y-axis) by the optimal number of bins selection method identifies the true plot as different from the others. 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=.5\textwidth]{rel-pvalue.pdf}
-%\includegraphics[width=.65\textwidth]{large-p-trim-bin.pdf}
-\caption{Plot showing relative frequency versus $p$-value for the lineup in Figure \ref{turk2-exp}. The red shows the true plot while the black ones are the null plots. It can be seen that as the p-value of the slope increases, the relative risk decreases. }
-\label{rel-pval}
-\end{figure}
-
-Figure \ref{rel-pval} shows the relative frequency for each plot in the lineup versus the $p$-value. As the $p$-value increases, the relative frequency decreases. Hence there were few null plots which had signal stronger or of similar strength to the true plot and hence the responses were divided. The binned distance and distance based on the regression line does a good job considering this. 
+%\begin{figure}[htbp]
+%\centering
+%\includegraphics[width=.5\textwidth]{rel-pvalue.pdf}
+%%\includegraphics[width=.65\textwidth]{large-p-trim-bin.pdf}
+%\caption{Plot showing relative frequency versus $p$-value for the lineup in Figure \ref{turk2-exp}. The red shows the true plot while the black ones are the null plots. It can be seen that as the p-value of the slope increases, the relative risk decreases. }
+%\label{rel-pval}
+%\end{figure}
+%
+%Figure \ref{rel-pval} shows the relative frequency for each plot in the lineup versus the $p$-value. As the $p$-value increases, the relative frequency decreases. Hence there were few null plots which had signal stronger or of similar strength to the true plot and hence the responses were divided. The binned distance and distance based on the regression line does a good job considering this. 
 
 
 
@@ -856,7 +835,7 @@ The motivation behind this experiment is to study the effect of large dimensions
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=.7\textwidth]{largep-example.pdf}
+\includegraphics[width=1\textwidth]{largep-example.pdf}
 %\includegraphics[width=.65\textwidth]{large-p-trim-bin.pdf}
 \caption{An example lineup from Large $p$, Small $n$ Turk Experiment.}
 \label{largep}
@@ -883,9 +862,10 @@ The distances between the plots in this experiment were computed using the dista
 %\includegraphics[scale=0.55]{largep-grtr-clus-prop.pdf}
 %\label{lpcomp_2}
 %}
-\label{lp-comp}
+
 	\vspace{-.1in}
 \caption[Optional caption for list of figures]{ Plot showing the detection rate in (a) and the number of plots greater than the observed in (b) against the difference based on the minimum separation, average separation and binned distance. The vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The detection rate increases with the difference. As the number of plots greater than the observed increases, the detection rate decreases. }
+\label{lp-comp}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
@@ -902,9 +882,10 @@ In Figure \ref{lp-comp}, the detection rate is plotted against the difference fo
 %\includegraphics[scale=0.55]{largep-diff-bin-mtime.pdf}
 %\label{t1bin_1}
 %}
-\label{lp-mtime}
+
 	\vspace{-.1in}
 \caption[Optional caption for list of figures]{Plot showing the mean time to respond by the subjects against the difference based on the minimum separation distance, average separation and binned distance. The vertical line represents the difference equal to 0 when there is at least one null plot similar to the observed plot. The mean time decreases as the difference increases.  }
+\label{lp-mtime}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 
@@ -913,24 +894,25 @@ Figure \ref{lp-mtime} shows the relationship between the mean time taken to resp
 \begin{figure}[hbtp]
 \centering
 \subfigure[]{
-\includegraphics[scale=0.7]{lineup-example-100-0-2-3.pdf}
+\includegraphics[scale=0.25]{lineup-example-100-0-2-3.pdf}
 \label{t2comp_1}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{bin-dist-largep-100-0-2-3.pdf}
+\includegraphics[scale=0.25]{bin-dist-largep-100-0-2-3.pdf}
 \label{t2comp_1}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{mod-sep-dist-largep-100-0-2-3.pdf}
+\includegraphics[scale=0.25]{mod-sep-dist-largep-100-0-2-3.pdf}
 \label{t2comp_2}
 }
 \subfigure[]{
-\includegraphics[scale=0.7]{sep-dist-largep-100-0-2-3.pdf}
+\includegraphics[scale=0.25]{sep-dist-largep-100-0-2-3.pdf}
 \label{t2comp_1}
 }
-\label{lp-exp}
+
 	\vspace{-.1in}
 \caption[Optional caption for list of figures]{Plot showing the lineup in (a) and the distribution of different distance metrics :  binned distance with 6 and 4 bins in x and y axis respectively in (b), distance based on average separation in (c) and distance based on minimum separation in (d). }
+\label{lp-exp}
 %{Caption of subfigures \subref{fig:subfig1}, \subref{fig:subfig2} and \subref{fig:subfig3}}
 \end{figure}
 

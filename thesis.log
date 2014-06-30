@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  26 JUN 2014 22:52
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  29 JUN 2014 23:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -834,9 +834,18 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \c@FancyVerbLine=\count132
 \FV@StepNumber=\count133
 \FV@OutFile=\write3
-) (./thesis.aux (./Preface/titlepage.aux)
-(./Preface/dedication.aux) (./Preface/acknowl.aux) (./Preface/abstract.aux)
-(./Body/chapter1.aux) (./Body/chapter2.aux
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Landscape pages in PDF (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(./thesis.aux (./Preface/titlepage.aux) (./Preface/dedication.aux)
+(./Preface/acknowl.aux) (./Preface/abstract.aux) (./Body/chapter1.aux)
+(./Body/chapter2.aux
 
 LaTeX Warning: Label `tbl:compare' multiply defined.
 
@@ -863,30 +872,6 @@ LaTeX Warning: Label `plottype' multiply defined.
 LaTeX Warning: Label `sec:results' multiply defined.
 
 
-LaTeX Warning: Label `t1comp_1' multiply defined.
-
-
-LaTeX Warning: Label `sub@t1comp_1' multiply defined.
-
-
-LaTeX Warning: Label `t1bin_1' multiply defined.
-
-
-LaTeX Warning: Label `sub@t1bin_1' multiply defined.
-
-
-LaTeX Warning: Label `t1bin_1' multiply defined.
-
-
-LaTeX Warning: Label `sub@t1bin_1' multiply defined.
-
-
-LaTeX Warning: Label `t1bin_1' multiply defined.
-
-
-LaTeX Warning: Label `sub@t1bin_1' multiply defined.
-
-
 LaTeX Warning: Label `t2comp_1' multiply defined.
 
 
@@ -903,18 +888,6 @@ LaTeX Warning: Label `t2comp_2' multiply defined.
 
 
 LaTeX Warning: Label `sub@t2comp_2' multiply defined.
-
-
-LaTeX Warning: Label `t2comp_1' multiply defined.
-
-
-LaTeX Warning: Label `sub@t2comp_1' multiply defined.
-
-
-LaTeX Warning: Label `t2comp_1' multiply defined.
-
-
-LaTeX Warning: Label `sub@t2comp_1' multiply defined.
 
 
 LaTeX Warning: Label `t2comp_1' multiply defined.
@@ -950,28 +923,28 @@ LaTeX Warning: Label `sub@t2comp_1' multiply defined.
 (./Reference/bibtex.aux))
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 79.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 80.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1039,7 +1012,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 80.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -1049,15 +1022,15 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count140
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 79.
+LaTeX Info: Redefining \microtypecontext on input line 80.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1076,7 +1049,7 @@ File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman
 
 
 (./Preface/titlepage.tex)
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 82.
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1208,7 +1181,7 @@ Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
 
 
-] [2] [3] <Images/diagram.pdf, id=508, 254.85544pt x 180.39044pt>
+] [2] [3] <Images/diagram.pdf, id=504, 254.85544pt x 180.39044pt>
 File: Images/diagram.pdf Graphic file (type pdf)
 
 <use Images/diagram.pdf>
@@ -1216,7 +1189,7 @@ Package pdftex.def Info: Images/diagram.pdf used on input line 72.
 (pdftex.def)             Requested size: 234.8775pt x 166.25574pt.
 \@tempboxb=\box39
  [4 <./Images/diagram.pdf>] [5] [6]
-<Images/lineup-dot.pdf, id=740, 433.62pt x 361.35pt>
+<Images/lineup-dot.pdf, id=736, 433.62pt x 361.35pt>
 File: Images/lineup-dot.pdf Graphic file (type pdf)
 
 <use Images/lineup-dot.pdf>
@@ -1229,7 +1202,7 @@ Package pdftex.def Info: Images/lineup-dot.pdf used on input line 117.
 
 pdfTeX warning: /usr/texbin/pdflatex (file ./Images/down_arrow.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<Images/down_arrow.pdf, id=757, 170.86836pt x 72.27pt>
+<Images/down_arrow.pdf, id=752, 170.86836pt x 72.27pt>
 File: Images/down_arrow.pdf Graphic file (type pdf)
 
 <use Images/down_arrow.pdf>
@@ -1249,7 +1222,7 @@ Overfull \hbox (17.12569pt too wide) in paragraph at lines 142--142
  [] 
  []
 
-<Images/data-dot.pdf, id=758, 269.94553pt x 184.37381pt>
+<Images/data-dot.pdf, id=753, 269.94553pt x 184.37381pt>
 File: Images/data-dot.pdf Graphic file (type pdf)
 
 <use Images/data-dot.pdf>
@@ -1278,7 +1251,7 @@ Overfull \hbox (17.12569pt too wide) in paragraph at lines 146--146
  [] 
  []
 
-<Images/two-sided-rejection.pdf, id=759, 177.16919pt x 133.15889pt>
+<Images/two-sided-rejection.pdf, id=754, 177.16919pt x 133.15889pt>
 File: Images/two-sided-rejection.pdf Graphic file (type pdf)
 
 <use Images/two-sided-rejection.pdf>
@@ -1317,7 +1290,7 @@ Overfull \hbox (17.12569pt too wide) in paragraph at lines 149--149
  [] 
  []
 
-<Images/visual-inference-plot-1.pdf, id=760, 254.85544pt x 180.39044pt>
+<Images/visual-inference-plot-1.pdf, id=755, 254.85544pt x 180.39044pt>
 File: Images/visual-inference-plot-1.pdf Graphic file (type pdf)
 
 <use Images/visual-inference-plot-1.pdf>
@@ -1354,7 +1327,7 @@ Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
 
 
-] [13] <Images/toth_lda.pdf, id=1127, 433.62pt x 433.62pt>
+] [13] <Images/toth_lda.pdf, id=1123, 433.62pt x 433.62pt>
 File: Images/toth_lda.pdf Graphic file (type pdf)
 
 <use Images/toth_lda.pdf>
@@ -1378,7 +1351,7 @@ File: Images/down_arrow.pdf Graphic file (type pdf)
 Package pdftex.def Info: Images/down_arrow.pdf used on input line 88.
 (pdftex.def)             Requested size: 170.86794pt x 72.2698pt.
 
-<Images/data-dot-rev.pdf, id=1149, 289.08pt x 216.81pt>
+<Images/data-dot-rev.pdf, id=1145, 289.08pt x 216.81pt>
 File: Images/data-dot-rev.pdf Graphic file (type pdf)
 
 <use Images/data-dot-rev.pdf>
@@ -1407,7 +1380,7 @@ Overfull \hbox (45.90524pt too wide) in paragraph at lines 94--94
  [] 
  []
 
-<Images/lineup-dot-rev.pdf, id=1150, 445.665pt x 373.395pt>
+<Images/lineup-dot-rev.pdf, id=1146, 445.665pt x 373.395pt>
 File: Images/lineup-dot-rev.pdf Graphic file (type pdf)
 
 <use Images/lineup-dot-rev.pdf>
@@ -1436,7 +1409,7 @@ Package pdftex.def Info: Images/lineup-dot-rev.pdf used on input line 110.
 
 Package natbib Warning: Citation `[' on page 18 undefined on input line 121.
 
-[18] [19] [20] [21] <Images/lineup-wasp-8.pdf, id=1204, 445.665pt x 373.395pt>
+[18] [19] [20] [21] <Images/lineup-wasp-8.pdf, id=1200, 445.665pt x 373.395pt>
 File: Images/lineup-wasp-8.pdf Graphic file (type pdf)
 
 <use Images/lineup-wasp-8.pdf>
@@ -1446,7 +1419,7 @@ Package pdftex.def Info: Images/lineup-wasp-8.pdf used on input line 188.
  [22 <./Images/lineup-wasp-8.pdf>]
 \@tempboxb=\box47
 
-<Images/noise-2-rev.pdf, id=1219, 228.855pt x 228.855pt>
+<Images/noise-2-rev.pdf, id=1215, 228.855pt x 228.855pt>
 File: Images/noise-2-rev.pdf Graphic file (type pdf)
 
 <use Images/noise-2-rev.pdf>
@@ -1462,7 +1435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--225
 n/9 (+20) 2$\T1/lmr/m/n/9 (+20) ) =
  []
 
-<Images/noise-8-rev.pdf, id=1220, 228.855pt x 228.855pt>
+<Images/noise-8-rev.pdf, id=1216, 228.855pt x 228.855pt>
 File: Images/noise-8-rev.pdf Graphic file (type pdf)
 
 <use Images/noise-8-rev.pdf>
@@ -1474,7 +1447,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--225
 n/9 (+20) 8$\T1/lmr/m/n/9 (+20) ) =
  []
 
-<Images/noise-15-rev.pdf, id=1221, 228.855pt x 228.855pt>
+<Images/noise-15-rev.pdf, id=1217, 228.855pt x 228.855pt>
 File: Images/noise-15-rev.pdf Graphic file (type pdf)
 
 <use Images/noise-15-rev.pdf>
@@ -1486,7 +1459,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--225
 n/9 (+20) 15$\T1/lmr/m/n/9 (+20) ) =
  []
 
-<Images/noise-22-rev.pdf, id=1222, 228.855pt x 228.855pt>
+<Images/noise-22-rev.pdf, id=1218, 228.855pt x 228.855pt>
 File: Images/noise-22-rev.pdf Graphic file (type pdf)
 
 <use Images/noise-22-rev.pdf>
@@ -1498,7 +1471,7 @@ Underfull \hbox (badness 5924) in paragraph at lines 225--225
 n/9 (+20) 22$\T1/lmr/m/n/9 (+20) ) =
  []
 
-<Images/noise-28-rev.pdf, id=1223, 228.855pt x 228.855pt>
+<Images/noise-28-rev.pdf, id=1219, 228.855pt x 228.855pt>
 File: Images/noise-28-rev.pdf Graphic file (type pdf)
 
 <use Images/noise-28-rev.pdf>
@@ -1519,7 +1492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--245
 []|\T1/lmr/m/n/10.95 (+20) dimension
  []
 
-[25] [26] <Images/test_statistic_1-rev.pdf, id=1282, 301.125pt x 228.855pt>
+[25] [26] <Images/test_statistic_1-rev.pdf, id=1278, 301.125pt x 228.855pt>
 File: Images/test_statistic_1-rev.pdf Graphic file (type pdf)
 
 <use Images/test_statistic_1-rev.pdf>
@@ -1527,7 +1500,7 @@ Package pdftex.def Info: Images/test_statistic_1-rev.pdf used on input line 292
 .
 (pdftex.def)             Requested size: 180.67499pt x 137.31754pt.
 
-<Images/test_statistic_2-rev.pdf, id=1283, 301.125pt x 228.855pt>
+<Images/test_statistic_2-rev.pdf, id=1279, 301.125pt x 228.855pt>
 File: Images/test_statistic_2-rev.pdf Graphic file (type pdf)
 
 <use Images/test_statistic_2-rev.pdf>
@@ -1540,7 +1513,7 @@ Package pdftex.def Info: Images/test_statistic_2-rev.pdf used on input line 292
 Package natbib Warning: Citation `[' on page 27 undefined on input line 299.
 
 [27 <./Images/test_statistic_1-rev.pdf> <./Images/test_statistic_2-rev.pdf>]
-<Images/lineup-20-real-1-17-rev.pdf, id=1307, 445.665pt x 373.395pt>
+<Images/lineup-20-real-1-17-rev.pdf, id=1303, 445.665pt x 373.395pt>
 File: Images/lineup-20-real-1-17-rev.pdf Graphic file (type pdf)
 
 <use Images/lineup-20-real-1-17-rev.pdf>
@@ -1549,7 +1522,7 @@ Package pdftex.def Info: Images/lineup-20-real-1-17-rev.pdf used on input line
 (pdftex.def)             Requested size: 445.66391pt x 373.39409pt.
 \@tempboxb=\box51
 
-<Images/lineup-100-noise-2-20-rev.pdf, id=1308, 445.665pt x 373.395pt>
+<Images/lineup-100-noise-2-20-rev.pdf, id=1304, 445.665pt x 373.395pt>
 File: Images/lineup-100-noise-2-20-rev.pdf Graphic file (type pdf)
 
 <use Images/lineup-100-noise-2-20-rev.pdf>
@@ -1559,7 +1532,7 @@ e 313.
 \@tempboxb=\box52
  [28 <./Images/lineup-20-real-1-17-rev.pdf>] [29 <./Images/lineup-100-noise-2-2
 0-rev.pdf>]
-<Images/detection-rate-rep-int-glm-rev.pdf, id=1333, 505.89pt x 505.89pt>
+<Images/detection-rate-rep-int-glm-rev.pdf, id=1329, 505.89pt x 505.89pt>
 File: Images/detection-rate-rep-int-glm-rev.pdf Graphic file (type pdf)
 
 <use Images/detection-rate-rep-int-glm-rev.pdf>
@@ -1570,7 +1543,7 @@ t line 340.
  [30]
 \@tempboxb=\box54
  [31 <./Images/detection-rate-rep-int-glm-rev.pdf>]
-<Images/time-taken-log-bands-1.pdf, id=1353, 614.295pt x 289.08pt>
+<Images/time-taken-log-bands-1.pdf, id=1349, 614.295pt x 289.08pt>
 File: Images/time-taken-log-bands-1.pdf Graphic file (type pdf)
 
 <use Images/time-taken-log-bands-1.pdf>
@@ -1579,14 +1552,14 @@ Package pdftex.def Info: Images/time-taken-log-bands-1.pdf used on input line 3
 (pdftex.def)             Requested size: 614.29349pt x 289.07928pt.
 \@tempboxb=\box55
  [32]
-<Images/avg-sep-1.pdf, id=1359, 361.35pt x 433.62pt>
+<Images/avg-sep-1.pdf, id=1355, 361.35pt x 433.62pt>
 File: Images/avg-sep-1.pdf Graphic file (type pdf)
 
 <use Images/avg-sep-1.pdf>
 Package pdftex.def Info: Images/avg-sep-1.pdf used on input line 401.
 (pdftex.def)             Requested size: 216.81pt x 260.17401pt.
 
-<Images/avg-sep-2.pdf, id=1360, 361.35pt x 433.62pt>
+<Images/avg-sep-2.pdf, id=1356, 361.35pt x 433.62pt>
 File: Images/avg-sep-2.pdf Graphic file (type pdf)
 
 <use Images/avg-sep-2.pdf>
@@ -1595,7 +1568,7 @@ Package pdftex.def Info: Images/avg-sep-2.pdf used on input line 401.
 \@tempboxb=\box56
  [33 <./Images/time-taken-log-bands-1.pdf>] [34 <./Images/avg-sep-1.pdf> <./Ima
 ges/avg-sep-2.pdf>]
-<Images/detection-diff-avg-sep-1.pdf, id=1395, 332.24126pt x 289.08pt>
+<Images/detection-diff-avg-sep-1.pdf, id=1391, 332.24126pt x 289.08pt>
 File: Images/detection-diff-avg-sep-1.pdf Graphic file (type pdf)
 
 <use Images/detection-diff-avg-sep-1.pdf>
@@ -1603,7 +1576,7 @@ Package pdftex.def Info: Images/detection-diff-avg-sep-1.pdf used on input line
  414.
 (pdftex.def)             Requested size: 216.81pt x 188.64522pt.
 
-<Images/detection-diff-avg-sep-2.pdf, id=1396, 332.24126pt x 289.08pt>
+<Images/detection-diff-avg-sep-2.pdf, id=1392, 332.24126pt x 289.08pt>
 File: Images/detection-diff-avg-sep-2.pdf Graphic file (type pdf)
 
 <use Images/detection-diff-avg-sep-2.pdf>
@@ -1611,7 +1584,7 @@ Package pdftex.def Info: Images/detection-diff-avg-sep-2.pdf used on input line
  417.
 (pdftex.def)             Requested size: 216.81pt x 188.64522pt.
 
-<Images/mtime-diff-avg-sep-1.pdf, id=1397, 332.24126pt x 289.08pt>
+<Images/mtime-diff-avg-sep-1.pdf, id=1393, 332.24126pt x 289.08pt>
 File: Images/mtime-diff-avg-sep-1.pdf Graphic file (type pdf)
 
 <use Images/mtime-diff-avg-sep-1.pdf>
@@ -1619,7 +1592,7 @@ Package pdftex.def Info: Images/mtime-diff-avg-sep-1.pdf used on input line 420
 .
 (pdftex.def)             Requested size: 216.81pt x 188.64522pt.
 
-<Images/mtime-diff-avg-sep-2.pdf, id=1398, 332.24126pt x 289.08pt>
+<Images/mtime-diff-avg-sep-2.pdf, id=1394, 332.24126pt x 289.08pt>
 File: Images/mtime-diff-avg-sep-2.pdf Graphic file (type pdf)
 
 <use Images/mtime-diff-avg-sep-2.pdf>
@@ -1634,14 +1607,6 @@ df>]) [37]
 
  (./Body/chapter3.tex
 CHAPTER\  3.
-
-Package natbib Warning: Citation `majumder:2011' on page 38 undefined on input 
-line 31.
-
-
-Package natbib Warning: Citation `majumder:2011' on page 38 undefined on input 
-line 33.
-
 
 Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
@@ -1663,38 +1628,38 @@ Package pdftex.def Info: Images/visual-inference-plot-1.pdf used on input line
 \@tempboxb=\box58
  [39]
 [40] [41] [42]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
-[43] <Images/dat-example-1.pdf, id=1478, 289.08pt x 252.945pt>
+[43] <Images/dat-example-1.pdf, id=1474, 289.08pt x 252.945pt>
 File: Images/dat-example-1.pdf Graphic file (type pdf)
 
 <use Images/dat-example-1.pdf>
-Package pdftex.def Info: Images/dat-example-1.pdf used on input line 253.
+Package pdftex.def Info: Images/dat-example-1.pdf used on input line 255.
 (pdftex.def)             Requested size: 158.99448pt x 139.12018pt.
 
-<Images/bin-example-2.pdf, id=1479, 289.08pt x 252.945pt>
+<Images/bin-example-2.pdf, id=1475, 289.08pt x 252.945pt>
 File: Images/bin-example-2.pdf Graphic file (type pdf)
 
 <use Images/bin-example-2.pdf>
-Package pdftex.def Info: Images/bin-example-2.pdf used on input line 253.
+Package pdftex.def Info: Images/bin-example-2.pdf used on input line 255.
 (pdftex.def)             Requested size: 158.99448pt x 139.12018pt.
 
-<Images/dat-example-2.pdf, id=1480, 289.08pt x 252.945pt>
+<Images/dat-example-2.pdf, id=1476, 289.08pt x 252.945pt>
 File: Images/dat-example-2.pdf Graphic file (type pdf)
 
 <use Images/dat-example-2.pdf>
-Package pdftex.def Info: Images/dat-example-2.pdf used on input line 259.
+Package pdftex.def Info: Images/dat-example-2.pdf used on input line 261.
 (pdftex.def)             Requested size: 158.99448pt x 139.12018pt.
 File: Images/bin-example-2.pdf Graphic file (type pdf)
  <use Images/bin-example-2.pdf>
-Package pdftex.def Info: Images/bin-example-2.pdf used on input line 259.
+Package pdftex.def Info: Images/bin-example-2.pdf used on input line 261.
 (pdftex.def)             Requested size: 158.99448pt x 139.12018pt.
 \@tempboxb=\box59
  [44] [45 <./Images/dat-example-1.pdf> <./Images/bin-example-2.pdf> <./Images/d
 at-example-2.pdf>]
-Overfull \hbox (32.46349pt too wide) detected at line 323
+Overfull \hbox (32.46349pt too wide) detected at line 325
 \OML/lmm/m/it/10.95 d[]\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X; Y\OT1/lmr/m/n
 /10.95 ) := [](\OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 X\O
 T1/lmr/m/n/10.95 ) \OMS/lmsy/m/n/10.95 ^^@ \OML/lmm/m/it/10.95 B\OT1/lmr/m/n/10
@@ -1709,22 +1674,22 @@ lmr/m/n/10.95 ))[] \OMS/lmsy/m/n/10.95 ^^@ \OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10
 OT1/lmr/m/n/10.95 (\OML/lmm/m/it/10.95 Y\OT1/lmr/m/n/10.95 ))[])[]
  []
 
-[46] <Images/ave-min-sep.pdf, id=1516, 397.485pt x 397.485pt>
+[46] <Images/ave-min-sep.pdf, id=1512, 397.485pt x 397.485pt>
 File: Images/ave-min-sep.pdf Graphic file (type pdf)
 
 <use Images/ave-min-sep.pdf>
-Package pdftex.def Info: Images/ave-min-sep.pdf used on input line 343.
-(pdftex.def)             Requested size: 298.113pt x 298.113pt.
+Package pdftex.def Info: Images/ave-min-sep.pdf used on input line 345.
+(pdftex.def)             Requested size: 317.98842pt x 317.98842pt.
 \@tempboxb=\box60
  [47] [48 <./Images/ave-min-sep.pdf>] [49]
-<Images/dist-example.pdf, id=1548, 397.485pt x 361.35pt>
+<Images/dist-example.pdf, id=1542, 397.485pt x 361.35pt>
 File: Images/dist-example.pdf Graphic file (type pdf)
 
 <use Images/dist-example.pdf>
 Package pdftex.def Info: Images/dist-example.pdf used on input line 421.
 (pdftex.def)             Requested size: 218.61742pt x 198.74312pt.
 
-<Images/dist-metric.pdf, id=1549, 325.215pt x 289.08pt>
+<Images/dist-metric.pdf, id=1543, 325.215pt x 289.08pt>
 File: Images/dist-metric.pdf Graphic file (type pdf)
 
 <use Images/dist-metric.pdf>
@@ -1732,14 +1697,14 @@ Package pdftex.def Info: Images/dist-metric.pdf used on input line 425.
 (pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
 \@tempboxb=\box61
 
-<Images/dist-example-2.pdf, id=1550, 397.485pt x 361.35pt>
+<Images/dist-example-2.pdf, id=1544, 397.485pt x 361.35pt>
 File: Images/dist-example-2.pdf Graphic file (type pdf)
 
 <use Images/dist-example-2.pdf>
 Package pdftex.def Info: Images/dist-example-2.pdf used on input line 437.
 (pdftex.def)             Requested size: 218.61742pt x 198.74312pt.
 
-<Images/dist-metric-2.pdf, id=1551, 325.215pt x 289.08pt>
+<Images/dist-metric-2.pdf, id=1545, 325.215pt x 289.08pt>
 File: Images/dist-metric-2.pdf Graphic file (type pdf)
 
 <use Images/dist-metric-2.pdf>
@@ -1747,14 +1712,14 @@ Package pdftex.def Info: Images/dist-metric-2.pdf used on input line 441.
 (pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
 \@tempboxb=\box62
  [50 <./Images/dist-example.pdf> <./Images/dist-metric.pdf>] <Images/plot-type-
-sca.pdf, id=1577, 397.485pt x 361.35pt>
+sca.pdf, id=1573, 397.485pt x 361.35pt>
 File: Images/plot-type-sca.pdf Graphic file (type pdf)
 
 <use Images/plot-type-sca.pdf>
 Package pdftex.def Info: Images/plot-type-sca.pdf used on input line 459.
 (pdftex.def)             Requested size: 218.61742pt x 198.74312pt.
 
-<Images/plot-type-reg-line.pdf, id=1578, 397.485pt x 361.35pt>
+<Images/plot-type-reg-line.pdf, id=1574, 397.485pt x 361.35pt>
 File: Images/plot-type-reg-line.pdf Graphic file (type pdf)
 
 <use Images/plot-type-reg-line.pdf>
@@ -1765,385 +1730,329 @@ Package pdftex.def Info: Images/plot-type-reg-line.pdf used on input line 463.
 plot-type-sca.pdf> <./Images/plot-type-reg-line.pdf>] [53]
 \@tempboxb=\box64
 
-Underfull \hbox (badness 1931) in paragraph at lines 559--559
+Underfull \hbox (badness 1931) in paragraph at lines 560--560
 []|\T1/lmr/m/n/10.95 (+20) Type of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 []|\T1/lmr/m/n/10.95 (+20) Linear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--563
+Underfull \hbox (badness 10000) in paragraph at lines 564--564
 \T1/lmr/m/n/10.95 (+20) as-so-ci-a-
  []
 
-<Images/anscombe-1.pdf, id=1636, 289.08pt x 289.08pt>
+<Images/anscombe-1.pdf, id=1632, 289.08pt x 289.08pt>
 File: Images/anscombe-1.pdf Graphic file (type pdf)
 
 <use Images/anscombe-1.pdf>
-Package pdftex.def Info: Images/anscombe-1.pdf used on input line 563.
+Package pdftex.def Info: Images/anscombe-1.pdf used on input line 564.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 563--563
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 564--564
  [] 
  []
 
 
-Overfull \hbox (1.68513pt too wide) in paragraph at lines 563--563
+Overfull \hbox (1.68513pt too wide) in paragraph at lines 564--564
 []|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-<Images/anscombe-null-1.pdf, id=1637, 289.08pt x 289.08pt>
+<Images/anscombe-null-1.pdf, id=1633, 289.08pt x 289.08pt>
 File: Images/anscombe-null-1.pdf Graphic file (type pdf)
 
 <use Images/anscombe-null-1.pdf>
-Package pdftex.def Info: Images/anscombe-null-1.pdf used on input line 563.
+Package pdftex.def Info: Images/anscombe-null-1.pdf used on input line 564.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 563--563
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 564--564
  [] 
  []
 
-<Images/anscombe-nbin-1.pdf, id=1638, 361.35pt x 289.08pt>
+<Images/anscombe-nbin-1.pdf, id=1634, 361.35pt x 289.08pt>
 File: Images/anscombe-nbin-1.pdf Graphic file (type pdf)
 
 <use Images/anscombe-nbin-1.pdf>
-Package pdftex.def Info: Images/anscombe-nbin-1.pdf used on input line 563.
+Package pdftex.def Info: Images/anscombe-nbin-1.pdf used on input line 564.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 563--563
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 564--564
  [] 
  []
 
 
-Overfull \hbox (2.73828pt too wide) in paragraph at lines 565--565
+Overfull \hbox (2.73828pt too wide) in paragraph at lines 566--566
 []|\T1/lmr/m/n/10.95 (-20) Nonlinear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--565
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
 \T1/lmr/m/n/10.95 (+20) re-la-tion-
  []
 
-<Images/anscombe-2.pdf, id=1639, 289.08pt x 289.08pt>
+<Images/anscombe-2.pdf, id=1635, 289.08pt x 289.08pt>
 File: Images/anscombe-2.pdf Graphic file (type pdf)
 
 <use Images/anscombe-2.pdf>
-Package pdftex.def Info: Images/anscombe-2.pdf used on input line 565.
+Package pdftex.def Info: Images/anscombe-2.pdf used on input line 566.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 565--565
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 566--566
  [] 
  []
 
 
-Overfull \hbox (1.68513pt too wide) in paragraph at lines 565--565
+Overfull \hbox (1.68513pt too wide) in paragraph at lines 566--566
 []|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-<Images/anscombe-null-2.pdf, id=1640, 289.08pt x 289.08pt>
+<Images/anscombe-null-2.pdf, id=1636, 289.08pt x 289.08pt>
 File: Images/anscombe-null-2.pdf Graphic file (type pdf)
 
 <use Images/anscombe-null-2.pdf>
-Package pdftex.def Info: Images/anscombe-null-2.pdf used on input line 565.
+Package pdftex.def Info: Images/anscombe-null-2.pdf used on input line 566.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 565--565
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 566--566
  [] 
  []
 
-<Images/anscombe-nbin-2.pdf, id=1641, 361.35pt x 289.08pt>
+<Images/anscombe-nbin-2.pdf, id=1637, 361.35pt x 289.08pt>
 File: Images/anscombe-nbin-2.pdf Graphic file (type pdf)
 
 <use Images/anscombe-nbin-2.pdf>
-Package pdftex.def Info: Images/anscombe-nbin-2.pdf used on input line 565.
+Package pdftex.def Info: Images/anscombe-nbin-2.pdf used on input line 566.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 565--565
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 566--566
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 []|\T1/lmr/m/n/10.95 (+20) Linear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/lmr/m/n/10.95 (+20) re-la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 568--568
 \T1/lmr/m/n/10.95 (+20) with
  []
 
-<Images/anscombe-3.pdf, id=1642, 289.08pt x 289.08pt>
+<Images/anscombe-3.pdf, id=1638, 289.08pt x 289.08pt>
 File: Images/anscombe-3.pdf Graphic file (type pdf)
 
 <use Images/anscombe-3.pdf>
-Package pdftex.def Info: Images/anscombe-3.pdf used on input line 567.
+Package pdftex.def Info: Images/anscombe-3.pdf used on input line 568.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 567--567
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 568--568
  [] 
  []
 
 
-Overfull \hbox (1.68513pt too wide) in paragraph at lines 567--567
+Overfull \hbox (1.68513pt too wide) in paragraph at lines 568--568
 []|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-<Images/anscombe-null-3.pdf, id=1643, 289.08pt x 289.08pt>
+<Images/anscombe-null-3.pdf, id=1639, 289.08pt x 289.08pt>
 File: Images/anscombe-null-3.pdf Graphic file (type pdf)
 
 <use Images/anscombe-null-3.pdf>
-Package pdftex.def Info: Images/anscombe-null-3.pdf used on input line 567.
+Package pdftex.def Info: Images/anscombe-null-3.pdf used on input line 568.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 567--567
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 568--568
  [] 
  []
 
-<Images/anscombe-nbin-3.pdf, id=1644, 361.35pt x 289.08pt>
+<Images/anscombe-nbin-3.pdf, id=1640, 361.35pt x 289.08pt>
 File: Images/anscombe-nbin-3.pdf Graphic file (type pdf)
 
 <use Images/anscombe-nbin-3.pdf>
-Package pdftex.def Info: Images/anscombe-nbin-3.pdf used on input line 567.
+Package pdftex.def Info: Images/anscombe-nbin-3.pdf used on input line 568.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 567--567
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 568--568
  [] 
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 569--569
+Underfull \hbox (badness 1259) in paragraph at lines 570--570
 \T1/lmr/m/n/10.95 (+20) one out-
  []
 
-<Images/anscombe-4.pdf, id=1645, 289.08pt x 289.08pt>
+<Images/anscombe-4.pdf, id=1641, 289.08pt x 289.08pt>
 File: Images/anscombe-4.pdf Graphic file (type pdf)
 
 <use Images/anscombe-4.pdf>
-Package pdftex.def Info: Images/anscombe-4.pdf used on input line 569.
+Package pdftex.def Info: Images/anscombe-4.pdf used on input line 570.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 569--569
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 570--570
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []|\T1/lmr/m/n/10.95 (+20) Simulation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 \T1/lmr/m/n/10.95 (+20) from a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 569--569
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 \T1/lmr/m/it/10.95 (+20) Poi(9)
  []
 
-<Images/anscombe-null-4.pdf, id=1646, 289.08pt x 289.08pt>
+<Images/anscombe-null-4.pdf, id=1642, 289.08pt x 289.08pt>
 File: Images/anscombe-null-4.pdf Graphic file (type pdf)
 
 <use Images/anscombe-null-4.pdf>
-Package pdftex.def Info: Images/anscombe-null-4.pdf used on input line 569.
+Package pdftex.def Info: Images/anscombe-null-4.pdf used on input line 570.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 569--569
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 570--570
  [] 
  []
 
-<Images/anscombe-nbin-4.pdf, id=1647, 361.35pt x 289.08pt>
+<Images/anscombe-nbin-4.pdf, id=1643, 361.35pt x 289.08pt>
 File: Images/anscombe-nbin-4.pdf Graphic file (type pdf)
 
 <use Images/anscombe-nbin-4.pdf>
-Package pdftex.def Info: Images/anscombe-nbin-4.pdf used on input line 569.
+Package pdftex.def Info: Images/anscombe-nbin-4.pdf used on input line 570.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 569--569
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 570--570
  [] 
  []
 
-<Images/data1.pdf, id=1648, 289.08pt x 289.08pt>
+<Images/data1.pdf, id=1644, 289.08pt x 289.08pt>
 File: Images/data1.pdf Graphic file (type pdf)
  <use Images/data1.pdf>
-Package pdftex.def Info: Images/data1.pdf used on input line 571.
+Package pdftex.def Info: Images/data1.pdf used on input line 572.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 571--571
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 572--572
  [] 
  []
 
 
-Overfull \hbox (1.68513pt too wide) in paragraph at lines 571--571
+Overfull \hbox (1.68513pt too wide) in paragraph at lines 572--572
 []|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-<Images/null1.pdf, id=1649, 289.08pt x 289.08pt>
+<Images/null1.pdf, id=1645, 289.08pt x 289.08pt>
 File: Images/null1.pdf Graphic file (type pdf)
  <use Images/null1.pdf>
-Package pdftex.def Info: Images/null1.pdf used on input line 571.
+Package pdftex.def Info: Images/null1.pdf used on input line 572.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 571--571
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 572--572
  [] 
  []
 
-<Images/bin-select-plot1.pdf, id=1650, 361.35pt x 289.08pt>
+<Images/bin-select-plot1.pdf, id=1646, 361.35pt x 289.08pt>
 File: Images/bin-select-plot1.pdf Graphic file (type pdf)
 
 <use Images/bin-select-plot1.pdf>
-Package pdftex.def Info: Images/bin-select-plot1.pdf used on input line 571.
+Package pdftex.def Info: Images/bin-select-plot1.pdf used on input line 572.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 571--571
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 572--572
  [] 
  []
 
 
-Overfull \hbox (67.85849pt too wide) in paragraph at lines 557--583
+Overfull \hbox (10.40942pt too wide) in paragraph at lines 574--574
+[]|\T1/lmr/m/n/10.95 (-20) Categorical| 
+ []
+
+<Images/data2.pdf, id=1647, 289.08pt x 289.08pt>
+File: Images/data2.pdf Graphic file (type pdf)
+ <use Images/data2.pdf>
+Package pdftex.def Info: Images/data2.pdf used on input line 574.
+(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
+
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 574--574
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+[]|\T1/lmr/m/n/10.95 (+20) Simulation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+\T1/lmr/m/n/10.95 (+20) from a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 574--574
+\T1/lmr/m/n/10.95 (+20) Nor-mal
+ []
+
+<Images/null2.pdf, id=1648, 289.08pt x 289.08pt>
+File: Images/null2.pdf Graphic file (type pdf)
+ <use Images/null2.pdf>
+Package pdftex.def Info: Images/null2.pdf used on input line 574.
+(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
+
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 574--574
+ [] 
+ []
+
+<Images/bin-select-plot2.pdf, id=1649, 361.35pt x 289.08pt>
+File: Images/bin-select-plot2.pdf Graphic file (type pdf)
+
+<use Images/bin-select-plot2.pdf>
+Package pdftex.def Info: Images/bin-select-plot2.pdf used on input line 574.
+(pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
+
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 574--574
+ [] 
+ []
+
+
+Overfull \hbox (53.63211pt too wide) in paragraph at lines 558--586
  [][] 
  []
 
 \@tempboxb=\box65
 
-Underfull \hbox (badness 1931) in paragraph at lines 591--591
+Underfull \hbox (badness 1931) in paragraph at lines 595--595
 []|\T1/lmr/m/n/10.95 (+20) Type of
  []
 
 
-Overfull \hbox (10.40942pt too wide) in paragraph at lines 593--593
-[]|\T1/lmr/m/n/10.95 (-20) Categorical| 
- []
-
-<Images/data2.pdf, id=1651, 289.08pt x 289.08pt>
-File: Images/data2.pdf Graphic file (type pdf)
- <use Images/data2.pdf>
-Package pdftex.def Info: Images/data2.pdf used on input line 593.
-(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
-
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 593--593
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
-[]|\T1/lmr/m/n/10.95 (+20) Simulation
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
-\T1/lmr/m/n/10.95 (+20) from a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 593--593
-\T1/lmr/m/n/10.95 (+20) Nor-mal
- []
-
-<Images/null2.pdf, id=1652, 289.08pt x 289.08pt>
-File: Images/null2.pdf Graphic file (type pdf)
- <use Images/null2.pdf>
-Package pdftex.def Info: Images/null2.pdf used on input line 593.
-(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
-
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 593--593
- [] 
- []
-
-<Images/bin-select-plot2.pdf, id=1653, 361.35pt x 289.08pt>
-File: Images/bin-select-plot2.pdf Graphic file (type pdf)
-
-<use Images/bin-select-plot2.pdf>
-Package pdftex.def Info: Images/bin-select-plot2.pdf used on input line 593.
-(pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
-
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 593--593
- [] 
- []
-
-
-Overfull \hbox (2.73828pt too wide) in paragraph at lines 595--595
+Overfull \hbox (2.73828pt too wide) in paragraph at lines 597--597
 []|\T1/lmr/m/n/10.95 (-20) Nonlinear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \T1/lmr/m/n/10.95 (+20) re-la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--595
+Underfull \hbox (badness 10000) in paragraph at lines 597--597
 \T1/lmr/m/n/10.95 (+20) with
  []
 
-<Images/data3.pdf, id=1654, 289.08pt x 289.08pt>
+<Images/data3.pdf, id=1650, 289.08pt x 289.08pt>
 File: Images/data3.pdf Graphic file (type pdf)
  <use Images/data3.pdf>
-Package pdftex.def Info: Images/data3.pdf used on input line 595.
-(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
-
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 595--595
- [] 
- []
-
-
-Overfull \hbox (1.68513pt too wide) in paragraph at lines 595--595
-[]|\T1/lmr/m/n/10.95 (-20) Permutation| 
- []
-
-<Images/null3.pdf, id=1655, 289.08pt x 289.08pt>
-File: Images/null3.pdf Graphic file (type pdf)
- <use Images/null3.pdf>
-Package pdftex.def Info: Images/null3.pdf used on input line 595.
-(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
-
-Overfull \hbox (29.5907pt too wide) in paragraph at lines 595--595
- [] 
- []
-
-<Images/bin-select-plot3.pdf, id=1656, 361.35pt x 289.08pt>
-File: Images/bin-select-plot3.pdf Graphic file (type pdf)
-
-<use Images/bin-select-plot3.pdf>
-Package pdftex.def Info: Images/bin-select-plot3.pdf used on input line 595.
-(pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
-
-Overfull \hbox (47.65816pt too wide) in paragraph at lines 595--595
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
-[]|\T1/lmr/m/n/10.95 (+20) Linear
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
-\T1/lmr/m/n/10.95 (+20) re-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
-\T1/lmr/m/n/10.95 (+20) tion-ship
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 597--597
-\T1/lmr/m/n/10.95 (+20) with
- []
-
-<Images/data5.pdf, id=1657, 289.08pt x 289.08pt>
-File: Images/data5.pdf Graphic file (type pdf)
- <use Images/data5.pdf>
-Package pdftex.def Info: Images/data5.pdf used on input line 597.
+Package pdftex.def Info: Images/data3.pdf used on input line 597.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 597--597
@@ -2155,21 +2064,21 @@ Overfull \hbox (1.68513pt too wide) in paragraph at lines 597--597
 []|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-<Images/null5.pdf, id=1658, 289.08pt x 289.08pt>
-File: Images/null5.pdf Graphic file (type pdf)
- <use Images/null5.pdf>
-Package pdftex.def Info: Images/null5.pdf used on input line 597.
+<Images/null3.pdf, id=1651, 289.08pt x 289.08pt>
+File: Images/null3.pdf Graphic file (type pdf)
+ <use Images/null3.pdf>
+Package pdftex.def Info: Images/null3.pdf used on input line 597.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 597--597
  [] 
  []
 
-<Images/bin-select-plot5.pdf, id=1659, 361.35pt x 289.08pt>
-File: Images/bin-select-plot5.pdf Graphic file (type pdf)
+<Images/bin-select-plot3.pdf, id=1652, 361.35pt x 289.08pt>
+File: Images/bin-select-plot3.pdf Graphic file (type pdf)
 
-<use Images/bin-select-plot5.pdf>
-Package pdftex.def Info: Images/bin-select-plot5.pdf used on input line 597.
+<use Images/bin-select-plot3.pdf>
+Package pdftex.def Info: Images/bin-select-plot3.pdf used on input line 597.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
 Overfull \hbox (47.65816pt too wide) in paragraph at lines 597--597
@@ -2178,13 +2087,28 @@ Overfull \hbox (47.65816pt too wide) in paragraph at lines 597--597
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 599--599
-[]|\T1/lmr/m/n/10.95 (+20) Residual
+[]|\T1/lmr/m/n/10.95 (+20) Linear
  []
 
-<Images/data4.pdf, id=1660, 289.08pt x 289.08pt>
-File: Images/data4.pdf Graphic file (type pdf)
- <use Images/data4.pdf>
-Package pdftex.def Info: Images/data4.pdf used on input line 599.
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
+\T1/lmr/m/n/10.95 (+20) re-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
+\T1/lmr/m/n/10.95 (+20) tion-ship
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 599--599
+\T1/lmr/m/n/10.95 (+20) with
+ []
+
+<Images/data5.pdf, id=1653, 289.08pt x 289.08pt>
+File: Images/data5.pdf Graphic file (type pdf)
+ <use Images/data5.pdf>
+Package pdftex.def Info: Images/data5.pdf used on input line 599.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 599--599
@@ -2192,30 +2116,25 @@ Overfull \hbox (29.5907pt too wide) in paragraph at lines 599--599
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
-[]|\T1/lmr/m/n/10.95 (+20) Simulation
+Overfull \hbox (1.68513pt too wide) in paragraph at lines 599--599
+[]|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 599--599
-\T1/lmr/m/n/10.95 (+20) from the
- []
-
-<Images/null4.pdf, id=1661, 289.08pt x 289.08pt>
-File: Images/null4.pdf Graphic file (type pdf)
- <use Images/null4.pdf>
-Package pdftex.def Info: Images/null4.pdf used on input line 599.
+<Images/null5.pdf, id=1654, 289.08pt x 289.08pt>
+File: Images/null5.pdf Graphic file (type pdf)
+ <use Images/null5.pdf>
+Package pdftex.def Info: Images/null5.pdf used on input line 599.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 599--599
  [] 
  []
 
-<Images/bin-select-plot4.pdf, id=1662, 361.35pt x 289.08pt>
-File: Images/bin-select-plot4.pdf Graphic file (type pdf)
+<Images/bin-select-plot5.pdf, id=1655, 361.35pt x 289.08pt>
+File: Images/bin-select-plot5.pdf Graphic file (type pdf)
 
-<use Images/bin-select-plot4.pdf>
-Package pdftex.def Info: Images/bin-select-plot4.pdf used on input line 599.
+<use Images/bin-select-plot5.pdf>
+Package pdftex.def Info: Images/bin-select-plot5.pdf used on input line 599.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
 Overfull \hbox (47.65816pt too wide) in paragraph at lines 599--599
@@ -2227,10 +2146,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 601--601
 []|\T1/lmr/m/n/10.95 (+20) Residual
  []
 
-<Images/data6.pdf, id=1663, 289.08pt x 289.08pt>
-File: Images/data6.pdf Graphic file (type pdf)
- <use Images/data6.pdf>
-Package pdftex.def Info: Images/data6.pdf used on input line 601.
+<Images/data4.pdf, id=1656, 289.08pt x 289.08pt>
+File: Images/data4.pdf Graphic file (type pdf)
+ <use Images/data4.pdf>
+Package pdftex.def Info: Images/data4.pdf used on input line 601.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 601--601
@@ -2247,21 +2166,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 601--601
 \T1/lmr/m/n/10.95 (+20) from the
  []
 
-<Images/null6.pdf, id=1664, 289.08pt x 289.08pt>
-File: Images/null6.pdf Graphic file (type pdf)
- <use Images/null6.pdf>
-Package pdftex.def Info: Images/null6.pdf used on input line 601.
+<Images/null4.pdf, id=1657, 289.08pt x 289.08pt>
+File: Images/null4.pdf Graphic file (type pdf)
+ <use Images/null4.pdf>
+Package pdftex.def Info: Images/null4.pdf used on input line 601.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 601--601
  [] 
  []
 
-<Images/bin-select-plot6.pdf, id=1665, 361.35pt x 289.08pt>
-File: Images/bin-select-plot6.pdf Graphic file (type pdf)
+<Images/bin-select-plot4.pdf, id=1658, 361.35pt x 289.08pt>
+File: Images/bin-select-plot4.pdf Graphic file (type pdf)
 
-<use Images/bin-select-plot6.pdf>
-Package pdftex.def Info: Images/bin-select-plot6.pdf used on input line 601.
+<use Images/bin-select-plot4.pdf>
+Package pdftex.def Info: Images/bin-select-plot4.pdf used on input line 601.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
 Overfull \hbox (47.65816pt too wide) in paragraph at lines 601--601
@@ -2270,13 +2189,13 @@ Overfull \hbox (47.65816pt too wide) in paragraph at lines 601--601
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 603--603
-[]|\T1/lmr/m/n/10.95 (+20) Spiral
+[]|\T1/lmr/m/n/10.95 (+20) Residual
  []
 
-<Images/data7.pdf, id=1666, 289.08pt x 289.08pt>
-File: Images/data7.pdf Graphic file (type pdf)
- <use Images/data7.pdf>
-Package pdftex.def Info: Images/data7.pdf used on input line 603.
+<Images/data6.pdf, id=1659, 289.08pt x 289.08pt>
+File: Images/data6.pdf Graphic file (type pdf)
+ <use Images/data6.pdf>
+Package pdftex.def Info: Images/data6.pdf used on input line 603.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 603--603
@@ -2284,25 +2203,30 @@ Overfull \hbox (29.5907pt too wide) in paragraph at lines 603--603
  []
 
 
-Overfull \hbox (1.68513pt too wide) in paragraph at lines 603--603
-[]|\T1/lmr/m/n/10.95 (-20) Permutation| 
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+[]|\T1/lmr/m/n/10.95 (+20) Simulation
  []
 
-<Images/null7.pdf, id=1667, 289.08pt x 289.08pt>
-File: Images/null7.pdf Graphic file (type pdf)
- <use Images/null7.pdf>
-Package pdftex.def Info: Images/null7.pdf used on input line 603.
+
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
+\T1/lmr/m/n/10.95 (+20) from the
+ []
+
+<Images/null6.pdf, id=1660, 289.08pt x 289.08pt>
+File: Images/null6.pdf Graphic file (type pdf)
+ <use Images/null6.pdf>
+Package pdftex.def Info: Images/null6.pdf used on input line 603.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 603--603
  [] 
  []
 
-<Images/bin-select-plot7.pdf, id=1668, 361.35pt x 289.08pt>
-File: Images/bin-select-plot7.pdf Graphic file (type pdf)
+<Images/bin-select-plot6.pdf, id=1661, 361.35pt x 289.08pt>
+File: Images/bin-select-plot6.pdf Graphic file (type pdf)
 
-<use Images/bin-select-plot7.pdf>
-Package pdftex.def Info: Images/bin-select-plot7.pdf used on input line 603.
+<use Images/bin-select-plot6.pdf>
+Package pdftex.def Info: Images/bin-select-plot6.pdf used on input line 603.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
 Overfull \hbox (47.65816pt too wide) in paragraph at lines 603--603
@@ -2310,14 +2234,14 @@ Overfull \hbox (47.65816pt too wide) in paragraph at lines 603--603
  []
 
 
-Overfull \hbox (23.78676pt too wide) in paragraph at lines 605--605
-[]|\T1/lmr/m/n/10.95 (-20) Contaminated
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+[]|\T1/lmr/m/n/10.95 (+20) Spiral
  []
 
-<Images/data8.pdf, id=1669, 289.08pt x 289.08pt>
-File: Images/data8.pdf Graphic file (type pdf)
- <use Images/data8.pdf>
-Package pdftex.def Info: Images/data8.pdf used on input line 605.
+<Images/data7.pdf, id=1662, 289.08pt x 289.08pt>
+File: Images/data7.pdf Graphic file (type pdf)
+ <use Images/data7.pdf>
+Package pdftex.def Info: Images/data7.pdf used on input line 605.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 605--605
@@ -2329,21 +2253,21 @@ Overfull \hbox (1.68513pt too wide) in paragraph at lines 605--605
 []|\T1/lmr/m/n/10.95 (-20) Permutation| 
  []
 
-<Images/null8.pdf, id=1670, 289.08pt x 289.08pt>
-File: Images/null8.pdf Graphic file (type pdf)
- <use Images/null8.pdf>
-Package pdftex.def Info: Images/null8.pdf used on input line 605.
+<Images/null7.pdf, id=1663, 289.08pt x 289.08pt>
+File: Images/null7.pdf Graphic file (type pdf)
+ <use Images/null7.pdf>
+Package pdftex.def Info: Images/null7.pdf used on input line 605.
 (pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
 
 Overfull \hbox (29.5907pt too wide) in paragraph at lines 605--605
  [] 
  []
 
-<Images/bin-select-plot8.pdf, id=1671, 361.35pt x 289.08pt>
-File: Images/bin-select-plot8.pdf Graphic file (type pdf)
+<Images/bin-select-plot7.pdf, id=1664, 361.35pt x 289.08pt>
+File: Images/bin-select-plot7.pdf Graphic file (type pdf)
 
-<use Images/bin-select-plot8.pdf>
-Package pdftex.def Info: Images/bin-select-plot8.pdf used on input line 605.
+<use Images/bin-select-plot7.pdf>
+Package pdftex.def Info: Images/bin-select-plot7.pdf used on input line 605.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
 Overfull \hbox (47.65816pt too wide) in paragraph at lines 605--605
@@ -2351,320 +2275,325 @@ Overfull \hbox (47.65816pt too wide) in paragraph at lines 605--605
  []
 
 
-Overfull \hbox (67.85849pt too wide) in paragraph at lines 589--617
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]|\T1/lmr/m/n/10.95 (+20) Contami
  []
 
 
-LaTeX Warning: Float too large for page by 29.05971pt on input line 617.
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+\T1/lmr/m/n/10.95 (+20) -nated
+ []
+
+<Images/data8.pdf, id=1665, 289.08pt x 289.08pt>
+File: Images/data8.pdf Graphic file (type pdf)
+ <use Images/data8.pdf>
+Package pdftex.def Info: Images/data8.pdf used on input line 607.
+(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
+
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 607--607
+ [] 
+ []
+
+
+Overfull \hbox (1.68513pt too wide) in paragraph at lines 607--607
+[]|\T1/lmr/m/n/10.95 (-20) Permutation| 
+ []
+
+<Images/null8.pdf, id=1666, 289.08pt x 289.08pt>
+File: Images/null8.pdf Graphic file (type pdf)
+ <use Images/null8.pdf>
+Package pdftex.def Info: Images/null8.pdf used on input line 607.
+(pdftex.def)             Requested size: 289.07928pt x 289.07928pt.
+
+Overfull \hbox (29.5907pt too wide) in paragraph at lines 607--607
+ [] 
+ []
+
+<Images/bin-select-plot8.pdf, id=1667, 361.35pt x 289.08pt>
+File: Images/bin-select-plot8.pdf Graphic file (type pdf)
+
+<use Images/bin-select-plot8.pdf>
+Package pdftex.def Info: Images/bin-select-plot8.pdf used on input line 607.
+(pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
+
+Overfull \hbox (47.65816pt too wide) in paragraph at lines 607--607
+ [] 
+ []
+
+
+Overfull \hbox (53.63211pt too wide) in paragraph at lines 593--619
+ [][] 
+ []
 
 [54] [55 <./Images/anscombe-1.pdf> <./Images/anscombe-null-1.pdf> <./Images/ans
 combe-nbin-1.pdf> <./Images/anscombe-2.pdf> <./Images/anscombe-null-2.pdf> <./I
 mages/anscombe-nbin-2.pdf> <./Images/anscombe-3.pdf> <./Images/anscombe-null-3.
 pdf> <./Images/anscombe-nbin-3.pdf> <./Images/anscombe-4.pdf> <./Images/anscomb
 e-null-4.pdf> <./Images/anscombe-nbin-4.pdf> <./Images/data1.pdf> <./Images/nul
-l1.pdf> <./Images/bin-select-plot1.pdf>] [56 <./Images/data2.pdf> <./Images/nul
-l2.pdf> <./Images/bin-select-plot2.pdf> <./Images/data3.pdf> <./Images/null3.pd
+l1.pdf> <./Images/bin-select-plot1.pdf> <./Images/data2.pdf> <./Images/null2.pd
+f> <./Images/bin-select-plot2.pdf>] [56 <./Images/data3.pdf> <./Images/null3.pd
 f> <./Images/bin-select-plot3.pdf> <./Images/data5.pdf> <./Images/null5.pdf> <.
 /Images/bin-select-plot5.pdf> <./Images/data4.pdf> <./Images/null4.pdf> <./Imag
 es/bin-select-plot4.pdf> <./Images/data6.pdf> <./Images/null6.pdf> <./Images/bi
 n-select-plot6.pdf> <./Images/data7.pdf> <./Images/null7.pdf> <./Images/bin-sel
 ect-plot7.pdf> <./Images/data8.pdf> <./Images/null8.pdf> <./Images/bin-select-p
 lot8.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 634--635
+Underfull \hbox (badness 10000) in paragraph at lines 636--637
 
  []
 
-<Images/turk1-example.pdf, id=1920, 397.485pt x 361.35pt>
+<Images/turk1-example.pdf, id=1916, 397.485pt x 361.35pt>
 File: Images/turk1-example.pdf Graphic file (type pdf)
 
 <use Images/turk1-example.pdf>
-Package pdftex.def Info: Images/turk1-example.pdf used on input line 638.
-(pdftex.def)             Requested size: 234.8775pt x 213.53099pt.
+Package pdftex.def Info: Images/turk1-example.pdf used on input line 640.
+(pdftex.def)             Requested size: 469.75502pt x 427.06198pt.
 \@tempboxb=\box66
-
-<Images/turk1-prop-box-bin.pdf, id=1922, 614.295pt x 289.08pt>
+ [57] [58 <./Images/turk1-example.pdf>]
+<Images/turk1-prop-box-bin.pdf, id=1934, 614.295pt x 289.08pt>
 File: Images/turk1-prop-box-bin.pdf Graphic file (type pdf)
 
 <use Images/turk1-prop-box-bin.pdf>
-Package pdftex.def Info: Images/turk1-prop-box-bin.pdf used on input line 653.
+Package pdftex.def Info: Images/turk1-prop-box-bin.pdf used on input line 655.
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 
-<Images/turk1-grtr-box-bin.pdf, id=1923, 614.295pt x 289.08pt>
+<Images/turk1-grtr-box-bin.pdf, id=1935, 614.295pt x 289.08pt>
 File: Images/turk1-grtr-box-bin.pdf Graphic file (type pdf)
 
 <use Images/turk1-grtr-box-bin.pdf>
-Package pdftex.def Info: Images/turk1-grtr-box-bin.pdf used on input line 657.
+Package pdftex.def Info: Images/turk1-grtr-box-bin.pdf used on input line 659.
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 \@tempboxb=\box67
- [57] [58 <./Images/turk1-example.pdf>]
-[59 <./Images/turk1-prop-box-bin.pdf> <./Images/turk1-grtr-box-bin.pdf>]
-<Images/turk1-mtime-box-bin.pdf, id=1962, 614.295pt x 289.08pt>
+
+<Images/turk1-mtime-box-bin.pdf, id=1940, 614.295pt x 289.08pt>
 File: Images/turk1-mtime-box-bin.pdf Graphic file (type pdf)
 
 <use Images/turk1-mtime-box-bin.pdf>
-Package pdftex.def Info: Images/turk1-mtime-box-bin.pdf used on input line 698.
+Package pdftex.def Info: Images/turk1-mtime-box-bin.pdf used on input line 692.
 
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 \@tempboxb=\box68
-
+ [59] [60 <./Images/turk1-prop-box-bin.pdf> <./Images/turk1-grtr-box-bin.pdf>]
 <Images/lineup-high-prop-neg-diff.pdf, id=1966, 325.215pt x 289.08pt>
 File: Images/lineup-high-prop-neg-diff.pdf Graphic file (type pdf)
 
 <use Images/lineup-high-prop-neg-diff.pdf>
 Package pdftex.def Info: Images/lineup-high-prop-neg-diff.pdf used on input lin
-e 720.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+e 714.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 
 <Images/distribution-box-dist-exp1.pdf, id=1967, 325.215pt x 289.08pt>
 File: Images/distribution-box-dist-exp1.pdf Graphic file (type pdf)
 
 <use Images/distribution-box-dist-exp1.pdf>
 Package pdftex.def Info: Images/distribution-box-dist-exp1.pdf used on input li
-ne 724.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+ne 718.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 
 <Images/distribution-bin-dist-2-8-exp1.pdf, id=1968, 325.215pt x 289.08pt>
 File: Images/distribution-bin-dist-2-8-exp1.pdf Graphic file (type pdf)
 
 <use Images/distribution-bin-dist-2-8-exp1.pdf>
 Package pdftex.def Info: Images/distribution-bin-dist-2-8-exp1.pdf used on inpu
-t line 728.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+t line 722.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 
 <Images/distribution-bin-dist-2-2-exp1.pdf, id=1969, 325.215pt x 289.08pt>
 File: Images/distribution-bin-dist-2-2-exp1.pdf Graphic file (type pdf)
 
 <use Images/distribution-bin-dist-2-2-exp1.pdf>
 Package pdftex.def Info: Images/distribution-bin-dist-2-2-exp1.pdf used on inpu
-t line 732.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+t line 726.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 \@tempboxb=\box69
-
-
-LaTeX Warning: Float too large for page by 365.37354pt on input line 737.
-
-[60 <./Images/turk1-mtime-box-bin.pdf>] [61 <./Images/lineup-high-prop-neg-diff
-.pdf> <./Images/distribution-box-dist-exp1.pdf> <./Images/distribution-bin-dist
--2-8-exp1.pdf> <./Images/distribution-bin-dist-2-2-exp1.pdf>]
+ [61 <./Images/turk1-mtime-box-bin.pdf>] [62 <./Images/lineup-high-prop-neg-dif
+f.pdf> <./Images/distribution-box-dist-exp1.pdf> <./Images/distribution-bin-dis
+t-2-8-exp1.pdf> <./Images/distribution-bin-dist-2-2-exp1.pdf>]
 <Images/turk2-example.pdf, id=2023, 397.485pt x 361.35pt>
 File: Images/turk2-example.pdf Graphic file (type pdf)
 
 <use Images/turk2-example.pdf>
-Package pdftex.def Info: Images/turk2-example.pdf used on input line 748.
-(pdftex.def)             Requested size: 234.8775pt x 213.53099pt.
+Package pdftex.def Info: Images/turk2-example.pdf used on input line 741.
+(pdftex.def)             Requested size: 469.75502pt x 427.06198pt.
 \@tempboxb=\box70
 
 <Images/turk2-prop-reg-bin.pdf, id=2025, 614.295pt x 289.08pt>
 File: Images/turk2-prop-reg-bin.pdf Graphic file (type pdf)
 
 <use Images/turk2-prop-reg-bin.pdf>
-Package pdftex.def Info: Images/turk2-prop-reg-bin.pdf used on input line 762.
+Package pdftex.def Info: Images/turk2-prop-reg-bin.pdf used on input line 755.
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 
 <Images/turk2-grtr-reg-bin.pdf, id=2026, 614.295pt x 289.08pt>
 File: Images/turk2-grtr-reg-bin.pdf Graphic file (type pdf)
 
 <use Images/turk2-grtr-reg-bin.pdf>
-Package pdftex.def Info: Images/turk2-grtr-reg-bin.pdf used on input line 766.
+Package pdftex.def Info: Images/turk2-grtr-reg-bin.pdf used on input line 759.
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 \@tempboxb=\box71
- [62 <./Images/turk2-example.pdf>] [63 <./Images/turk2-prop-reg-bin.pdf> <./Ima
-ges/turk2-grtr-reg-bin.pdf>]
-<Images/turk2-mtime-reg-bin.pdf, id=2060, 614.295pt x 289.08pt>
+ [63] [64 <./Images/turk2-example.pdf>]
+[65 <./Images/turk2-prop-reg-bin.pdf> <./Images/turk2-grtr-reg-bin.pdf>]
+<Images/turk2-mtime-reg-bin.pdf, id=2065, 614.295pt x 289.08pt>
 File: Images/turk2-mtime-reg-bin.pdf Graphic file (type pdf)
 
 <use Images/turk2-mtime-reg-bin.pdf>
-Package pdftex.def Info: Images/turk2-mtime-reg-bin.pdf used on input line 787.
+Package pdftex.def Info: Images/turk2-mtime-reg-bin.pdf used on input line 774.
 
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 \@tempboxb=\box72
- [64 <./Images/turk2-mtime-reg-bin.pdf>]
-<Images/lineup-exp2-neg-diff-large-prop.pdf, id=2075, 325.215pt x 289.08pt>
+
+<Images/lineup-exp2-neg-diff-large-prop.pdf, id=2069, 325.215pt x 289.08pt>
 File: Images/lineup-exp2-neg-diff-large-prop.pdf Graphic file (type pdf)
 
 <use Images/lineup-exp2-neg-diff-large-prop.pdf>
 Package pdftex.def Info: Images/lineup-exp2-neg-diff-large-prop.pdf used on inp
-ut line 811.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+ut line 790.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 
-<Images/distribution-reg-dist-exp2.pdf, id=2076, 325.215pt x 289.08pt>
+<Images/distribution-reg-dist-exp2.pdf, id=2070, 325.215pt x 289.08pt>
 File: Images/distribution-reg-dist-exp2.pdf Graphic file (type pdf)
 
 <use Images/distribution-reg-dist-exp2.pdf>
 Package pdftex.def Info: Images/distribution-reg-dist-exp2.pdf used on input li
-ne 815.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+ne 794.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 
-<Images/distribution-bin-dist-2-2-exp2.pdf, id=2077, 325.215pt x 289.08pt>
+<Images/distribution-bin-dist-2-2-exp2.pdf, id=2071, 325.215pt x 289.08pt>
 File: Images/distribution-bin-dist-2-2-exp2.pdf Graphic file (type pdf)
 
 <use Images/distribution-bin-dist-2-2-exp2.pdf>
 Package pdftex.def Info: Images/distribution-bin-dist-2-2-exp2.pdf used on inpu
-t line 819.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+t line 798.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 
-<Images/distribution-bin-dist-8-2-exp2.pdf, id=2078, 325.215pt x 289.08pt>
+<Images/distribution-bin-dist-8-2-exp2.pdf, id=2072, 325.215pt x 289.08pt>
 File: Images/distribution-bin-dist-8-2-exp2.pdf Graphic file (type pdf)
 
 <use Images/distribution-bin-dist-8-2-exp2.pdf>
 Package pdftex.def Info: Images/distribution-bin-dist-8-2-exp2.pdf used on inpu
-t line 823.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
-
-<Images/distribution-reg-no-int-dist-exp2.pdf, id=2079, 325.215pt x 289.08pt>
-File: Images/distribution-reg-no-int-dist-exp2.pdf Graphic file (type pdf)
-
-<use Images/distribution-reg-no-int-dist-exp2.pdf>
-Package pdftex.def Info: Images/distribution-reg-no-int-dist-exp2.pdf used on i
-nput line 827.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
-
-<Images/distribution-pval-exp2.pdf, id=2080, 325.215pt x 289.08pt>
-File: Images/distribution-pval-exp2.pdf Graphic file (type pdf)
-
-<use Images/distribution-pval-exp2.pdf>
-Package pdftex.def Info: Images/distribution-pval-exp2.pdf used on input line 8
-31.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+t line 802.
+(pdftex.def)             Requested size: 217.89291pt x 193.68259pt.
 \@tempboxb=\box73
+ [66 <./Images/turk2-mtime-reg-bin.pdf>] [67 <./Images/lineup-exp2-neg-diff-lar
+ge-prop.pdf> <./Images/distribution-reg-dist-exp2.pdf> <./Images/distribution-b
+in-dist-2-2-exp2.pdf> <./Images/distribution-bin-dist-8-2-exp2.pdf>]
 
-
-LaTeX Warning: Float too large for page by 827.7119pt on input line 836.
-
-<Images/rel-pvalue.pdf, id=2083, 289.08pt x 180.675pt>
-File: Images/rel-pvalue.pdf Graphic file (type pdf)
-
-<use Images/rel-pvalue.pdf>
-Package pdftex.def Info: Images/rel-pvalue.pdf used on input line 842.
-(pdftex.def)             Requested size: 234.8775pt x 146.79807pt.
-\@tempboxb=\box74
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 832.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `math shift' on input line 832.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `math shift' on input line 832.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 853.
+(hyperref)                removing `math shift' on input line 832.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 853.
-
-<Images/largep-example.pdf, id=2087, 547.09662pt x 467.85318pt>
+<Images/largep-example.pdf, id=2126, 547.09662pt x 467.85318pt>
 File: Images/largep-example.pdf Graphic file (type pdf)
 
 <use Images/largep-example.pdf>
-Package pdftex.def Info: Images/largep-example.pdf used on input line 859.
-(pdftex.def)             Requested size: 328.82707pt x 281.19237pt.
-\@tempboxb=\box75
- [65] [66 <./Images/lineup-exp2-neg-diff-large-prop.pdf> <./Images/distribution
--reg-dist-exp2.pdf> <./Images/distribution-bin-dist-2-2-exp2.pdf> <./Images/dis
-tribution-bin-dist-8-2-exp2.pdf> <./Images/distribution-reg-no-int-dist-exp2.pd
-f> <./Images/distribution-pval-exp2.pdf>]
-<Images/largep-prop-sep-bin.pdf, id=2151, 614.295pt x 289.08pt>
+Package pdftex.def Info: Images/largep-example.pdf used on input line 838.
+(pdftex.def)             Requested size: 469.75502pt x 401.71053pt.
+\@tempboxb=\box74
+
+<Images/largep-prop-sep-bin.pdf, id=2128, 614.295pt x 289.08pt>
 File: Images/largep-prop-sep-bin.pdf Graphic file (type pdf)
 
 <use Images/largep-prop-sep-bin.pdf>
-Package pdftex.def Info: Images/largep-prop-sep-bin.pdf used on input line 873.
+Package pdftex.def Info: Images/largep-prop-sep-bin.pdf used on input line 852.
 
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
 
-<Images/largep-grtr-sep-bin.pdf, id=2152, 614.295pt x 289.08pt>
+<Images/largep-grtr-sep-bin.pdf, id=2129, 614.295pt x 289.08pt>
 File: Images/largep-grtr-sep-bin.pdf Graphic file (type pdf)
 
 <use Images/largep-grtr-sep-bin.pdf>
-Package pdftex.def Info: Images/largep-grtr-sep-bin.pdf used on input line 877.
+Package pdftex.def Info: Images/largep-grtr-sep-bin.pdf used on input line 856.
 
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
-\@tempboxb=\box76
+\@tempboxb=\box75
 
-<Images/largep-mtime-sep-bin.pdf, id=2154, 614.295pt x 289.08pt>
+<Images/largep-mtime-sep-bin.pdf, id=2131, 614.295pt x 289.08pt>
 File: Images/largep-mtime-sep-bin.pdf Graphic file (type pdf)
 
 <use Images/largep-mtime-sep-bin.pdf>
-Package pdftex.def Info: Images/largep-mtime-sep-bin.pdf used on input line 896
+Package pdftex.def Info: Images/largep-mtime-sep-bin.pdf used on input line 876
 .
 (pdftex.def)             Requested size: 460.72011pt x 216.80946pt.
-\@tempboxb=\box77
-
-<Images/lineup-example-100-0-2-3.pdf, id=2156, 325.215pt x 289.08pt>
+\@tempboxb=\box76
+ [68] [69 <./Images/largep-example.pdf>]
+[70 <./Images/largep-prop-sep-bin.pdf> <./Images/largep-grtr-sep-bin.pdf>]
+<Images/lineup-example-100-0-2-3.pdf, id=2495, 325.215pt x 289.08pt>
 File: Images/lineup-example-100-0-2-3.pdf Graphic file (type pdf)
 
 <use Images/lineup-example-100-0-2-3.pdf>
 Package pdftex.def Info: Images/lineup-example-100-0-2-3.pdf used on input line
- 918.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+ 899.
+(pdftex.def)             Requested size: 81.30354pt x 72.26982pt.
 
-<Images/bin-dist-largep-100-0-2-3.pdf, id=2157, 325.215pt x 289.08pt>
+<Images/bin-dist-largep-100-0-2-3.pdf, id=2496, 325.215pt x 289.08pt>
 File: Images/bin-dist-largep-100-0-2-3.pdf Graphic file (type pdf)
 
 <use Images/bin-dist-largep-100-0-2-3.pdf>
 Package pdftex.def Info: Images/bin-dist-largep-100-0-2-3.pdf used on input lin
-e 922.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+e 903.
+(pdftex.def)             Requested size: 81.30354pt x 72.26982pt.
 
-<Images/mod-sep-dist-largep-100-0-2-3.pdf, id=2158, 325.215pt x 289.08pt>
+<Images/mod-sep-dist-largep-100-0-2-3.pdf, id=2497, 325.215pt x 289.08pt>
 File: Images/mod-sep-dist-largep-100-0-2-3.pdf Graphic file (type pdf)
 
 <use Images/mod-sep-dist-largep-100-0-2-3.pdf>
 Package pdftex.def Info: Images/mod-sep-dist-largep-100-0-2-3.pdf used on input
- line 926.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
+ line 907.
+(pdftex.def)             Requested size: 81.30354pt x 72.26982pt.
 
-<Images/sep-dist-largep-100-0-2-3.pdf, id=2159, 325.215pt x 289.08pt>
+<Images/sep-dist-largep-100-0-2-3.pdf, id=2498, 325.215pt x 289.08pt>
 File: Images/sep-dist-largep-100-0-2-3.pdf Graphic file (type pdf)
 
 <use Images/sep-dist-largep-100-0-2-3.pdf>
 Package pdftex.def Info: Images/sep-dist-largep-100-0-2-3.pdf used on input lin
-e 930.
-(pdftex.def)             Requested size: 227.64894pt x 202.35461pt.
-\@tempboxb=\box78
-
-
-LaTeX Warning: Float too large for page by 354.51102pt on input line 935.
-
-[67 <./Images/rel-pvalue.pdf>] [68 <./Images/largep-example.pdf>] [69 <./Images
-/largep-prop-sep-bin.pdf> <./Images/largep-grtr-sep-bin.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 942--943
+e 911.
+(pdftex.def)             Requested size: 81.30354pt x 72.26982pt.
+\@tempboxb=\box77
+ [71 <./Images/largep-mtime-sep-bin.pdf> <./Images/lineup-example-100-0-2-3.pdf
+> <./Images/bin-dist-largep-100-0-2-3.pdf> <./Images/mod-sep-dist-largep-100-0-
+2-3.pdf> <./Images/sep-dist-largep-100-0-2-3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 924--925
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 944--945
+Underfull \hbox (badness 10000) in paragraph at lines 926--927
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--947
+Underfull \hbox (badness 10000) in paragraph at lines 928--929
 
  []
 
-[70 <./Images/largep-mtime-sep-bin.pdf>] [71 <./Images/lineup-example-100-0-2-3
-.pdf> <./Images/bin-dist-largep-100-0-2-3.pdf> <./Images/mod-sep-dist-largep-10
-0-0-2-3.pdf> <./Images/sep-dist-largep-100-0-2-3.pdf>] [72]) [73]
+[72]) [73] [74]
 \openout2 = `Body/chapter4.aux'.
 
-
-(./Body/chapter4.tex
+ (./Body/chapter4.tex
 CHAPTER\  4.
 
 Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
 
-[74
+[75
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 40.
- [75]
+ [76]
 LaTeX Font Info:    Try loading font information for TS1+lmtt on input line 92.
 
  (/usr/local/texlive/2011/texmf-dist/tex/latex/lm/ts1lmtt.fd
@@ -2673,46 +2602,46 @@ File: ts1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 Package microtype Info: Character `texttrademark ' is missing
 (microtype)             in font `TS1/lmtt/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
- [76]
-[77] <Images/unnamed-chunk-5.png, id=2608, 397.485pt x 361.35pt>
+ [77]
+[78] <Images/unnamed-chunk-5.png, id=2580, 397.485pt x 361.35pt>
 File: Images/unnamed-chunk-5.png Graphic file (type png)
 
 <use Images/unnamed-chunk-5.png>
 Package pdftex.def Info: Images/unnamed-chunk-5.png used on input line 186.
 (pdftex.def)             Requested size: 298.113pt x 271.01184pt.
- [78 <./Images/unnamed-chunk-5.png>] [79]
-[80] [81] [82]
+ [79 <./Images/unnamed-chunk-5.png>] [80]
+[81] [82] [83]
 Overfull \hbox (4.4803pt too wide) in paragraph at lines 402--406
 []\T1/lmr/m/n/10.95 (-20) The mean dis-tances for each plot in the lineup are o
 b-tained us-ing \T1/lmtt/m/n/10.95 "calc_mean_dist"\T1/lmr/m/n/10.95 (-20) .\T1
 /lmtt/m/n/10.95 "calc_diff"
  []
 
-[83] <Images/unnamed-chunk-14.png, id=2636, 397.485pt x 361.35pt>
+[84] <Images/unnamed-chunk-14.png, id=2608, 397.485pt x 361.35pt>
 File: Images/unnamed-chunk-14.png Graphic file (type png)
 
 <use Images/unnamed-chunk-14.png>
 Package pdftex.def Info: Images/unnamed-chunk-14.png used on input line 459.
 (pdftex.def)             Requested size: 298.113pt x 271.01184pt.
- [84]
+ [85]
 Package microtype Info: Character `texttrademark ' is missing
 (microtype)             in font `TS1/lmtt/m/it/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-<Images/unnamed-chunk-15.png, id=2642, 397.485pt x 361.35pt>
+<Images/unnamed-chunk-15.png, id=2613, 397.485pt x 361.35pt>
 File: Images/unnamed-chunk-15.png Graphic file (type png)
 
 <use Images/unnamed-chunk-15.png>
 Package pdftex.def Info: Images/unnamed-chunk-15.png used on input line 496.
 (pdftex.def)             Requested size: 298.113pt x 271.01184pt.
- [85 <./Images/unnamed-chunk-14.png>] [86 <./Images/unnamed-chunk-15.png>]
-<Images/unnamed-chunk-20.png, id=2655, 397.485pt x 361.35pt>
+ [86 <./Images/unnamed-chunk-14.png>] [87 <./Images/unnamed-chunk-15.png>]
+<Images/unnamed-chunk-20.png, id=2626, 397.485pt x 361.35pt>
 File: Images/unnamed-chunk-20.png Graphic file (type png)
 
 <use Images/unnamed-chunk-20.png>
 Package pdftex.def Info: Images/unnamed-chunk-20.png used on input line 589.
 (pdftex.def)             Requested size: 298.113pt x 271.01184pt.
-) [87] [88 <./Images/unnamed-chunk-20.png>]
+) [88] [89 <./Images/unnamed-chunk-20.png>]
 \openout2 = `Body/conclusions.aux'.
 
 
@@ -2722,7 +2651,7 @@ CHAPTER\  5.
 Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
 
-[89
+[90
 
 
 
@@ -2735,7 +2664,7 @@ APPENDIX\  A.
 Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
 
-[90
+[91
 
 
 
@@ -2748,17 +2677,17 @@ $[] \OT1/lmr/m/n/10.95 (-20) = \OMS/lmsy/m/n/10.95 j[][] ^^@ [][]j$ \T1/lmr/m/n
 /10.95 (-20) where $[] \OMS/lmsy/m/n/10.95 ^^X []$
  []
 
-[91] <Images/sum-noise-real-2-rev.pdf, id=2682, 505.89pt x 505.89pt>
+[92] <Images/sum-noise-real-2-rev.pdf, id=2654, 505.89pt x 505.89pt>
 File: Images/sum-noise-real-2-rev.pdf Graphic file (type pdf)
 
 <use Images/sum-noise-real-2-rev.pdf>
 Package pdftex.def Info: Images/sum-noise-real-2-rev.pdf used on input line 73.
 
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+\@tempboxb=\box78
+ [93] [94 <./Images/sum-noise-real-2-rev.pdf>]
 \@tempboxb=\box79
- [92] [93 <./Images/sum-noise-real-2-rev.pdf>]
-\@tempboxb=\box80
-) [94]
+) [95]
 \openout2 = `Reference/bibtex.aux'.
 
  (./Reference/bibtex.tex (./thesis.bbl
@@ -2770,36 +2699,36 @@ Overfull \hbox (9.0pt too wide) in paragraph at lines 1--1
 Overfull \vbox (6.89548pt too high) has occurred while \output is active []
 
 
-[95
+[96
 
 
 
-] [96] [97])) [98]
+] [97] [98])) [99]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 112.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 112.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
 (./thesis.aux (./Preface/titlepage.aux) (./Preface/dedication.aux)
 (./Preface/acknowl.aux) (./Preface/abstract.aux) (./Body/chapter1.aux)
 (./Body/chapter2.aux) (./Body/chapter3.aux) (./Body/chapter4.aux)
 (./Body/conclusions.aux) (./Appendix/appendix1.aux) (./Reference/bibtex.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 112.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 112.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 3957F82C75F94964EA29B64DA82E93EB;5158.
+(rerunfilecheck)             Checksum: 61750197039E6FCDA6CFFBCEF45FAC0F;5161.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 112.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 113.
  ) 
 Here is how much of TeX's memory you used:
- 12316 strings out of 493633
- 186229 string characters out of 3143378
- 338657 words of memory out of 3000000
- 14763 multiletter control sequences out of 15000+200000
- 81072 words of font info for 141 fonts, out of 3000000 for 9000
+ 12331 strings out of 493633
+ 186281 string characters out of 3143378
+ 340193 words of memory out of 3000000
+ 14779 multiletter control sequences out of 15000+200000
+ 80989 words of font info for 140 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  36i,15n,35p,1782b,478s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
@@ -2828,10 +2757,10 @@ onts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1
 /public/lm/lmtt10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/lm
 /lmtti10.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msbm10.pfb>
-Output written on thesis.pdf (113 pages, 3002259 bytes).
+Output written on thesis.pdf (114 pages, 2981675 bytes).
 PDF statistics:
- 2877 PDF objects out of 2984 (max. 8388607)
- 2307 compressed objects within 24 object streams
- 280 named destinations out of 1000 (max. 500000)
- 25110 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 2848 PDF objects out of 2984 (max. 8388607)
+ 2284 compressed objects within 23 object streams
+ 278 named destinations out of 1000 (max. 500000)
+ 25095 words of extra memory for PDF output out of 29859 (max. 10000000)
 

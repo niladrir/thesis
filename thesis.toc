@@ -35,39 +35,39 @@
 \contentsline {section}{\numberline {3.1}Introduction}{39}{section.72}
 \contentsline {section}{\numberline {3.2}Null Generating Mechanism}{42}{section.76}
 \contentsline {section}{\numberline {3.3}Distance Measures}{43}{section.77}
-\contentsline {section}{\numberline {3.4}Distance Metric Distribution}{49}{section.82}
-\contentsline {section}{\numberline {3.5}Effect of Plot Type and Question of Interest }{50}{section.89}
-\contentsline {section}{\numberline {3.6}Metric Evaluation}{52}{section.93}
-\contentsline {section}{\numberline {3.7}Selection of the Number of Bins}{53}{section.97}
+\contentsline {section}{\numberline {3.4}Distribution of distance metric}{49}{section.82}
+\contentsline {section}{\numberline {3.5}Effect of Plot Type and Question of Interest }{51}{section.89}
+\contentsline {section}{\numberline {3.6}Metric Evaluation}{53}{section.93}
+\contentsline {section}{\numberline {3.7}Selection of the Number of Bins}{54}{section.97}
 \contentsline {section}{\numberline {3.8}Results}{57}{section.100}
-\contentsline {subsection}{\numberline {3.8.1}Turk Experiment -- Side by Side Boxplots}{57}{subsection.101}
-\contentsline {subsection}{\numberline {3.8.2}Turk Experiment -- Scatterplots with an Overlaid Regression Line}{62}{subsection.112}
-\contentsline {subsection}{\numberline {3.8.3}Turk Experiment -- Large $p$, Small $n$ Data}{65}{subsection.126}
-\contentsline {section}{\numberline {3.9}Conclusion}{70}{section.137}
-\contentsline {paragraph}{Acknowledgement:}{73}{section*.138}
-\contentsline {chapter}{\numberline {4.}NULLABOR: AN R PACKAGE FOR VISUAL STATISTICAL INFERENCE}{74}{chapter.139}
-\contentsline {section}{\numberline {4.1}Introduction}{74}{section.140}
-\contentsline {section}{\numberline {4.2}Generate null data with a specific distribution}{74}{section.141}
-\contentsline {section}{\numberline {4.3}Generate null data by permuting a variable}{75}{section.142}
-\contentsline {section}{\numberline {4.4}Generate null data with null residuals from a model}{76}{section.143}
-\contentsline {section}{\numberline {4.5}The lineup protocol}{76}{section.144}
-\contentsline {section}{\numberline {4.6}The Rorschach protocol}{79}{section.145}
-\contentsline {section}{\numberline {4.7}Distance metrics}{80}{section.146}
-\contentsline {subsection}{\numberline {4.7.1}Distance for univariate data}{80}{subsection.147}
-\contentsline {subsection}{\numberline {4.7.2}Distance based on regression parameters}{80}{subsection.148}
-\contentsline {subsection}{\numberline {4.7.3}Distance based on boxplots}{81}{subsection.149}
-\contentsline {subsection}{\numberline {4.7.4}Distance based on separation}{81}{subsection.150}
-\contentsline {subsection}{\numberline {4.7.5}Binned Distance}{81}{subsection.151}
-\contentsline {section}{\numberline {4.8}Calculating the mean distances for the plots in the lineup}{82}{section.152}
-\contentsline {section}{\numberline {4.9}Calculating difference measure for lineups}{83}{section.153}
-\contentsline {section}{\numberline {4.10}Optimum number of bins}{84}{section.154}
-\contentsline {section}{\numberline {4.11}Distribution of distance metrics}{84}{section.155}
-\contentsline {section}{\numberline {4.12}Plotting the empirical distribution of the distance metric}{87}{section.156}
-\contentsline {chapter}{\numberline {5.}CONCLUSION}{89}{chapter.157}
-\contentsline {section}{\numberline {5.1}Contribution to Research and Literature}{89}{section.158}
+\contentsline {subsection}{\numberline {3.8.1}Turk Experiment -- Side-by-Side Boxplots}{57}{subsection.101}
+\contentsline {subsection}{\numberline {3.8.2}Turk Experiment -- Scatterplots with an Overlaid Regression Line}{63}{subsection.112}
+\contentsline {subsection}{\numberline {3.8.3}Turk Experiment -- Large $p$, Small $n$ Data}{68}{subsection.123}
+\contentsline {section}{\numberline {3.9}Conclusion}{72}{section.134}
+\contentsline {paragraph}{Acknowledgement:}{74}{section*.135}
+\contentsline {chapter}{\numberline {4.}NULLABOR: AN R PACKAGE FOR VISUAL STATISTICAL INFERENCE}{75}{chapter.136}
+\contentsline {section}{\numberline {4.1}Introduction}{75}{section.137}
+\contentsline {section}{\numberline {4.2}Generate null data with a specific distribution}{75}{section.138}
+\contentsline {section}{\numberline {4.3}Generate null data by permuting a variable}{76}{section.139}
+\contentsline {section}{\numberline {4.4}Generate null data with null residuals from a model}{77}{section.140}
+\contentsline {section}{\numberline {4.5}The lineup protocol}{77}{section.141}
+\contentsline {section}{\numberline {4.6}The Rorschach protocol}{80}{section.142}
+\contentsline {section}{\numberline {4.7}Distance metrics}{81}{section.143}
+\contentsline {subsection}{\numberline {4.7.1}Distance for univariate data}{81}{subsection.144}
+\contentsline {subsection}{\numberline {4.7.2}Distance based on regression parameters}{81}{subsection.145}
+\contentsline {subsection}{\numberline {4.7.3}Distance based on boxplots}{82}{subsection.146}
+\contentsline {subsection}{\numberline {4.7.4}Distance based on separation}{82}{subsection.147}
+\contentsline {subsection}{\numberline {4.7.5}Binned Distance}{82}{subsection.148}
+\contentsline {section}{\numberline {4.8}Calculating the mean distances for the plots in the lineup}{83}{section.149}
+\contentsline {section}{\numberline {4.9}Calculating difference measure for lineups}{84}{section.150}
+\contentsline {section}{\numberline {4.10}Optimum number of bins}{85}{section.151}
+\contentsline {section}{\numberline {4.11}Distribution of distance metrics}{85}{section.152}
+\contentsline {section}{\numberline {4.12}Plotting the empirical distribution of the distance metric}{88}{section.153}
+\contentsline {chapter}{\numberline {5.}CONCLUSION}{90}{chapter.154}
+\contentsline {section}{\numberline {5.1}Contribution to Research and Literature}{90}{section.155}
 \def \@chapapp {APPENDIX\ }
-\contentsline {chapter}{\numberline {A.}SUPPLEMENTARY MATERIALS OF CHAPTER 2}{90}{appendix.159}
-\contentsline {section}{\numberline {A.1}Solutions to the Lineups}{90}{section.160}
-\contentsline {section}{\numberline {A.2}Choice of dimensions}{90}{section.161}
+\contentsline {chapter}{\numberline {A.}SUPPLEMENTARY MATERIALS OF CHAPTER 2}{91}{appendix.156}
+\contentsline {section}{\numberline {A.1}Solutions to the Lineups}{91}{section.157}
+\contentsline {section}{\numberline {A.2}Choice of dimensions}{91}{section.158}
 \def \@chapapp {}
-\contentsline {chapter}{BIBLIOGRAPHY}{95}{section*.164}
+\contentsline {chapter}{BIBLIOGRAPHY}{96}{section*.161}

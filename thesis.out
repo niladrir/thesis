@@ -30,36 +30,36 @@
 \BOOKMARK [1][-]{section.72}{3.1 Introduction}{chapter.70}% 30
 \BOOKMARK [1][-]{section.76}{3.2 Null Generating Mechanism}{chapter.70}% 31
 \BOOKMARK [1][-]{section.77}{3.3 Distance Measures}{chapter.70}% 32
-\BOOKMARK [1][-]{section.82}{3.4 Distance Metric Distribution}{chapter.70}% 33
+\BOOKMARK [1][-]{section.82}{3.4 Distribution of distance metric}{chapter.70}% 33
 \BOOKMARK [1][-]{section.89}{3.5 Effect of Plot Type and Question of Interest }{chapter.70}% 34
 \BOOKMARK [1][-]{section.93}{3.6 Metric Evaluation}{chapter.70}% 35
 \BOOKMARK [1][-]{section.97}{3.7 Selection of the Number of Bins}{chapter.70}% 36
 \BOOKMARK [1][-]{section.100}{3.8 Results}{chapter.70}% 37
-\BOOKMARK [2][-]{subsection.101}{3.8.1 Turk Experiment \205 Side by Side Boxplots}{section.100}% 38
+\BOOKMARK [2][-]{subsection.101}{3.8.1 Turk Experiment \205 Side-by-Side Boxplots}{section.100}% 38
 \BOOKMARK [2][-]{subsection.112}{3.8.2 Turk Experiment \205 Scatterplots with an Overlaid Regression Line}{section.100}% 39
-\BOOKMARK [2][-]{subsection.126}{3.8.3 Turk Experiment \205 Large p, Small n Data}{section.100}% 40
-\BOOKMARK [1][-]{section.137}{3.9 Conclusion}{chapter.70}% 41
-\BOOKMARK [0][-]{chapter.139}{4. NULLABOR: AN R PACKAGE FOR VISUAL STATISTICAL INFERENCE}{}% 42
-\BOOKMARK [1][-]{section.140}{4.1 Introduction}{chapter.139}% 43
-\BOOKMARK [1][-]{section.141}{4.2 Generate null data with a specific distribution}{chapter.139}% 44
-\BOOKMARK [1][-]{section.142}{4.3 Generate null data by permuting a variable}{chapter.139}% 45
-\BOOKMARK [1][-]{section.143}{4.4 Generate null data with null residuals from a model}{chapter.139}% 46
-\BOOKMARK [1][-]{section.144}{4.5 The lineup protocol}{chapter.139}% 47
-\BOOKMARK [1][-]{section.145}{4.6 The Rorschach protocol}{chapter.139}% 48
-\BOOKMARK [1][-]{section.146}{4.7 Distance metrics}{chapter.139}% 49
-\BOOKMARK [2][-]{subsection.147}{4.7.1 Distance for univariate data}{section.146}% 50
-\BOOKMARK [2][-]{subsection.148}{4.7.2 Distance based on regression parameters}{section.146}% 51
-\BOOKMARK [2][-]{subsection.149}{4.7.3 Distance based on boxplots}{section.146}% 52
-\BOOKMARK [2][-]{subsection.150}{4.7.4 Distance based on separation}{section.146}% 53
-\BOOKMARK [2][-]{subsection.151}{4.7.5 Binned Distance}{section.146}% 54
-\BOOKMARK [1][-]{section.152}{4.8 Calculating the mean distances for the plots in the lineup}{chapter.139}% 55
-\BOOKMARK [1][-]{section.153}{4.9 Calculating difference measure for lineups}{chapter.139}% 56
-\BOOKMARK [1][-]{section.154}{4.10 Optimum number of bins}{chapter.139}% 57
-\BOOKMARK [1][-]{section.155}{4.11 Distribution of distance metrics}{chapter.139}% 58
-\BOOKMARK [1][-]{section.156}{4.12 Plotting the empirical distribution of the distance metric}{chapter.139}% 59
-\BOOKMARK [0][-]{chapter.157}{5. CONCLUSION}{}% 60
-\BOOKMARK [1][-]{section.158}{5.1 Contribution to Research and Literature}{chapter.157}% 61
-\BOOKMARK [0][-]{appendix.159}{A. SUPPLEMENTARY MATERIALS OF CHAPTER 2}{}% 62
-\BOOKMARK [1][-]{section.160}{A.1 Solutions to the Lineups}{appendix.159}% 63
-\BOOKMARK [1][-]{section.161}{A.2 Choice of dimensions}{appendix.159}% 64
-\BOOKMARK [0][-]{section*.164}{BIBLIOGRAPHY}{}% 65
+\BOOKMARK [2][-]{subsection.123}{3.8.3 Turk Experiment \205 Large p, Small n Data}{section.100}% 40
+\BOOKMARK [1][-]{section.134}{3.9 Conclusion}{chapter.70}% 41
+\BOOKMARK [0][-]{chapter.136}{4. NULLABOR: AN R PACKAGE FOR VISUAL STATISTICAL INFERENCE}{}% 42
+\BOOKMARK [1][-]{section.137}{4.1 Introduction}{chapter.136}% 43
+\BOOKMARK [1][-]{section.138}{4.2 Generate null data with a specific distribution}{chapter.136}% 44
+\BOOKMARK [1][-]{section.139}{4.3 Generate null data by permuting a variable}{chapter.136}% 45
+\BOOKMARK [1][-]{section.140}{4.4 Generate null data with null residuals from a model}{chapter.136}% 46
+\BOOKMARK [1][-]{section.141}{4.5 The lineup protocol}{chapter.136}% 47
+\BOOKMARK [1][-]{section.142}{4.6 The Rorschach protocol}{chapter.136}% 48
+\BOOKMARK [1][-]{section.143}{4.7 Distance metrics}{chapter.136}% 49
+\BOOKMARK [2][-]{subsection.144}{4.7.1 Distance for univariate data}{section.143}% 50
+\BOOKMARK [2][-]{subsection.145}{4.7.2 Distance based on regression parameters}{section.143}% 51
+\BOOKMARK [2][-]{subsection.146}{4.7.3 Distance based on boxplots}{section.143}% 52
+\BOOKMARK [2][-]{subsection.147}{4.7.4 Distance based on separation}{section.143}% 53
+\BOOKMARK [2][-]{subsection.148}{4.7.5 Binned Distance}{section.143}% 54
+\BOOKMARK [1][-]{section.149}{4.8 Calculating the mean distances for the plots in the lineup}{chapter.136}% 55
+\BOOKMARK [1][-]{section.150}{4.9 Calculating difference measure for lineups}{chapter.136}% 56
+\BOOKMARK [1][-]{section.151}{4.10 Optimum number of bins}{chapter.136}% 57
+\BOOKMARK [1][-]{section.152}{4.11 Distribution of distance metrics}{chapter.136}% 58
+\BOOKMARK [1][-]{section.153}{4.12 Plotting the empirical distribution of the distance metric}{chapter.136}% 59
+\BOOKMARK [0][-]{chapter.154}{5. CONCLUSION}{}% 60
+\BOOKMARK [1][-]{section.155}{5.1 Contribution to Research and Literature}{chapter.154}% 61
+\BOOKMARK [0][-]{appendix.156}{A. SUPPLEMENTARY MATERIALS OF CHAPTER 2}{}% 62
+\BOOKMARK [1][-]{section.157}{A.1 Solutions to the Lineups}{appendix.156}% 63
+\BOOKMARK [1][-]{section.158}{A.2 Choice of dimensions}{appendix.156}% 64
+\BOOKMARK [0][-]{section*.161}{BIBLIOGRAPHY}{}% 65
