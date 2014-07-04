@@ -550,14 +550,15 @@ q should be provided as arguments.
 
 \section{Calculation of mean distances and difference}
 
+If the plot of the actual data can be easily identified in a lineup, then the plot should have stronger structures than the null plots. The distance metrics can be used to calculate the distance between the plot of the actual data and the null plots. The distances between the null plots can also be calculated. 
+
 \subsection{Calculating the mean distances for the plots in the
 lineup}\label{calculating-the-mean-distances-for-the-plots-in-the-lineup}
 
-It is interesting to see whether the true plot in a lineup is different
-from all the null plots. To find this the distances between the true
+The distances between the true
 plot and all the null plots are calculated and the mean of these
-distances is calculated. Similarly, for each null plot, the distance
-between the null plot and all the other null plots is calculated and
+distances is calculated. Similarly, for each null plot, the distances
+between the null plots are calculated and
 averaged to obtain the mean distance for each null plot.
 \texttt{"calc\_mean\_dist"} calculates the mean distance corresponding
 to each plot in the lineup. If the mean distance of the true plot is
@@ -730,11 +731,12 @@ Groups: xbins
 
 \section{Distribution of distance metrics}\label{distr}
 
+Comparing several lineups require a common platform. For a given lineup, the distance for the plot of the actual data can be compared to the empirical distribution of all the null plots. An extreme value of this distance indicates that the plot of the actual data is not consistent with the null hypothesis. Hence such a lineup would be considered ``easy''. If the same plot of actual data is used with another set of null plots in another lineup, there may be a null plot which is more extreme than the actual plot. Hence such a lineup would be considered ``difficult''. The following functions are used to obtain the empirical distribution of the distance metric and plot the distribution using \textbf{ggplot2}. 
+
 \subsection{Empirical distribution of distance
 metrics}\label{distribution-of-distance-metrics}
 
-Measuring the quality of a lineup is interesting. But it may also be
-important to compare a few lineups. \texttt{"distmet"} function provides
+ \texttt{"distmet"} function provides
 the empirical distribution of the distance metrics based on the mean
 distance of the true plot and the mean distance from the null plots. The
 lineup data, the null generating mechanism and the choice of the
@@ -833,6 +835,8 @@ arguments, those have to be provided as well.
 %## [1] 10
 %\end{verbatim}
 
+The distribution of the regression based distance is obtained as following. The output calculates the distances for the plots in the lineup and also the difference between the plot of the actual data and the maximum of the null plots. It also provides the null plots which are closest to the plot of the actual data. The position of the actual data plot and the values for the null distributions are also given to be used for the plotting function. 
+
 \begin{verbatim}
 > dist.vals1 <- distmet(lineup.dat, var = c('mpg', 'wt'),'reg_dist', null_permute('mpg'), 
 pos = 10,  repl = 1000, dist.arg = NULL)
@@ -887,6 +891,8 @@ orange and the distances for the null plots in black.
 %\end{Shaded}
 \newpage
 
+The empirical distribution of the regression based distance metric is plotted in the following way. This plot can be matched with Figure \ref{lineup-reg}. Plot 10 is the plot of the actual data which can easily be identified from the lineup and it can also be seen in Figure \ref{dist-reg}. Plot 20 also has a moderate negative relationship which is also evident. 
+
 \begin{verbatim}
 > distplot(dist.vals1)
 \end{verbatim}
@@ -900,6 +906,8 @@ orange and the distances for the null plots in black.
 \end{figure*}
 
 \newpage
+
+The empirical distribution of the binned distance metric is plotted. The number of bins used is 6 on both axes. The bins are selected randomly in this case which had a huge effect on the binned distance. Figure \ref{dist-bin-1} shows that the plot of the actual data is unidentifiable which is incorrect. 
 
 \begin{verbatim}
 > dist.vals2 <- distmet(lineup.dat, var = c('mpg', 'wt'), 'bin_dist', null_permute('mpg'), 
@@ -917,6 +925,8 @@ pos = 10, repl = 1000, dist.arg = list(lineup.dat = lineup.dat, X.bin = 6, Y.bin
 
 \newpage
 
+The empirical distribution of the binned distance metric is plotted. The number of bins used is 3 on x-axis and 2 on y- axis. The bins are selected using the optimum bin selection procedure. Figure \ref{dist-bin-2} shows that the plot of the actual data can easily be identifiable. 
+
 \begin{verbatim}
 > dist.vals3 <- distmet(lineup.dat, var = c('mpg', 'wt'), 'bin_dist', null_permute('mpg'), 
 pos = 10, repl = 1000, dist.arg = list(lineup.dat = lineup.dat, X.bin = 3, Y.bin = 2))
@@ -925,8 +935,8 @@ pos = 10, repl = 1000, dist.arg = list(lineup.dat = lineup.dat, X.bin = 3, Y.bin
 
 \begin{figure*}[hbtp]
 \begin{center}
-\includegraphics[scale=0.75]{nullabor-distr-bin-2.pdf}
+\includegraphics[scale=0.7]{nullabor-distr-bin-2.pdf}
 \caption{Distribution of the \textbf{binned distance} with the distance for the null plots of the lineup represented in black and the distance for the plot of the actual data represented by orange. The number of bins used is 3 on x-axis and 2 on y-axis. The number of bins are selected by the optimal bin selection method using Figure \ref{opt-bin}. The distance for the actual plot is larger than the distances for the null plots which matches the lineup.}
-\label{dist-bin-1}
+\label{dist-bin-2}
 \end{center}
 \end{figure*}
