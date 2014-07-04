@@ -205,19 +205,26 @@ In traditional hypothesis testing the sampling distribution of the test statisti
 %
 %The type-I error probability is fixed to be $\frac1m$ as per the design of the lineup plot.
 
-\section{Scope of my Research}
+\section{Overview}
 
-The main goal of my research is to analyze the performance of lineup protocol in various situations in finding any pattern in the data if it is actually present. My research also looks into other details and develops certain concepts in the lineup protocol. These are described below: \\
+My research extends the visual inference methodology in two ways -- by producing metrics to quantify lineups and examine how people read statistical plots, and examining how it applies to assessing dimension reduction in high dimension low sample size (HDLSS) problems. 
 
-Chapter \ref{ch:largepsmalln} is an application of the lineup protocol in a large $p$, small $n$ framework. In this chapter we examine the reliability of projection pursuit methods. This chapter also provides a check on whether the separation among the groups is real or caused solely by the large number of dimensions. There are various cases when we observe separated clusters when we plot 2 dimensional projections of a $p$ dimensional data when $p$ is large compared to $n$. But the important question `Is the separation real?' We tried to answer this question in this chapter. \\
+Chapter \ref{ch:largepsmalln} explores the performance of dimension reduction methods such as  projection pursuit for high dimension, low sample size (HDLSS) data. The key points of interest were producing a way to evaluate an algorithm when its results are primarily visual, and to examine how well people can distinguish between real separation and noise in HDLSS data.  I conducted several human subjects experiment using simulated data to provide controlled conditions. Results suggest that people can detect real separation from pure noise up to a reasonably high dimension. The broader community still has difficulty in understanding HDLSS data, which can be seen by published papers where the authors get excited about structure in low-dimensional projections, when it is really present simply because of the sparseness of high-dimensions. My work suggests that the lineup protocol can potentially explain HDLSS issues effectively. The work is accepted for publication by Computational Statistics. \\
 
-Chapter \ref{ch:metrics} takes a closer look at the null plots in a lineup. This chapter develops techniques to measure the quality of a lineup. This chapter also finds a distance measure which is the closest to the visual distance. In a lineup we compare the plot of the real data to the null plots. But since there are only a finite number of null plots we may obtain a ``bad" sample of plots. So we need to be aware of the properties of the null plots. \\
+Chapter \ref{ch:metrics} focusses on developing metrics to describe the quality of a lineup. In conventional inference, the test statistic is compared to all possible values of the sampling distribution, but in visual inference only a finite number of plots are drawn randomly from the sampling distribution. Understanding the effect of these finite comparisons is important. This work develops a variety of distance metrics that can be used to measure the ``closeness'' of observed data plot with the null plots. These metrics are compared to the results from human subjects experiments. These metrics may be useful to learn how people detect the observed data plot from the null plots. For example, with the HDLSS simulations, traditional class separation metrics like WBratio do not match the results from people as well as a metric measuring the gap between clusters. \\
+
+Chapter \ref{ch:nullabor} describes the R package \textbf{nullabor} which generates the lineup plots automatically if the observed data and the null generating mechanism are provided. I added routines to calculate the distance metrics on the lineup. Some common distance metrics are included in the package and users have the freedom of using their own distance metrics. The package also provides diagnostic plots for comparing a lineup with other possible lineups that may have been generated. \\
 
 %Chapter \ref{ch:teaching} develops teaching materials to improve statistical thinking among undergraduate students and among people who are familiar with statistical methods. \\ 
 %
 %Chapter \ref{ch:application} would most likely use the lineup protocol to make inference in a large $n$ setting. The goal is to examine how the visual inference procedure works in a real life situation. This chapter also looks at the ``sufficient'' statistic. \\
 
-Finally, chapter \ref{ch:conclusion} displays my completed tasks so far as well as the plans and timelines of my work for the next year. 
+Finally, chapter \ref{ch:conclusion} provides a summary of the dissertation and discussion of possible future research work. 
+
+\section{Scope of my Research}
+
+This dissertation provides the ground work for the application of visual inference. It applies visual inference methods in a high dimension, low sample size (HDLSS) framework. A real dataset was used to test a hypothesis for which no conventional tests exist right now. This dissertation also develops certain concepts in the lineup protocol which increases the applicability of visual inference and nullify the effect of finite null plots. Finally, an open source package provides tools to increase the ease of visual inference. 
+
 
 %\section{Validation of the Protocols}
 %
