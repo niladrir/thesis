@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2011)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (Web2C 7.5.6)
 The top-level auxiliary file: thesis.aux
 The style file: apa.bst
 A level-1 auxiliary file: Preface/titlepage.aux
@@ -371,11 +370,10 @@ Repeated entry---line 1973 of file references.bib
  :                   ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "["
-Warning--I didn't find a database entry for "majumder:2011"
 Warning--empty institution in buja:2005
 You've used 42 entries,
             1940 wiz_defined-function locations,
-            720 strings with 10353 characters,
+            719 strings with 10340 characters,
 and the built_in function-call counts, 15932 in all, are:
 = -- 1517
 > -- 666
